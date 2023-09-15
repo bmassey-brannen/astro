@@ -1,5 +1,5 @@
 {
-  "name": "astro",
+  "name": "my-new-blog",
   "type": "module",
   "version": "0.0.1",
   "homepage": "https://bmassey-brannen.github.io/astro/",
@@ -11,6 +11,9 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/mdx": "^1.1.0",
+    "@astrojs/rss": "^3.0.0",
+    "@astrojs/sitemap": "^3.0.0",
     "astro": "^3.1.0"
   }
 }
