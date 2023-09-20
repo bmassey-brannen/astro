@@ -5,8 +5,9 @@
  */
 
 :root {
-	--accent: #2337ff;
-	--accent-dark: #000d8a;
+	--accent: #37505C; 
+	/* FF5733 Orange 2337ff light blue 000d8a Dark Blue */
+	--accent-dark: #37505C;
 	--black: 15, 18, 25;
 	--gray: 96, 115, 159;
 	--gray-light: 229, 233, 240;
