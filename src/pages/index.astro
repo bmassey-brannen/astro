@@ -1,8 +1,24 @@
 ---
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import FormattedDate from "../components/FormattedDate.astro";
+import { Image } from "astro:assets";
+
+const posts = await getCollection("blog");
+
+// Sort the posts by pubDate in descending order
+const sortedPosts = posts.sort((a, b) => {
+  const dateA = new Date(a.data.pubDate);
+  const dateB = new Date(b.data.pubDate);
+  return dateB.getTime() - dateA.getTime();
+});
+
+// Get the three most recent posts
+const recentPosts = sortedPosts.slice(0, 3);
 ---
 
 <!doctype html>
@@ -14,12 +30,75 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
       .intro-container,
       .guitar-container {
         display: flex;
-        align-items: center; /* Vertically center the items */
-        gap: 20px; /* Space between the items */
+        align-items: center;
+        gap: 20px;
       }
       .intro-container img,
       .guitar-container img {
-        width: 200px; /* Adjust this to desired image width */
+        width: 200px;
+      }
+
+      /* Blog Cards Container */
+      .blog-cards-container {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        padding: 16px 0; /* Added padding */
+      }
+
+      .latest-blog {
+        display: flex;
+        flex-direction: column;
+        width: calc(33.33% - 16px);
+        border-radius: 8px;
+        overflow: hidden;
+        transition:
+          transform 0.3s ease,
+          box-shadow 0.3s ease;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+        height: 350px;
+        position: relative;
+      }
+
+      .latest-blog .hero-image {
+        flex-grow: 1;
+        display: flex;
+        align-items: flex-end; /* Align image to the bottom */
+      }
+
+      .latest-blog .blog-details h4 {
+        font-size: 1.1rem;
+        margin-bottom: 8px;
+        font-weight: 600;
+        text-decoration: none;
+      }
+
+      .latest-blog .blog-details .date {
+        font-size: 0.8rem;
+        margin-bottom: 16px;
+      }
+
+      .read-more {
+        font-size: 0.9rem;
+        color: ##37505c;
+        text-decoration: none;
+        cursor: pointer;
+        position: absolute;
+        bottom: 16px; /* Adjust the distance from the bottom */
+        right: 20px; /* Adjust the distance from the right */
+      }
+
+      .read-more::after {
+        content: "\2192"; /* Unicode right arrow */
+        position: absolute;
+        right: -1.2em;
+        transition: 0.3s ease;
+        margin-left: 15px; /* Add some space between the text and the arrow */
+      }
+
+      .read-more:hover::after {
+        right: -1em; /* Adjust the distance for hover animation */
       }
     </style>
   </head>
@@ -32,55 +111,67 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
       </div>
       <p>
         💻 I'm a tech enthusiast with a passion for solving problems through
-        technology. This space is a reflection of my journey, where I share
-        insights, projects, and the new skills I constantly pick up.
+        technology. This space is a reflection of my learning journey, where I
+        share insights, projects, and the skills I am working on.
       </p>
       <p>
-        🏃‍♂️ Running challenges? Count me in! There's something exhilarating about
-        pushing the limits and setting new personal records. It's a testament to
-        what we can achieve with determination and discipline. I think everyone
-        should run a marathon, it pushes you beyond what you belive you are
-        capable of doing, mentally & physically.
+        🏃‍♂️ I’m all about running challenges! There’s a real thrill in pushing my
+        limits and hitting new personal records. It’s a way to see what we’re
+        really made of, testing our mental and physical capabilities. I’m a firm
+        believer that everyone should try running a marathon at least once –
+        it’s a game changer!
+      </p>
+      <p>
+        👨🏻‍🚀 If you're here to check out my tech projects, learn a thing or two
+        from my experiences, or just to say hi, you're in the right place! I
+        built this website with <a href="https://astro.build/">Astro</a> JS to
+        share what I'm up to in a smooth and speedy way. Feel free to look
+        around!
       </p>
       <div class="guitar-container">
         <p>
-          🎸 Beyond the world of technology & running, I have a deep love for
-          strumming the guitar and embracing the rhythm of music. It's a
-          beautiful balance - while technology fuels my intellect, music feeds
-          my soul.
+          🎸 Beyond the world of technology & running, I am a self taught guitar
+          player who loves the Allman Brothers, Grateful Dead, Phish, Goose, and
+          Tony Rice. Check out what I've been listening to recently on <a
+            href="https://open.spotify.com/user/1215639802?si=22891895b3614d0a"
+            >Spotify</a
+          >.
         </p>
         <img src="guitar.jpg" alt="guitar" />
       </div>
-      <p>
-        Whether you're here to explore my tech projects, learn from my
-        experiences, or simply to connect, I built this website using <a
-          href="https://astro.build/">Astro</a
-        > JS to deliver a seamless and quick way to post what's going on in my
-        world.
-      </p>
-      <ul>
-        <li>📝 Dive into my latest <a href="/blog">blog posts</a></li>
-        <li>
-          🔧 Explore my tech projects on <a
-            href="https://github.com/bmassey-brannen">GitHub</a
-          >
-        </li>
-        <li>
-          🏃‍♂️ Join me on my running adventures on <a
-            href="https://www.strava.com/athletes/70063288">Strava</a
-          >
-        </li>
-        <li>
-          🎸 Jam with me or just chat about tech? <a
-            href="mailto:benjamin.m.brannen@gmail.com">Drop me an email</a
-          >!
-        </li>
-      </ul>
-      <p>
-        Thanks for visiting, and I hope you find something that resonates with
-        you. Until next time, keep learning, keep running, and keep strumming!
-        🎶
-      </p>
+
+      <!-- Display the Latest Three Blog Posts -->
+      <section class="recent-blogs">
+        <h2>Recent Blogs</h2>
+        <div class="blog-cards-container">
+          {
+            recentPosts.map((post) => (
+              <div class="latest-blog">
+                <a href={`/blog/${post.slug}`}>
+                  <div class="hero-image">
+                    {post.data.heroImage && (
+                      <img
+                        src={post.data.heroImage}
+                        alt={post.data.title}
+                        loading="lazy"
+                      />
+                    )}
+                  </div>
+                </a>
+                <div class="blog-details">
+                  <div class="date">
+                    <FormattedDate date={post.data.pubDate} />
+                  </div>
+                  <h4>{post.data.title}</h4>
+                  <a href={`/blog/${post.slug}`} class="read-more">
+                    Read More
+                  </a>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </section>
     </main>
     <Footer />
   </body>
