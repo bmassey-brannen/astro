@@ -1,11 +1,11 @@
 ---
-title: "Announcement!"
+title: "Announcement! Introducing BMBlogs 2.0!"
 description: "Announcing my new and improved website"
 pubDate: "September 20, 2023"
 heroImage: "/astronaut.jpg"
 ---
 
-## Introducing BMBlogs 2.0!
+## My New & Improved Website
 
 I'm thrilled to announce I have upgraded and rebuilt all of my website. It is now powered by Astro JS and hosted on GitHub Pages for free! When I embarked on the journey of building my original site using Vue JS & Firebase, it was a venture into the unknown—primarily driven by curiosity and a desire to explore the possibilities. However, as I began writing more and updating the site, I soon realized that many of the tools I had previously relied upon were no longer actively maintained. This posed challenges when it came to implementing changes and adjustments.
 
