@@ -100,6 +100,43 @@ const recentPosts = sortedPosts.slice(0, 3);
       .read-more:hover::after {
         right: -1em; /* Adjust the distance for hover animation */
       }
+
+      /* Add this at the end of your style tag to target smaller screens */
+      @media (max-width: 768px) {
+        .intro-container,
+        .guitar-container {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .intro-container img,
+        .guitar-container img {
+          width: 100%;
+          max-width: 200px;
+          margin: 0 auto; /* Center images */
+        }
+
+        .blog-cards-container {
+          flex-direction: column;
+        }
+
+        .latest-blog {
+          width: 100%; /* Make blog cards take full width on small screens */
+          max-width: 350px; /* Limit maximum width */
+          margin: 0 auto; /* Center blog cards */
+        }
+
+        /* Adjust heading and paragraph font sizes if needed */
+        h1,
+        h2,
+        h4 {
+          font-size: 1rem;
+        }
+
+        p {
+          font-size: 0.9rem;
+        }
+      }
     </style>
   </head>
   <body>
