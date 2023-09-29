@@ -117,18 +117,20 @@ const recentPosts = sortedPosts.slice(0, 3);
       }
 
       /* Add this at the end of your style tag to target smaller screens */
+      /* Adjustments for smaller screens */
       @media (max-width: 768px) {
         .intro-container,
         .guitar-container {
           flex-direction: column;
-          text-align: center;
+          text-align: left;
+          /*padding: 0 0px;  Add padding to the text container */
         }
 
         .intro-container img,
         .guitar-container img {
           width: 100%;
           max-width: 200px;
-          margin: 0 auto; /* Center images */
+          margin: 0 auto;
         }
 
         .blog-cards-container {
@@ -136,20 +138,32 @@ const recentPosts = sortedPosts.slice(0, 3);
         }
 
         .latest-blog {
-          width: 100%; /* Make blog cards take full width on small screens */
-          max-width: 350px; /* Limit maximum width */
-          margin: 0 auto; /* Center blog cards */
+          width: 70%;
+          max-width: 300px;
+          margin: 0 auto;
+          /* padding: 16px; /* Increase padding for better spacing */
         }
 
-        /* Adjust heading and paragraph font sizes if needed */
         h1,
         h2,
-        h4 {
-          font-size: 1rem;
+        h4,
+        p {
+          font-size: 1rem; /* Increase font size for readability */
+          line-height: 1.5; /* Increase line height for readability */
         }
 
         p {
           font-size: 0.9rem;
+        }
+
+        .read-more {
+          font-size: 0.6rem;
+          color: ##37505c;
+          text-decoration: none;
+          cursor: pointer;
+          position: absolute;
+          bottom: 5px; /* Adjust the distance from the bottom */
+          right: 25px; /* Adjust the distance from the right */
         }
       }
     </style>
@@ -170,6 +184,7 @@ const recentPosts = sortedPosts.slice(0, 3);
         🏃‍♂️ I enjoy running—it's a great way for me to grow and learn about
         myself. If you're interested in my running journey, you can follow me on
 
+
         <a href="https://www.strava.com/athletes/70063288" target="_blank"
           >Strava</a
         >, read this <a
@@ -186,7 +201,7 @@ const recentPosts = sortedPosts.slice(0, 3);
         my experiences, or simply to say hi, you’ve landed in the right place! I
         built this website with <a href="https://astro.build/" target="blank"
           >Astro</a
-        > JS to share my adventures in a seamless way. Feel free to explore and
+        > to share my adventures in a seamless way. Feel free to explore and
         reach out!
       </p>
       <div class="guitar-container">
