@@ -57,7 +57,7 @@ const recentPosts = sortedPosts.slice(0, 3);
           box-shadow 0.3s ease;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         padding: 16px;
-        height: 350px;
+        height: 300px;
         position: relative;
       }
 
@@ -65,6 +65,20 @@ const recentPosts = sortedPosts.slice(0, 3);
         flex-grow: 1;
         display: flex;
         align-items: flex-end; /* Align image to the bottom */
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .latest-blog .hero-image:hover {
+        transform: scale(1.05); /* Adjust scale value as needed */
+      }
+
+      .title-link {
+        color: inherit; /* Ensure the color matches your existing text color */
+        text-decoration: none; /* Remove underline from the link */
+      }
+
+      .title-link:hover {
+        color: rgb(var(--accent-dark)); /* Change color on hover */
       }
 
       .latest-blog .blog-details h4 {
@@ -76,6 +90,7 @@ const recentPosts = sortedPosts.slice(0, 3);
 
       .latest-blog .blog-details .date {
         font-size: 0.8rem;
+        margin-top: 3px;
         margin-bottom: 16px;
       }
 
@@ -86,7 +101,7 @@ const recentPosts = sortedPosts.slice(0, 3);
         cursor: pointer;
         position: absolute;
         bottom: 16px; /* Adjust the distance from the bottom */
-        right: 20px; /* Adjust the distance from the right */
+        right: 25px; /* Adjust the distance from the right */
       }
 
       .read-more::after {
@@ -200,7 +215,11 @@ const recentPosts = sortedPosts.slice(0, 3);
                   <div class="date">
                     <FormattedDate date={post.data.pubDate} />
                   </div>
-                  <h4>{post.data.title}</h4>
+                  <h4>
+                    <a href={`/blog/${post.slug}`} class="title-link">
+                      {post.data.title}
+                    </a>
+                  </h4>
                   <a href={`/blog/${post.slug}`} class="read-more">
                     Read More
                   </a>
