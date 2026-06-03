@@ -3,87 +3,242 @@ import Layout from "../layouts/BlogPost.astro";
 ---
 
 <Layout
-  title="About Me"
-  description="Ben Brannen - Problem Solver Through Technology"
-  pubDate={new Date("September 15 2023")}
+  title="About Ben Brannen"
+  description="Ben Brannen builds practical intelligence tools for automation, market research, public records, dashboards, and Small Town Capital."
+  pubDate={new Date("June 3 2026")}
   heroImage="/atl_thon.jpg"
 >
-  <h2 style="text-align: left;">My Story!</h2>
-  Hello! I'm Ben, an Atlanta native with a passion for leveraging technology to solve
-  complex problems. Whether it's Model building, automating data flow, scripting,
-  or data analysis my goal is to drive transformational change and deliver immediate
-  value.
+  <style>
+    .about-kicker {
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      margin-bottom: 0.75rem;
+      text-transform: uppercase;
+    }
 
-  <h4>Personal Highlights & Accomplishments</h4>
-  <ul>
-    <li><strong>3x Marathon Finisher</strong></li>
-    <ul>
-      <li>Erlanger Chattanooga Marathon 2021</li>
-      <li>Publix Atlanta Marathon 2023</li>
-      <li>Publix Atlanta Marathon 2024</li>
+    .about-lede {
+      color: rgb(var(--gray-dark));
+      font-size: 1.25rem;
+      line-height: 1.55;
+      margin-bottom: 2rem;
+    }
+
+    .about-card {
+      background: rgba(255, 255, 255, 0.72);
+      border: 1px solid rgba(var(--gray), 0.18);
+      border-radius: 18px;
+      box-shadow: 0 10px 28px rgba(var(--gray), 0.12);
+      margin: 1.35rem 0;
+      padding: 1.25rem 1.4rem;
+    }
+
+    .about-card h2,
+    .about-card h3 {
+      margin-top: 0;
+    }
+
+    .about-grid {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      margin: 1.5rem 0;
+    }
+
+    .pill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+      list-style: none;
+      margin: 1rem 0 0;
+      padding: 0;
+    }
+
+    .pill-list li {
+      background: rgba(55, 80, 92, 0.09);
+      border: 1px solid rgba(55, 80, 92, 0.18);
+      border-radius: 999px;
+      color: rgb(var(--gray-dark));
+      font-size: 0.88rem;
+      line-height: 1.25;
+      padding: 0.45rem 0.72rem;
+    }
+
+    .project-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .project-list li {
+      border-bottom: 1px solid rgba(var(--gray), 0.16);
+      padding: 0.85rem 0;
+    }
+
+    .project-list li:last-child {
+      border-bottom: 0;
+    }
+
+    .project-list strong {
+      display: block;
+      margin-bottom: 0.15rem;
+    }
+
+    .small-note {
+      color: rgb(var(--gray));
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .connect-box {
+      background: linear-gradient(135deg, rgba(55, 80, 92, 0.12), rgba(31, 93, 66, 0.12));
+      border: 1px solid rgba(55, 80, 92, 0.2);
+      border-radius: 20px;
+      margin-top: 2rem;
+      padding: 1.5rem;
+    }
+
+    @media (max-width: 720px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .about-lede {
+        font-size: 1.12rem;
+      }
+    }
+  </style>
+
+  <p class="about-kicker">Builder · Investigator · Operator</p>
+
+  <p class="about-lede">
+    I’m Ben Brannen. I build practical tools around messy systems: dashboards,
+    automations, public-record research, market notes, and small experiments that
+    turn confusion into something useful.
+  </p>
+
+  <div class="about-card">
+    <h2>What I’m building now</h2>
+    <p>
+      My current work is centered around <strong>Small Town Capital</strong>: a
+      research-driven operating identity for market speculation, local
+      intelligence, automation, public proof-of-work, and eventually real-world
+      capital allocation.
+    </p>
+    <p>
+      The public version is not a guru page or a victory-lap feed. It is an
+      operator journal: what I’m seeing, what I’m building, what I’m learning,
+      and where the process still needs work.
+    </p>
+  </div>
+
+  <div class="about-grid">
+    <section class="about-card">
+      <h3>Systems I like</h3>
+      <ul class="project-list">
+        <li>
+          <strong>Research dashboards</strong>
+          Turning scattered notes, data, filings, and watchlists into decision
+          systems.
+        </li>
+        <li>
+          <strong>Automation workflows</strong>
+          Using scripts, APIs, spreadsheets, and agents to remove repetitive
+          work.
+        </li>
+        <li>
+          <strong>Public-record trails</strong>
+          Following entities, documents, incentives, and timelines until a
+          clearer story appears.
+        </li>
+      </ul>
+    </section>
+
+    <section class="about-card">
+      <h3>Recent project themes</h3>
+      <ul class="project-list">
+        <li>
+          <strong>Trading Command Center</strong>
+          A private dashboard for market research, options structures, decision
+          logs, and review discipline.
+        </li>
+        <li>
+          <strong>Options Council</strong>
+          An agent-style framework for debating convexity, theta, risk, tactics,
+          and final trade verdicts.
+        </li>
+        <li>
+          <strong>Operator journal</strong>
+          Writing publicly about the process without pretending every idea is
+          already polished.
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="about-card">
+    <h2>How I think about the work</h2>
+    <p>
+      The loop is simple:
+      <strong>research → structure → publish → build → invest → learn → repeat.</strong>
+    </p>
+    <p>
+      I’m interested in overlooked markets, overlooked towns, overlooked data,
+      and overlooked workflows. The goal is to build machines that remember the
+      thesis better than my emotions do.
+    </p>
+  </div>
+
+  <div class="about-card">
+    <h2>Tools and background</h2>
+    <p>
+      I studied finance at Georgia Southern University and have spent years
+      working across spreadsheets, data visualization, automation, scripting,
+      and practical problem solving.
+    </p>
+    <ul class="pill-list" aria-label="Technical skills and tools">
+      <li>Google Sheets</li>
+      <li>Excel</li>
+      <li>Apps Script</li>
+      <li>Python</li>
+      <li>SQL</li>
+      <li>Bash / Linux</li>
+      <li>Looker Studio</li>
+      <li>Power BI</li>
+      <li>Astro</li>
+      <li>HTML / CSS / JavaScript</li>
+      <li>Raspberry Pi</li>
+      <li>Google Cloud Certified Digital Leader</li>
     </ul>
-    <li>
-      <a
-        href="https://lookerstudio.google.com/u/0/reporting/29998d2b-7d6e-4f42-b4e7-cfa489bff4a9/page/tlXZD"
-        >102 days straight of 5k+</a
-      >
-    </li>
-    <li>Self-directed guitar player</li>
-    <li>Aspiring developer</li>
-    <li>Avid Skier</li>
-  </ul>
-  <h4>Technical Expertise:</h4>
-  <ul>
-    <li>Google Sheets & Excel Master</li>
-    <li>GSuite Automation</li>
-    <li>Google Apps Scripting, and PowerAutomate</li>
-    <li>Google Analytics</li>
-    <li>
-      Proficient with Tableau, PowerBI, and Looker Studio for data visualization
-    </li>
-    <li>Python, SQL, BASH, SQL Server Managment Studio</li>
-    <li>Unix / Linux Terminal</li>
-    <li>Explored various JavaScript frameworks(Astro JS, React, Vue)</li>
-    <li>HTML/CSS/JS</li>
-    <li>Arduino and Raspberry Pi</li>
-    <li>3d Printing, Occasional CAD modeler</li>
-    <li>Google Cloud Certified Digital Leader</li>
-  </ul>
-  <p></p>
-  <h4>Education</h4>
-  <p>
-    Graduated in 2017 with a Bachelor's degree in Business Administration, with
-    a concentration in Finance, from Georgia Southern University.
-    <!-- My college years were not just
-    about academics; I was actively involved in various organizations. From
-    being the Executive Vice President of the Southern Investment Association to
-    playing a pivotal role in the Pi Kappa Phi Fraternity, my leadership
-    experiences have shaped me into the individual I am today. -->
-  </p>
+  </div>
 
-  <!-- <h4>Personal Projects & Achievements</h4>
-  <p>
-    Beyond the corporate world, I've embarked on personal projects that showcase
-    my technical prowess. For instance, after receiving thousands of photos from
-    my wedding, I developed a Bash script to efficiently organize and store
-    them. Running challenges also excite me. A testament to this is my 102-day
-    running streak, during which I covered over 362 miles! To add a data-driven
-    touch to this achievement, I automated the collection of my running
-    statistics and visualized them in a real-time dashboard.
-  </p>
-  <p>
-    Feel free to explore my <a href="https://www.benbrannen.com"
-      >personal website</a
-    > to dive deeper into my projects and insights.
-  </p> -->
+  <div class="about-card">
+    <h2>Outside the terminal</h2>
+    <p>
+      I’m also a runner, skier, self-directed guitar player, and someone who has
+      learned a lot from turning personal challenges into data projects.
+    </p>
+    <p>
+      One example: I once ran <a href="https://lookerstudio.google.com/u/0/reporting/29998d2b-7d6e-4f42-b4e7-cfa489bff4a9/page/tlXZD">102 straight days of 5K+</a>
+      and turned the streak into a dashboard. That is basically the theme here:
+      do the thing, instrument the thing, learn from the thing.
+    </p>
+  </div>
 
-  <h4>Let's Connect!</h4>
+  <div class="connect-box">
+    <h2>Let’s connect</h2>
+    <p>
+      If you’re interested in dashboards, automation, public-record research,
+      market structure, Small Town Capital, or weird useful systems, reach out.
+    </p>
+    <p>
+      Email: <a href="mailto:benjamin.m.brannen@gmail.com">benjamin.m.brannen@gmail.com</a><br />
+      LinkedIn: <a href="https://linkedin.com/in/benjamin-brannen">linkedin.com/in/benjamin-brannen</a>
+    </p>
+    <p class="small-note">
+      Nothing here is investment advice. This site is a public notebook for
+      projects, experiments, research habits, and lessons learned while building.
+    </p>
+  </div>
 </Layout>
-<p>
-  Whether you're here to explore collaboration opportunities, seek guidance, or
-  simply connect, I'm always open to conversations. Reach out via <a
-    href="mailto:benjamin.m.brannen@gmail.com">benjamin.m.brannen@gmail.com</a
-  > or connect with me on <a href="https://linkedin.com/in/benjamin-brannen"
-    >LinkedIn</a
-  >.
-</p>
