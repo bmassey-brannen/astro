@@ -34,16 +34,16 @@ const recentPosts = sortedPosts.slice(1, 4);
     </script>
     <style>
       main {
-        max-width: 1120px;
+        max-width: 1080px;
         padding: 0 1.25rem 4rem;
       }
 
       .hero {
         display: grid;
-        gap: 2rem;
-        grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.65fr);
-        align-items: center;
-        margin: 3rem auto 2.75rem;
+        gap: 1.2rem;
+        grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);
+        align-items: start;
+        margin: 1.65rem auto 2.15rem;
       }
 
       .eyebrow {
@@ -56,17 +56,17 @@ const recentPosts = sortedPosts.slice(1, 4);
       }
 
       .hero h1 {
-        font-size: clamp(2.45rem, 6.4vw, 4.65rem);
-        letter-spacing: -0.055em;
-        line-height: 0.98;
-        margin-bottom: 1.2rem;
-        max-width: 760px;
+        font-size: clamp(2.35rem, 5.1vw, 3.95rem);
+        letter-spacing: -0.045em;
+        line-height: 1;
+        margin-bottom: 1rem;
+        max-width: 680px;
         text-wrap: balance;
       }
 
       .hero-lede {
         color: rgb(var(--gray-dark));
-        font-size: clamp(1.1rem, 2.4vw, 1.35rem);
+        font-size: clamp(1.04rem, 1.8vw, 1.2rem);
         line-height: 1.55;
         max-width: 680px;
       }
@@ -75,7 +75,7 @@ const recentPosts = sortedPosts.slice(1, 4);
         display: flex;
         flex-wrap: wrap;
         gap: 0.8rem;
-        margin-top: 1.6rem;
+        margin-top: 1.25rem;
       }
 
       .button {
@@ -102,13 +102,15 @@ const recentPosts = sortedPosts.slice(1, 4);
       .portrait-card {
         background: rgba(255, 255, 255, 0.72);
         border: 1px solid rgba(var(--gray), 0.18);
-        border-radius: 28px;
-        box-shadow: var(--box-shadow);
+        border-radius: 24px;
+        box-shadow: 0 12px 30px rgba(var(--gray), 0.16);
         overflow: hidden;
+        max-width: 340px;
+        justify-self: end;
       }
 
       .portrait-card img {
-        aspect-ratio: 4 / 5;
+        aspect-ratio: 1 / 1;
         display: block;
         object-fit: cover;
         width: 100%;
@@ -126,7 +128,7 @@ const recentPosts = sortedPosts.slice(1, 4);
         display: flex;
         gap: 1rem;
         justify-content: space-between;
-        margin: 3rem 0 1.1rem;
+        margin: 2.35rem 0 1rem;
       }
 
       .section-heading h2 {
@@ -172,8 +174,8 @@ const recentPosts = sortedPosts.slice(1, 4);
         background: linear-gradient(135deg, rgba(55, 80, 92, 0.12), rgba(31, 93, 66, 0.12));
         border: 1px solid rgba(55, 80, 92, 0.18);
         border-radius: 24px;
-        margin: 3rem 0;
-        padding: 1.35rem;
+        margin: 2.35rem 0;
+        padding: 1.15rem 1.25rem;
       }
 
       .proof-strip p {
@@ -271,6 +273,11 @@ const recentPosts = sortedPosts.slice(1, 4);
           padding: 0 1.15rem 1.2rem;
         }
 
+        .portrait-card {
+          justify-self: stretch;
+          max-width: none;
+        }
+
         .portrait-card img {
           aspect-ratio: 16 / 10;
         }
@@ -287,7 +294,7 @@ const recentPosts = sortedPosts.slice(1, 4);
         }
 
         .hero {
-          margin-top: 2rem;
+          margin-top: 1.4rem;
         }
       }
     </style>
@@ -297,7 +304,7 @@ const recentPosts = sortedPosts.slice(1, 4);
     <main>
       <section class="hero">
         <div>
-          <p class="eyebrow">Ben Brannen · Small Town Capital</p>
+          <p class="eyebrow">Small Town Capital · Operator Journal</p>
           <h1>Building intelligence machines for messy systems.</h1>
           <p class="hero-lede">
             I write and build around dashboards, automation, public-record
@@ -314,8 +321,8 @@ const recentPosts = sortedPosts.slice(1, 4);
         <figure class="portrait-card">
           <img src="/bmbrun.jpg" alt="Ben Brannen running" />
           <figcaption>
-            Runner, builder, dashboard tinkerer, and small-town intelligence
-            desk intern for life.
+            Runner, builder, dashboard tinkerer, and operator behind Small Town
+            Capital.
           </figcaption>
         </figure>
       </section>

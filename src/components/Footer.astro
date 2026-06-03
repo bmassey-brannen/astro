@@ -3,7 +3,7 @@ const today = new Date();
 ---
 
 <footer>
-  &copy; {today.getFullYear()} Ben Brannen Blogs. All rights reserved.
+  &copy; {today.getFullYear()} Ben Brannen. All rights reserved.
   <div class="social-links">
     <a href="https://www.linkedin.com/in/benjamin-brannen/" target="_blank">
       <span class="sr-only">Connect with me on LinkedIn</span>
@@ -51,7 +51,8 @@ const today = new Date();
     display: flex;
     color: rgb(var(--black));
     justify-content: center;
-    gap: 1em;
+    align-items: center;
+    gap: 0.85em;
     margin-top: 1em;
   }
   .social-links a {
@@ -60,5 +61,10 @@ const today = new Date();
   }
   .social-links a:hover {
     color: rgb(var(--gray-dark));
+  }
+  .social-links svg,
+  .social-links img {
+    width: 26px;
+    height: 26px;
   }
 </style>
