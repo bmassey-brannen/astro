@@ -5,7 +5,7 @@ pubDate: "2026-06-03"
 heroImage: "/blog-images/waynesboro-dashboard.svg"
 ---
 
-I have been working on a public dashboard for Waynesboro, Virginia.
+I have been working on a public dashboard for Waynesboro, Georgia.
 
 You can open it here: [Waynesboro Public Dashboard](https://bmassey-brannen.github.io/waynesboro-os/)
 
