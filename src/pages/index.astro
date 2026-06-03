@@ -326,16 +326,22 @@ const recentPosts = sortedPosts.slice(1, 4);
 
         .portrait-card {
           border-radius: 18px;
+          display: grid;
+          grid-template-columns: 88px minmax(0, 1fr);
+          max-width: none;
         }
 
         .portrait-card img {
-          aspect-ratio: 16 / 9;
+          aspect-ratio: 1 / 1;
+          height: 100%;
           object-position: center 38%;
         }
 
         .portrait-card figcaption {
-          font-size: 0.76rem;
-          padding: 0.55rem 0.75rem 0.7rem;
+          align-self: center;
+          font-size: 0.78rem;
+          line-height: 1.35;
+          padding: 0.65rem 0.75rem;
         }
       }
     </style>
