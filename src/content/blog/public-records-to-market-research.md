@@ -2,7 +2,7 @@
 title: "From Public Records to Market Research"
 description: "Why local investigations, company filings, and dashboard work all train the same research muscle."
 pubDate: "2026-06-02"
-heroImage: "/gas.jpg"
+heroImage: "/blog-images/public-records-market-research.svg"
 ---
 
 ## Follow the paperwork

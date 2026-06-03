@@ -2,7 +2,7 @@
 title: "Building in Public Without Becoming a Guru"
 description: "A note on using BenBrannen.com as an operator journal for dashboards, trades, automation, and Small Town Capital."
 pubDate: "2026-06-02"
-heroImage: "/astronaut.jpg"
+heroImage: "/blog-images/building-in-public-operator-journal.svg"
 ---
 
 ## The kind of content I do not want to make

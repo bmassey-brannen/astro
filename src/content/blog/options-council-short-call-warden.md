@@ -2,7 +2,7 @@
 title: "The Options Council: Premium Is Useful, Handcuffs Are Expensive"
 description: "A trading-system note on LEAPs, short calls, diagonals, and why my dashboard needs a Short Call Warden."
 pubDate: "2026-06-02"
-heroImage: "/GSvE.png"
+heroImage: "/blog-images/options-council-warden.svg"
 ---
 
 ## The trade structure matters as much as the idea

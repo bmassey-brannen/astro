@@ -2,7 +2,7 @@
 title: "Building the Small Town Capital Intelligence Machine"
 description: "How my trading dashboard, research notes, public records work, and automation projects are becoming one operating system."
 pubDate: "2026-06-02"
-heroImage: "/wizard.jpg"
+heroImage: "/blog-images/stc-intelligence-machine.svg"
 ---
 
 ## The projects are not as scattered as they look
