@@ -112,14 +112,30 @@ import { SITE_TITLE } from "../consts";
     filter: none;
   }
   @media (max-width: 720px) {
+    header {
+      padding: 0 0.7rem;
+    }
+    h2 {
+      font-size: 0.9rem;
+      letter-spacing: -0.03em;
+      white-space: nowrap;
+    }
+    .internal-links {
+      display: flex;
+      align-items: center;
+      gap: 0.1rem;
+    }
     .social-links {
       display: none;
     }
     nav {
-      min-height: 58px;
+      gap: 0.45rem;
+      min-height: 44px;
     }
     nav a {
-      padding-inline: 0.35rem;
+      font-size: 0.86rem;
+      padding: 0.45rem 0.22rem;
+      border-bottom-width: 1px;
     }
   }
 </style>

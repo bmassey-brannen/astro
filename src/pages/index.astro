@@ -285,7 +285,33 @@ const recentPosts = sortedPosts.slice(1, 4);
 
       @media (max-width: 560px) {
         main {
-          padding-inline: 1rem;
+          padding-inline: 0.85rem;
+        }
+
+        .eyebrow {
+          font-size: 0.68rem;
+          letter-spacing: 0.16em;
+          margin-bottom: 0.55rem;
+        }
+
+        .hero h1 {
+          font-size: clamp(1.95rem, 9vw, 2.55rem);
+          margin-bottom: 0.75rem;
+        }
+
+        .hero-lede {
+          font-size: 0.96rem;
+          line-height: 1.5;
+        }
+
+        .hero-actions {
+          gap: 0.55rem;
+          margin-top: 0.95rem;
+        }
+
+        .button {
+          font-size: 0.92rem;
+          padding: 0.72rem 0.9rem;
         }
 
         .section-heading {
@@ -294,7 +320,22 @@ const recentPosts = sortedPosts.slice(1, 4);
         }
 
         .hero {
-          margin-top: 1.4rem;
+          gap: 1rem;
+          margin-top: 0.85rem;
+        }
+
+        .portrait-card {
+          border-radius: 18px;
+        }
+
+        .portrait-card img {
+          aspect-ratio: 16 / 9;
+          object-position: center 38%;
+        }
+
+        .portrait-card figcaption {
+          font-size: 0.76rem;
+          padding: 0.55rem 0.75rem 0.7rem;
         }
       }
     </style>
