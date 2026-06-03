@@ -1,31 +1,27 @@
 ---
 import { getCollection } from "astro:content";
-import type { CollectionEntry } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import FormattedDate from "../components/FormattedDate.astro";
-import { Image } from "astro:assets";
 
 const posts = await getCollection("blog");
 
-// Sort the posts by pubDate in descending order
 const sortedPosts = posts.sort((a, b) => {
   const dateA = new Date(a.data.pubDate);
   const dateB = new Date(b.data.pubDate);
   return dateB.getTime() - dateA.getTime();
 });
 
-// Get the three most recent posts
-const recentPosts = sortedPosts.slice(0, 3);
+const featuredPost = sortedPosts[0];
+const recentPosts = sortedPosts.slice(1, 4);
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0M58B909ZC"
     ></script>
     <script>
@@ -34,148 +30,264 @@ const recentPosts = sortedPosts.slice(0, 3);
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "G-0M58B909ZC");
     </script>
     <style>
-      /* Existing styles */
-      .intro-container,
-      .guitar-container {
-        display: flex;
+      main {
+        max-width: 1120px;
+        padding: 0 1.25rem 4rem;
+      }
+
+      .hero {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.65fr);
         align-items: center;
-        gap: 10px;
-      }
-      .intro-container img,
-      .guitar-container img {
-        width: 200px;
+        margin: 3rem auto 2.75rem;
       }
 
-      /* Blog Cards Container */
-      .blog-cards-container {
-        display: flex;
-        gap: 24px;
-        justify-content: center;
-        padding: 16px 0; /* Added padding */
+      .eyebrow {
+        color: var(--accent);
+        font-size: 0.82rem;
+        font-weight: 900;
+        letter-spacing: 0.14em;
+        margin-bottom: 0.85rem;
+        text-transform: uppercase;
       }
 
-      .latest-blog {
+      .hero h1 {
+        font-size: clamp(2.45rem, 6.4vw, 4.65rem);
+        letter-spacing: -0.055em;
+        line-height: 0.98;
+        margin-bottom: 1.2rem;
+        max-width: 760px;
+        text-wrap: balance;
+      }
+
+      .hero-lede {
+        color: rgb(var(--gray-dark));
+        font-size: clamp(1.1rem, 2.4vw, 1.35rem);
+        line-height: 1.55;
+        max-width: 680px;
+      }
+
+      .hero-actions {
         display: flex;
-        flex-direction: column;
-        width: calc(33.33% - 16px);
-        border-radius: 8px;
+        flex-wrap: wrap;
+        gap: 0.8rem;
+        margin-top: 1.6rem;
+      }
+
+      .button {
+        align-items: center;
+        border-radius: 999px;
+        display: inline-flex;
+        font-weight: 800;
+        line-height: 1;
+        padding: 0.85rem 1.1rem;
+        text-decoration: none;
+      }
+
+      .button.primary {
+        background: var(--accent);
+        color: white;
+      }
+
+      .button.secondary {
+        background: rgba(55, 80, 92, 0.08);
+        border: 1px solid rgba(55, 80, 92, 0.18);
+        color: var(--accent-dark);
+      }
+
+      .portrait-card {
+        background: rgba(255, 255, 255, 0.72);
+        border: 1px solid rgba(var(--gray), 0.18);
+        border-radius: 28px;
+        box-shadow: var(--box-shadow);
         overflow: hidden;
-        transition:
-          transform 0.3s ease,
-          box-shadow 0.3s ease;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        padding: 16px;
-        height: 300px;
-        position: relative;
       }
 
-      .latest-blog .hero-image {
-        flex-grow: 1;
-        display: flex;
-        align-items: flex-end; /* Align image to the bottom */
-        transition: transform 0.3s ease-in-out;
+      .portrait-card img {
+        aspect-ratio: 4 / 5;
+        display: block;
+        object-fit: cover;
+        width: 100%;
       }
 
-      .latest-blog .hero-image:hover {
-        transform: scale(1.05); /* Adjust scale value as needed */
-      }
-
-      .title-link {
-        color: inherit; /* Ensure the color matches your existing text color */
-        text-decoration: none; /* Remove underline from the link */
-      }
-
-      .title-link:hover {
-        color: rgb(var(--accent-dark)); /* Change color on hover */
-      }
-
-      .latest-blog .blog-details h4 {
-        font-size: 1.1rem;
-        margin-bottom: 8px;
-        font-weight: 600;
-        text-decoration: none;
-      }
-
-      .latest-blog .blog-details .date {
-        font-size: 0.8rem;
-        margin-top: 3px;
-        margin-bottom: 16px;
-      }
-
-      .read-more {
+      .portrait-card figcaption {
+        color: rgb(var(--gray));
         font-size: 0.9rem;
-        color: ##37505c;
+        line-height: 1.45;
+        padding: 0.85rem 1rem 1rem;
+      }
+
+      .section-heading {
+        align-items: end;
+        display: flex;
+        gap: 1rem;
+        justify-content: space-between;
+        margin: 3rem 0 1.1rem;
+      }
+
+      .section-heading h2 {
+        margin: 0;
+      }
+
+      .section-heading a {
+        font-weight: 800;
+      }
+
+      .focus-grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .focus-card,
+      .feature-card,
+      .post-card {
+        background: rgba(255, 255, 255, 0.75);
+        border: 1px solid rgba(var(--gray), 0.16);
+        border-radius: 22px;
+        box-shadow: 0 10px 28px rgba(var(--gray), 0.12);
+      }
+
+      .focus-card {
+        padding: 1.15rem;
+      }
+
+      .focus-card h3 {
+        font-size: 1.25rem;
+        margin-top: 0;
+      }
+
+      .focus-card p {
+        color: rgb(var(--gray-dark));
+        font-size: 0.98rem;
+        line-height: 1.55;
+        margin-bottom: 0;
+      }
+
+      .proof-strip {
+        background: linear-gradient(135deg, rgba(55, 80, 92, 0.12), rgba(31, 93, 66, 0.12));
+        border: 1px solid rgba(55, 80, 92, 0.18);
+        border-radius: 24px;
+        margin: 3rem 0;
+        padding: 1.35rem;
+      }
+
+      .proof-strip p {
+        font-size: 1.08rem;
+        line-height: 1.65;
+        margin: 0;
+      }
+
+      .feature-card {
+        display: grid;
+        gap: 1.25rem;
+        grid-template-columns: minmax(240px, 0.9fr) minmax(0, 1.1fr);
+        overflow: hidden;
+      }
+
+      .feature-card img,
+      .post-card img {
+        display: block;
+        width: 100%;
+      }
+
+      .feature-card img {
+        aspect-ratio: 16 / 9;
+        background: #0c1118;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      .feature-content {
+        padding: 1.25rem 1.25rem 1.25rem 0;
+      }
+
+      .feature-content h3 {
+        font-size: clamp(1.55rem, 3vw, 2.15rem);
+        margin-top: 0.4rem;
+      }
+
+      .date {
+        color: rgb(var(--gray));
+        font-size: 0.9rem;
+        font-weight: 700;
+      }
+
+      .post-grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .post-card {
+        overflow: hidden;
+      }
+
+      .post-card img {
+        aspect-ratio: 16 / 9;
+        background: #f4f1dc;
+        height: auto;
+        object-fit: cover;
+      }
+
+      .post-card-content {
+        padding: 1rem;
+      }
+
+      .post-card h3 {
+        font-size: 1.15rem;
+        margin: 0.35rem 0 0.65rem;
+      }
+
+      .post-card a,
+      .feature-card a {
+        color: inherit;
         text-decoration: none;
-        cursor: pointer;
-        position: absolute;
-        bottom: 16px; /* Adjust the distance from the bottom */
-        right: 25px; /* Adjust the distance from the right */
       }
 
-      .read-more::after {
-        content: "\2192"; /* Unicode right arrow */
-        position: absolute;
-        right: -1.2em;
-        transition: 0.3s ease;
-        margin-left: 15px; /* Add some space between the text and the arrow */
+      .post-card a:hover,
+      .feature-card a:hover {
+        color: var(--accent-dark);
       }
 
-      .read-more:hover::after {
-        right: -1em; /* Adjust the distance for hover animation */
+      .mini-note {
+        color: rgb(var(--gray));
+        font-size: 0.95rem;
       }
 
-      /* Add this at the end of your style tag to target smaller screens */
-      /* Adjustments for smaller screens */
-      @media (max-width: 768px) {
-        .intro-container,
-        .guitar-container {
+      @media (max-width: 860px) {
+        .hero,
+        .feature-card,
+        .focus-grid,
+        .post-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .feature-content {
+          padding: 0 1.15rem 1.2rem;
+        }
+
+        .portrait-card img {
+          aspect-ratio: 16 / 10;
+        }
+      }
+
+      @media (max-width: 560px) {
+        main {
+          padding-inline: 1rem;
+        }
+
+        .section-heading {
+          align-items: start;
           flex-direction: column;
-          text-align: left;
-          /*padding: 0 0px;  Add padding to the text container */
         }
 
-        .intro-container img,
-        .guitar-container img {
-          width: 100%;
-          max-width: 200px;
-          margin: 0 auto;
-        }
-
-        .blog-cards-container {
-          flex-direction: column;
-        }
-
-        .latest-blog {
-          width: 70%;
-          max-width: 300px;
-          margin: 0 auto;
-          /* padding: 16px; /* Increase padding for better spacing */
-        }
-
-        h1,
-        h2,
-        h4,
-        p {
-          font-size: 1rem; /* Increase font size for readability */
-          line-height: 1.5; /* Increase line height for readability */
-        }
-
-        p {
-          font-size: 0.9rem;
-        }
-
-        .read-more {
-          font-size: 0.6rem;
-          color: ##37505c;
-          text-decoration: none;
-          cursor: pointer;
-          position: absolute;
-          bottom: 5px; /* Adjust the distance from the bottom */
-          right: 25px; /* Adjust the distance from the right */
+        .hero {
+          margin-top: 2rem;
         }
       }
     </style>
@@ -183,84 +295,133 @@ const recentPosts = sortedPosts.slice(0, 3);
   <body>
     <Header title={SITE_TITLE} />
     <main>
-      <div class="intro-container">
-        <img src="bmbrun.jpg" alt="run" />
-        <h1>👋 Hello, I'm Ben!</h1>
-      </div>
-      <p>
-        💻 I’m passionate about leveraging technology to solve problems. This
-        space reflects my learning journey, showcasing insights, projects, and
-        evolving skills.
-      </p>
-      <p>
-        🏃‍♂️ I enjoy running—it's a great way for me to grow and learn about
-        myself. If you're interested in my running journey, you can follow me on
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Ben Brannen · Small Town Capital</p>
+          <h1>Building intelligence machines for messy systems.</h1>
+          <p class="hero-lede">
+            I write and build around dashboards, automation, public-record
+            research, market structure, and the operator lessons behind Small
+            Town Capital. The point is not fake certainty. The point is better
+            tools, better notes, and better decisions.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="/blog/">Read the journal</a>
+            <a class="button secondary" href="/about/">About Ben</a>
+          </div>
+        </div>
 
+        <figure class="portrait-card">
+          <img src="/bmbrun.jpg" alt="Ben Brannen running" />
+          <figcaption>
+            Runner, builder, dashboard tinkerer, and small-town intelligence
+            desk intern for life.
+          </figcaption>
+        </figure>
+      </section>
 
-        <a href="https://www.strava.com/athletes/70063288" target="_blank"
-          >Strava</a
-        >, read this blog post on how I <a
-          href="https://benbrannen.com/blog/100dayjouney/"
-          target="_blank">ran 100 days in a row</a
-        >, or explore this automated <a
-          href="https://lookerstudio.google.com/u/0/reporting/29998d2b-7d6e-4f42-b4e7-cfa489bff4a9/page/p_24y1t5ln9c"
-          target="_blank">Dashboard</a
-        > I built that pulls all of my activites.
-      </p>
+      <section aria-labelledby="focus-heading">
+        <div class="section-heading">
+          <h2 id="focus-heading">What this site is about</h2>
+        </div>
+        <div class="focus-grid">
+          <article class="focus-card">
+            <h3>Build logs</h3>
+            <p>
+              Notes from building dashboards, trading tools, automations, and
+              research systems that make scattered information easier to act on.
+            </p>
+          </article>
+          <article class="focus-card">
+            <h3>Market structure</h3>
+            <p>
+              Public-safe essays on options architecture, LEAPs, short-call
+              handcuffs, decision logs, and the discipline of not overmanaging
+              the miracle.
+            </p>
+          </article>
+          <article class="focus-card">
+            <h3>Public records</h3>
+            <p>
+              Research habits from following entities, incentives, filings,
+              meeting minutes, property records, and the paperwork trail.
+            </p>
+          </article>
+        </div>
+      </section>
 
-      <p>
-        👨🏻‍🚀 Whether you're here to explore my tech projects, gain insights from
-        my experiences, or simply to say hi, you’ve landed in the right place! I
-        built this website with <a href="https://astro.build/" target="blank"
-          >Astro</a
-        > to share my adventures in a seamless way. Feel free to explore and
-        reach out!
-      </p>
-      <div class="guitar-container">
+      <section class="proof-strip" aria-label="Operating loop">
         <p>
-          🎸 Beyond the world of technology & running, I am a self taught guitar
-          player who loves the Allman Brothers, Grateful Dead, Phish, Goose, and
-          Tony Rice. Check out what I've been listening to recently on <a
-            href="https://open.spotify.com/user/1215639802?si=22891895b3614d0a"
-            target="blank">Spotify</a
-          >.
+          The operating loop is <strong>research → structure → publish → build → invest → learn → repeat.</strong>
+          BenBrannen.com is the public notebook for that loop — a place to show
+          the process before the outcome is obvious.
         </p>
-        <img src="guitar.jpg" alt="guitar" />
-      </div>
+      </section>
 
-      <!-- Display the Latest Three Blog Posts -->
-      <section class="recent-blogs">
-        <h2>Recent Blogs</h2>
-        <p>Check out my most recent blogs!</p>
-        <div class="blog-cards-container">
+      {
+        featuredPost && (
+          <section aria-labelledby="featured-heading">
+            <div class="section-heading">
+              <h2 id="featured-heading">Featured latest</h2>
+              <a href="/blog/">All posts →</a>
+            </div>
+            <article class="feature-card">
+              <a href={`/blog/${featuredPost.slug}/`}>
+                {featuredPost.data.heroImage && (
+                  <img
+                    src={featuredPost.data.heroImage}
+                    alt={featuredPost.data.title}
+                    loading="eager"
+                  />
+                )}
+              </a>
+              <div class="feature-content">
+                <div class="date">
+                  <FormattedDate date={featuredPost.data.pubDate} />
+                </div>
+                <h3>
+                  <a href={`/blog/${featuredPost.slug}/`}>
+                    {featuredPost.data.title}
+                  </a>
+                </h3>
+                <p>{featuredPost.data.description}</p>
+                <a class="button secondary" href={`/blog/${featuredPost.slug}/`}>
+                  Read the post
+                </a>
+              </div>
+            </article>
+          </section>
+        )
+      }
+
+      <section aria-labelledby="recent-heading">
+        <div class="section-heading">
+          <h2 id="recent-heading">Recent field notes</h2>
+          <a href="/blog/">Browse the archive →</a>
+        </div>
+        <div class="post-grid">
           {
             recentPosts.map((post) => (
-              <div class="latest-blog">
-                <a href={`/blog/${post.slug}`}>
-                  <div class="hero-image">
-                    {post.data.heroImage && (
-                      <img
-                        src={post.data.heroImage}
-                        alt={post.data.title}
-                        loading="lazy"
-                      />
-                    )}
-                  </div>
+              <article class="post-card">
+                <a href={`/blog/${post.slug}/`}>
+                  {post.data.heroImage && (
+                    <img
+                      src={post.data.heroImage}
+                      alt={post.data.title}
+                      loading="eager"
+                    />
+                  )}
                 </a>
-                <div class="blog-details">
+                <div class="post-card-content">
                   <div class="date">
                     <FormattedDate date={post.data.pubDate} />
                   </div>
-                  <h4>
-                    <a href={`/blog/${post.slug}`} class="title-link">
-                      {post.data.title}
-                    </a>
-                  </h4>
-                  <a href={`/blog/${post.slug}`} class="read-more">
-                    Read More
-                  </a>
+                  <h3>
+                    <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
+                  </h3>
+                  <p class="mini-note">{post.data.description}</p>
                 </div>
-              </div>
+              </article>
             ))
           }
         </div>
