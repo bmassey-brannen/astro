@@ -10,14 +10,14 @@ import Layout from "../layouts/BlogPost.astro";
 >
   <style>
     :global(.prose.prose) {
-      width: min(920px, calc(100% - 2rem));
-      max-width: calc(100% - 2rem);
-      padding-inline: 0;
+      width: min(920px, calc(100% - 2rem)) !important;
+      max-width: calc(100% - 2rem) !important;
+      padding-inline: 0 !important;
     }
 
     :global(.title.title) {
-      max-width: 760px;
-      margin-inline: auto;
+      max-width: 760px !important;
+      margin-inline: auto !important;
     }
 
     .about-kicker {
