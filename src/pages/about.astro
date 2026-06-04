@@ -4,7 +4,7 @@ import Layout from "../layouts/BlogPost.astro";
 
 <Layout
   title="About Ben Brannen"
-  description="Ben Brannen builds practical intelligence tools for automation, market research, public records, dashboards, and Small Town Capital."
+  description="Ben Brannen builds practical intelligence tools for automation, market research, dashboards, source-backed systems, and Small Town Capital."
   pubDate={new Date("June 3 2026")}
   heroImage="/atl_thon.jpg"
 >
@@ -39,11 +39,34 @@ import Layout from "../layouts/BlogPost.astro";
       margin-top: 0;
     }
 
-    .about-grid {
-      display: grid;
-      gap: 1rem;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+    .theme-panel {
       margin: 1.5rem 0;
+    }
+
+    .theme-panel > p {
+      color: rgb(var(--gray));
+      margin-top: -0.25rem;
+    }
+
+    .theme-list {
+      display: grid;
+      gap: 0.85rem;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      list-style: none;
+      margin: 1.1rem 0 0;
+      padding: 0;
+    }
+
+    .theme-list li {
+      background: rgba(255, 255, 255, 0.62);
+      border: 1px solid rgba(var(--gray), 0.16);
+      border-radius: 14px;
+      padding: 0.95rem;
+    }
+
+    .theme-list strong {
+      display: block;
+      margin-bottom: 0.25rem;
     }
 
     .pill-list {
@@ -65,26 +88,6 @@ import Layout from "../layouts/BlogPost.astro";
       padding: 0.45rem 0.72rem;
     }
 
-    .project-list {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    .project-list li {
-      border-bottom: 1px solid rgba(var(--gray), 0.16);
-      padding: 0.85rem 0;
-    }
-
-    .project-list li:last-child {
-      border-bottom: 0;
-    }
-
-    .project-list strong {
-      display: block;
-      margin-bottom: 0.15rem;
-    }
-
     .small-note {
       color: rgb(var(--gray));
       font-size: 0.95rem;
@@ -100,10 +103,6 @@ import Layout from "../layouts/BlogPost.astro";
     }
 
     @media (max-width: 720px) {
-      .about-grid {
-        grid-template-columns: 1fr;
-      }
-
       .about-lede {
         font-size: 1.12rem;
       }
@@ -114,7 +113,7 @@ import Layout from "../layouts/BlogPost.astro";
 
   <p class="about-lede">
     I’m Ben. I build practical tools around messy systems: dashboards,
-    automations, public-record research, market notes, and small experiments that
+    automations, market notes, source-backed research, and small experiments that
     turn confusion into something useful.
   </p>
 
@@ -133,49 +132,42 @@ import Layout from "../layouts/BlogPost.astro";
     </p>
   </div>
 
-  <div class="about-grid">
-    <section class="about-card">
-      <h3>Systems I like</h3>
-      <ul class="project-list">
-        <li>
-          <strong>Research dashboards</strong>
-          Turning scattered notes, data, filings, and watchlists into decision
-          systems.
-        </li>
-        <li>
-          <strong>Automation workflows</strong>
-          Using scripts, APIs, spreadsheets, and agents to remove repetitive
-          work.
-        </li>
-        <li>
-          <strong>Public-record trails</strong>
-          Following entities, documents, incentives, and timelines until a
-          clearer story appears.
-        </li>
-      </ul>
-    </section>
-
-    <section class="about-card">
-      <h3>Recent project themes</h3>
-      <ul class="project-list">
-        <li>
-          <strong>Trading Command Center</strong>
-          A private dashboard for market research, options structures, decision
-          logs, and review discipline.
-        </li>
-        <li>
-          <strong>Options Council</strong>
-          An agent-style framework for debating convexity, theta, risk, tactics,
-          and final trade verdicts.
-        </li>
-        <li>
-          <strong>Operator journal</strong>
-          Writing publicly about the process without pretending every idea is
-          already polished.
-        </li>
-      </ul>
-    </section>
-  </div>
+  <section class="about-card theme-panel">
+    <h2>Systems and project themes</h2>
+    <p>
+      The common thread is turning scattered information into cleaner decisions,
+      repeatable workflows, and public proof-of-work.
+    </p>
+    <ul class="theme-list">
+      <li>
+        <strong>Research dashboards</strong>
+        Turning notes, data, filings, and watchlists into decision systems.
+      </li>
+      <li>
+        <strong>Automation workflows</strong>
+        Using scripts, APIs, spreadsheets, and agents to remove repetitive work.
+      </li>
+      <li>
+        <strong>Source-backed research</strong>
+        Keeping claims tied to original sources, context, and open questions.
+      </li>
+      <li>
+        <strong>Trading Command Center</strong>
+        A private dashboard for market research, options structures, decision
+        logs, and review discipline.
+      </li>
+      <li>
+        <strong>Options Council</strong>
+        An agent-style framework for debating convexity, theta, risk, tactics,
+        and final trade verdicts.
+      </li>
+      <li>
+        <strong>Operator journal</strong>
+        Writing publicly about the process without pretending every idea is
+        already polished.
+      </li>
+    </ul>
+  </section>
 
   <div class="about-card">
     <h2>How I think about the work</h2>
@@ -229,7 +221,7 @@ import Layout from "../layouts/BlogPost.astro";
   <div class="connect-box">
     <h2>Let’s connect</h2>
     <p>
-      If you’re interested in dashboards, automation, public-record research,
+      If you’re interested in dashboards, automation, source-backed research,
       market structure, Small Town Capital, or weird useful systems, reach out.
     </p>
     <p>
