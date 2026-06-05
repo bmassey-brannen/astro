@@ -23,21 +23,21 @@ It can also become a trap.
 
 ## Premium is not automatically progress
 
-Selling calls feels productive. You collect premium. You reduce basis. You turn waiting into income.
+Selling calls feels productive. You collect premium. You reduce basis. Waiting turns into a little cash register, which is exactly how the trap gets baited.
 
-But the question is not just, “Can I collect premium?”
+The question is not "can I collect premium?" Of course I can. The market will happily pay me to sell away the part of the trade I actually wanted.
 
-The better questions are:
+The better questions are uglier:
 
 - Am I selling the wrong part of the distribution?
-- Am I capping the move I actually bought the LEAP for?
-- How much theta is left versus how much upside I am giving away?
+- Am I capping the move I bought the LEAP for?
+- How much theta is left compared with the upside I am giving away?
 - Is this financing, or is this a handcuff?
-- If the stock rips tomorrow, will I be happy with this structure?
+- If the stock rips tomorrow, will I be proud of this structure or annoyed at myself?
 
-That last question is uncomfortable because it exposes the truth quickly.
+That last one gets to the truth fast.
 
-A short call is fine if I am genuinely willing to sell the upside above that strike. It is not fine if I am only selling it because I am bored, nervous, or trying to manufacture income from a position whose real job is convexity.
+A short call is fine if I am genuinely willing to sell the upside above that strike. It is not fine if I am selling it because I am bored, nervous, or trying to squeeze income out of a position whose real job is convexity.
 
 ## Why I want an Options Council
 
@@ -45,21 +45,15 @@ This is why the trading dashboard needs an Options Council.
 
 Not one generic AI answer. A real internal debate.
 
-The council should have different roles:
+The council should argue from a few angles at once. One voice protects the right tail. One asks whether premium is actually worth harvesting. One checks sizing, liquidity, assignment, and downside. One compares rolls and alternate structures. Then a commander writes the decision log so I cannot quietly rewrite history later.
 
-- **Convexity Bull**: protects the right tail and argues for letting winners breathe.
-- **Theta Farmer**: looks for premium harvesting opportunities.
-- **Risk Officer**: checks sizing, liquidity, assignment, and downside.
-- **Tactician**: compares spreads, diagonals, calendars, and rolls.
-- **Commander**: makes the final verdict and writes the decision log.
-
-The point is not to make trading complicated. The point is to prevent one emotional voice from dominating.
+The point is not to make trading complicated. The point is to keep one emotional voice from grabbing the wheel.
 
 When a position is working, the Theta Farmer will always find a reason to sell calls. The Convexity Bull needs a seat at the table too.
 
 ## The Short Call Warden
 
-One agent I especially want is the **Short Call Warden**.
+One agent I especially want is the Short Call Warden.
 
 Its job is to watch every covered-call or diagonal-style position and flag when the short call is becoming the boss.
 
@@ -84,7 +78,7 @@ Remaining theta is small relative to upside cap risk.
 Recommended actions: close partial, roll higher, or define a price trigger.
 ```
 
-That kind of warning is more valuable than another price chart.
+That kind of warning is more valuable than another price chart. A chart shows the bruise after the punch. The Warden should catch the fist moving.
 
 ## The rule I want built into the system
 
@@ -92,9 +86,7 @@ The rule is simple:
 
 > LEAPs/core convexity are the exposure engine. Short calls are financing tools, not handcuffs.
 
-That does not mean never sell calls.
-
-It means short calls need a job description.
+That does not mean never sell calls. It means the short call needs a job description before I sell it, not a story I invent afterward.
 
 Acceptable jobs:
 
