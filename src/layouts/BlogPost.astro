@@ -6,9 +6,9 @@ import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import { Image } from "astro:assets";
 
-type Props = CollectionEntry<"blog">["data"];
+type Props = CollectionEntry<"blog">["data"] & { journalFooter?: boolean };
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, journalFooter = false } = Astro.props;
 ---
 
 <html lang="en">
@@ -49,20 +49,50 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
         color: rgb(var(--gray-dark));
       }
       .title {
-        margin-bottom: 1em;
-        padding: 1em 0;
-        text-align: center;
-        line-height: 1;
+        border-bottom: 1px solid rgb(var(--gray-light));
+        margin: 0 0 2.25rem;
+        padding: 1.5rem 0 1.75rem;
       }
       .title h1 {
-        margin: 0 0 0.5em 0;
+        font-size: clamp(2rem, 4.5vw, 2.9rem);
+        letter-spacing: -0.035em;
+        line-height: 1.08;
+        margin: 0;
+        text-wrap: balance;
       }
-      .date {
-        margin-bottom: 0.5em;
+      .meta {
         color: rgb(var(--gray));
+        font-size: 0.85rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        margin-bottom: 0.8rem;
+        text-transform: uppercase;
       }
       .last-updated-on {
+        color: rgb(var(--gray));
+        font-size: 0.92rem;
         font-style: italic;
+        margin-top: 0.7rem;
+      }
+      .post-footer {
+        border-top: 1px solid rgb(var(--gray-light));
+        color: rgb(var(--gray));
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-top: 3.5rem;
+        padding-top: 1.4rem;
+      }
+      .post-footer .back {
+        display: inline-block;
+        font-weight: 700;
+        margin-bottom: 0.6rem;
+        text-decoration: none;
+      }
+      .post-footer .back:hover {
+        text-decoration: underline;
+      }
+      .post-footer p {
+        margin: 0;
       }
     </style>
   </head>
@@ -86,20 +116,31 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
         </div>
         <div class="prose">
           <div class="title">
-            <div class="date">
+            <div class="meta">
               <FormattedDate date={pubDate} />
-              {
-                updatedDate && (
-                  <div class="last-updated-on">
-                    Last updated on <FormattedDate date={updatedDate} />
-                  </div>
-                )
-              }
             </div>
             <h1>{title}</h1>
-            <hr />
+            {
+              updatedDate && (
+                <div class="last-updated-on">
+                  Last updated on <FormattedDate date={updatedDate} />
+                </div>
+              )
+            }
           </div>
           <slot />
+          {
+            journalFooter && (
+              <footer class="post-footer">
+                <a class="back" href="/blog/">
+                  ← Back to the journal
+                </a>
+                <p>
+                  Questions or corrections: <a href="mailto:benjamin.m.brannen@gmail.com">benjamin.m.brannen@gmail.com</a>.
+                </p>
+              </footer>
+            )
+          }
         </div>
       </article>
     </main>

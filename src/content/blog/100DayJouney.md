@@ -1,6 +1,6 @@
 ---
 title: "Running 100+ Days in a Row & Turning Data into Insights"
-description: "Lorem ipsum dolor sit amet"
+description: "102 straight days of 5K or more, 362 miles, and the Strava-to-Looker dashboard that kept score."
 pubDate: "September 11, 2023"
 heroImage: "/100Days.jpg"
 ---

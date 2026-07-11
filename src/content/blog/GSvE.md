@@ -1,6 +1,6 @@
 ---
 title: "The Case for Google Sheets"
-description: "Lorem ipsum dolor sit amet"
+description: "My employer took Excel away from me in 2019. Two years later, I came around: the case for Google Sheets."
 pubDate: "December 14, 2021"
 heroImage: "/GSvE.png"
 ---

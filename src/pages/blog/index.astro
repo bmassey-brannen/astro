@@ -12,6 +12,14 @@ const posts = (await getCollection("blog")).sort(
 
 const featured = posts[0];
 const rest = posts.slice(1);
+
+const byYear = new Map<number, typeof posts>();
+for (const post of rest) {
+  const year = post.data.pubDate.getFullYear();
+  if (!byYear.has(year)) byYear.set(year, []);
+  byYear.get(year)!.push(post);
+}
+const years = [...byYear.keys()].sort((a, b) => b - a);
 ---
 
 <!doctype html>
@@ -87,7 +95,7 @@ const rest = posts.slice(1);
 
       .feature-card img {
         height: 100%;
-        object-fit: cover;
+        object-fit: contain;
       }
 
       .feature-content,
@@ -113,7 +121,7 @@ const rest = posts.slice(1);
       }
 
       .feature-card a,
-      .post-card a {
+      .entry a {
         color: inherit;
         text-decoration: none;
       }
@@ -132,28 +140,67 @@ const rest = posts.slice(1);
         text-decoration: none;
       }
 
-      .post-grid {
-        display: grid;
+      .year-group {
+        margin: 2.5rem 0 0;
+      }
+
+      .year-group h2 {
+        align-items: baseline;
+        color: rgb(var(--gray));
+        display: flex;
+        font-size: 1rem;
+        font-weight: 900;
         gap: 1rem;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        letter-spacing: 0.12em;
+        margin: 0 0 0.35rem;
       }
 
-      .post-card img {
-        aspect-ratio: 16 / 9;
-        object-fit: cover;
+      .year-group h2::after {
+        background: rgba(var(--gray), 0.25);
+        content: "";
+        flex: 1;
+        height: 1px;
       }
 
-      .post-card h2 {
-        font-size: 1.2rem;
-        letter-spacing: -0.02em;
-        margin: 0.3rem 0 0.55rem;
-      }
-
-      .post-card p {
-        color: rgb(var(--gray-dark));
-        font-size: 0.96rem;
-        line-height: 1.55;
+      .entry-list {
+        list-style: none;
         margin: 0;
+        padding: 0;
+      }
+
+      .entry {
+        border-bottom: 1px solid rgba(var(--gray), 0.16);
+      }
+
+      .entry a {
+        display: grid;
+        gap: 0.2rem 1.5rem;
+        grid-template-columns: 7.25rem minmax(0, 1fr);
+        padding: 1.05rem 0.25rem;
+      }
+
+      .entry a:hover h3 {
+        color: var(--accent-dark);
+        text-decoration: underline;
+      }
+
+      .entry .date {
+        padding-top: 0.22rem;
+      }
+
+      .entry h3 {
+        font-size: 1.22rem;
+        letter-spacing: -0.02em;
+        line-height: 1.25;
+        margin: 0;
+      }
+
+      .entry p {
+        color: rgb(var(--gray));
+        font-size: 0.96rem;
+        grid-column: 2;
+        line-height: 1.55;
+        margin: 0.25rem 0 0;
       }
 
       .archive-note {
@@ -166,9 +213,23 @@ const rest = posts.slice(1);
       }
 
       @media (max-width: 860px) {
-        .feature-card,
-        .post-grid {
+        .feature-card {
           grid-template-columns: 1fr;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .entry a {
+          grid-template-columns: 1fr;
+          padding-inline: 0;
+        }
+
+        .entry .date {
+          padding-top: 0;
+        }
+
+        .entry p {
+          grid-column: 1;
         }
       }
 
@@ -216,24 +277,26 @@ const rest = posts.slice(1);
         execution instructions, or a map of the private research system.
       </p>
 
-      <section class="post-grid" aria-label="All journal posts">
-        {
-          rest.map((post) => (
-            <article class="post-card">
-              <a href={`/blog/${post.slug}/`}>
-                {post.data.heroImage && (
-                  <img src={post.data.heroImage} alt={post.data.title} loading="lazy" />
-                )}
-              </a>
-              <div class="post-content">
-                <div class="date"><FormattedDate date={post.data.pubDate} /></div>
-                <h2><a href={`/blog/${post.slug}/`}>{post.data.title}</a></h2>
-                <p>{post.data.description}</p>
-              </div>
-            </article>
-          ))
-        }
-      </section>
+      {
+        years.map((year) => (
+          <section class="year-group" aria-label={`Posts from ${year}`}>
+            <h2>{year}</h2>
+            <ul class="entry-list">
+              {byYear.get(year)!.map((post) => (
+                <li class="entry">
+                  <a href={`/blog/${post.slug}/`}>
+                    <span class="date">
+                      <FormattedDate date={post.data.pubDate} />
+                    </span>
+                    <h3>{post.data.title}</h3>
+                    <p>{post.data.description}</p>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))
+      }
     </main>
     <Footer />
   </body>
