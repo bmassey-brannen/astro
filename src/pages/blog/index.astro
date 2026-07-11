@@ -9,13 +9,15 @@ import FormattedDate from "../../components/FormattedDate.astro";
 const posts = (await getCollection("blog")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
+
+const featured = posts[0];
+const rest = posts.slice(1);
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <!-- Google Analytics Script -->
+    <BaseHead title={`Journal | ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0M58B909ZC"
     ></script>
     <script>
@@ -26,85 +28,153 @@ const posts = (await getCollection("blog")).sort(
       gtag("js", new Date());
       gtag("config", "G-0M58B909ZC");
     </script>
-    <!-- End Google Analytics Script -->
     <style>
       main {
-        width: 960px;
-      }
-      ul {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2rem;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
-      ul li {
-        width: calc(50% - 1rem);
-      }
-      ul li * {
-        text-decoration: none;
-        transition: 0.2s ease;
-      }
-      ul li:first-child {
+        max-width: 1080px;
+        padding: 0 1.25rem 4rem;
         width: 100%;
+      }
+
+      .archive-hero {
+        margin: 2rem 0 1.5rem;
+        max-width: 820px;
+      }
+
+      .eyebrow {
+        color: var(--accent);
+        font-size: 0.82rem;
+        font-weight: 900;
+        letter-spacing: 0.14em;
+        margin-bottom: 0.75rem;
+        text-transform: uppercase;
+      }
+
+      .archive-hero h1 {
+        font-size: clamp(2.4rem, 5vw, 4.25rem);
+        letter-spacing: -0.05em;
+        line-height: 0.96;
         margin-bottom: 1rem;
-        text-align: center;
       }
-      ul li:first-child img {
-        width: 100%;
-        loading: "eager";
+
+      .archive-hero p {
+        color: rgb(var(--gray-dark));
+        font-size: 1.12rem;
+        line-height: 1.6;
+        max-width: 720px;
       }
-      ul li:not(:first-child) img {
-        width: 100%;
-        height: 300px; /* Adjust this value to achieve the desired height */
-        object-fit: cover;
-        border-radius: 12px;
+
+      .feature-card,
+      .post-card {
+        background: rgba(255, 255, 255, 0.78);
+        border: 1px solid rgba(var(--gray), 0.16);
+        border-radius: 24px;
+        box-shadow: 0 12px 30px rgba(var(--gray), 0.12);
+        overflow: hidden;
       }
-      ul li img {
-        margin-bottom: 0.5rem;
-        border-radius: 12px;
+
+      .feature-card {
+        display: grid;
+        grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1.05fr);
+        margin: 1.75rem 0 2rem;
       }
-      ul li a {
+
+      .feature-card img,
+      .post-card img {
+        background: #0f171b;
         display: block;
+        width: 100%;
       }
-      .title {
-        margin: 0;
-        color: rgb(var(--black));
-        line-height: 1;
+
+      .feature-card img {
+        height: 100%;
+        object-fit: cover;
       }
+
+      .feature-content,
+      .post-content {
+        padding: 1.15rem;
+      }
+
+      .feature-content {
+        align-self: center;
+        padding: 1.5rem;
+      }
+
+      .feature-content h2 {
+        font-size: clamp(1.7rem, 3vw, 2.35rem);
+        letter-spacing: -0.035em;
+        margin: 0.3rem 0 0.75rem;
+      }
+
       .date {
-        margin: 0;
         color: rgb(var(--gray));
-      }
-      ul li a:hover h4,
-      ul li a:hover .date {
-        color: rgb(var(--accent));
-      }
-      ul a:hover img {
-        box-shadow: var(--box-shadow);
-      }
-      ul li img {
-        transition: transform 0.3s ease-in-out;
+        font-size: 0.9rem;
+        font-weight: 800;
       }
 
-      ul li img:hover {
-        transform: scale(1.05); /* Adjust scale value as needed */
+      .feature-card a,
+      .post-card a {
+        color: inherit;
+        text-decoration: none;
       }
 
-      @media (max-width: 720px) {
-        ul {
-          gap: 0.5em;
+      .button {
+        align-items: center;
+        background: rgba(55, 80, 92, 0.08);
+        border: 1px solid rgba(55, 80, 92, 0.18);
+        border-radius: 999px;
+        color: var(--accent-dark);
+        display: inline-flex;
+        font-weight: 800;
+        line-height: 1;
+        margin-top: 0.35rem;
+        padding: 0.8rem 1rem;
+        text-decoration: none;
+      }
+
+      .post-grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .post-card img {
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+      }
+
+      .post-card h2 {
+        font-size: 1.2rem;
+        letter-spacing: -0.02em;
+        margin: 0.3rem 0 0.55rem;
+      }
+
+      .post-card p {
+        color: rgb(var(--gray-dark));
+        font-size: 0.96rem;
+        line-height: 1.55;
+        margin: 0;
+      }
+
+      .archive-note {
+        background: rgba(255, 248, 223, 0.78);
+        border: 1px solid rgba(55, 80, 92, 0.16);
+        border-radius: 22px;
+        color: rgb(var(--gray-dark));
+        margin: 2rem 0;
+        padding: 1.1rem 1.25rem;
+      }
+
+      @media (max-width: 860px) {
+        .feature-card,
+        .post-grid {
+          grid-template-columns: 1fr;
         }
-        ul li {
-          width: 100%;
-          text-align: center;
-        }
-        ul li:first-child {
-          margin-bottom: 0;
-        }
-        ul li:first-child .title {
-          font-size: 1.563em;
+      }
+
+      @media (max-width: 560px) {
+        main {
+          padding-inline: 0.85rem;
         }
       }
     </style>
@@ -112,28 +182,57 @@ const posts = (await getCollection("blog")).sort(
   <body>
     <Header />
     <main>
-      <section>
-        <ul>
-          {
-            posts.map((post) => (
-              <li>
-                <a href={`/blog/${post.slug}/`}>
-                  <img
-                    width={720}
-                    height={360}
-                    src={post.data.heroImage}
-                    alt=""
-                    loading="lazy"
-                  />
-                  <h4 class="title">{post.data.title}</h4>
-                  <p class="date">
-                    <FormattedDate date={post.data.pubDate} />
-                  </p>
-                </a>
-              </li>
-            ))
-          }
-        </ul>
+      <section class="archive-hero">
+        <p class="eyebrow">Operator journal</p>
+        <h1>Build logs, research notes, and public-safe field reports.</h1>
+        <p>
+          This is the public layer of the work: what I am learning while building
+          dashboards, research systems, local intelligence workflows, and Small
+          Town Capital. It shows the process without turning the private playbook
+          into a giveaway.
+        </p>
+      </section>
+
+      {
+        featured && (
+          <article class="feature-card">
+            <a href={`/blog/${featured.slug}/`}>
+              {featured.data.heroImage && (
+                <img src={featured.data.heroImage} alt={featured.data.title} loading="eager" />
+              )}
+            </a>
+            <div class="feature-content">
+              <div class="date"><FormattedDate date={featured.data.pubDate} /></div>
+              <h2><a href={`/blog/${featured.slug}/`}>{featured.data.title}</a></h2>
+              <p>{featured.data.description}</p>
+              <a class="button" href={`/blog/${featured.slug}/`}>Read the latest</a>
+            </div>
+          </article>
+        )
+      }
+
+      <p class="archive-note">
+        Note: public posts are written as receipts and reflections, not trade alerts,
+        execution instructions, or a map of the private research system.
+      </p>
+
+      <section class="post-grid" aria-label="All journal posts">
+        {
+          rest.map((post) => (
+            <article class="post-card">
+              <a href={`/blog/${post.slug}/`}>
+                {post.data.heroImage && (
+                  <img src={post.data.heroImage} alt={post.data.title} loading="lazy" />
+                )}
+              </a>
+              <div class="post-content">
+                <div class="date"><FormattedDate date={post.data.pubDate} /></div>
+                <h2><a href={`/blog/${post.slug}/`}>{post.data.title}</a></h2>
+                <p>{post.data.description}</p>
+              </div>
+            </article>
+          ))
+        }
       </section>
     </main>
     <Footer />

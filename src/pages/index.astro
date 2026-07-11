@@ -186,6 +186,73 @@ const recentPosts = sortedPosts.slice(1, 4);
         margin: 0;
       }
 
+      .desk-grid {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: 1.1fr 0.9fr;
+        margin: 2.35rem 0;
+      }
+
+      .desk-panel {
+        background: #111b20;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 24px;
+        box-shadow: 0 18px 45px rgba(17, 27, 32, 0.22);
+        color: #edf3ed;
+        padding: 1.35rem;
+      }
+
+      .desk-panel h2,
+      .desk-panel h3 {
+        color: #fff8df;
+      }
+
+      .desk-panel h2 {
+        font-size: clamp(1.6rem, 3vw, 2.15rem);
+        margin-top: 0;
+      }
+
+      .desk-panel p {
+        color: rgba(237, 243, 237, 0.82);
+        line-height: 1.6;
+      }
+
+      .desk-list {
+        display: grid;
+        gap: 0.8rem;
+        list-style: none;
+        margin: 1rem 0 0;
+        padding: 0;
+      }
+
+      .desk-list li {
+        border-top: 1px solid rgba(255, 255, 255, 0.12);
+        padding-top: 0.8rem;
+      }
+
+      .desk-list strong {
+        color: #fff8df;
+        display: block;
+        margin-bottom: 0.15rem;
+      }
+
+      .private-note {
+        background: rgba(255, 248, 223, 0.78);
+        border: 1px solid rgba(55, 80, 92, 0.16);
+        border-radius: 24px;
+        box-shadow: 0 10px 28px rgba(var(--gray), 0.1);
+        padding: 1.35rem;
+      }
+
+      .private-note h3 {
+        margin-top: 0;
+      }
+
+      .private-note p {
+        color: rgb(var(--gray-dark));
+        line-height: 1.58;
+      }
+
       .feature-card {
         display: grid;
         gap: 1.25rem;
@@ -267,6 +334,7 @@ const recentPosts = sortedPosts.slice(1, 4);
         .hero,
         .feature-card,
         .focus-grid,
+        .desk-grid,
         .post-grid {
           grid-template-columns: 1fr;
         }
@@ -338,12 +406,13 @@ const recentPosts = sortedPosts.slice(1, 4);
       <section class="hero">
         <div>
           <p class="eyebrow">Small Town Capital · Operator Journal</p>
-          <h1>Building intelligence machines for messy systems.</h1>
+          <h1>The garage-built intelligence desk.</h1>
           <p class="hero-lede">
-            I write and build around dashboards, automation, public-record
-            research, market structure, and the operator lessons behind Small
-            Town Capital. The point is not fake certainty. The point is better
-            tools, better notes, and better decisions.
+            I write about the work behind Small Town Capital: research systems,
+            dashboards, public records, market structure, local capital, and the
+            strange little tools that turn confusion into leverage. No guru act.
+            No magic signals. Just the notebook, the receipts, and the parts I
+            can safely show in public.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="/blog/">Read the journal</a>
@@ -393,9 +462,50 @@ const recentPosts = sortedPosts.slice(1, 4);
       <section class="proof-strip" aria-label="Operating loop">
         <p>
           The operating loop is <strong>research → structure → publish → build → invest → learn → repeat.</strong>
-          BenBrannen.com is the public notebook for that loop — a place to show
-          the process before the outcome is obvious.
+          BenBrannen.com is the public notebook for that loop: enough proof to
+          show the work, not so much detail that the playbook becomes a giveaway.
         </p>
+      </section>
+
+      <section class="desk-grid" aria-labelledby="desk-heading">
+        <div class="desk-panel">
+          <p class="eyebrow">Current desk</p>
+          <h2 id="desk-heading">What I am trying to make durable</h2>
+          <p>
+            The private work is becoming an operating system: a research terminal,
+            a market desk, a source tracker, and a decision journal that can hold
+            up when emotion gets loud. The public work is the proof that the reps
+            are happening.
+          </p>
+          <ul class="desk-list">
+            <li>
+              <strong>Research before reaction</strong>
+              Source-backed notes, not screenshots pretending to be a thesis.
+            </li>
+            <li>
+              <strong>Structure before exposure</strong>
+              Defined-risk thinking, patience, and fewer ways to overmanage the miracle.
+            </li>
+            <li>
+              <strong>Receipts before reputation</strong>
+              Build logs, public notes, and visible learning before any grand claim.
+            </li>
+          </ul>
+        </div>
+        <aside class="private-note">
+          <h3>What stays off the site</h3>
+          <p>
+            I am not publishing live trade instructions, private scanner rules,
+            account details, or anything that turns a research process into a
+            copy-trade circus. The public layer should make the work legible, not
+            leak the edge.
+          </p>
+          <p>
+            If a post sounds like a field note instead of a sales page, that is
+            intentional. This is an operator journal, not a funnel dressed up as
+            philosophy.
+          </p>
+        </aside>
       </section>
 
       {

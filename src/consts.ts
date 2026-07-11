@@ -2,4 +2,4 @@
 // You can import this data from anywhere in your site by using the `import` keyword.
 
 export const SITE_TITLE = 'Ben Brannen';
-export const SITE_DESCRIPTION = 'Ben Brannen builds operator journals, dashboards, automation workflows, public-record research, and Small Town Capital notes.';
+export const SITE_DESCRIPTION = 'Ben Brannen writes an operator journal on Small Town Capital, dashboards, source-backed research, automation, public records, and building useful systems without the guru act.';
