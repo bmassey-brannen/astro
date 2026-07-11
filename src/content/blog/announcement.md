@@ -13,6 +13,6 @@ Two years back, I built my original website from the ground up using Vue JS & Fi
 
 Recently, as I started penning down more thoughts and wanted to give the site a fresh feel, I realized a lot of the old tools I relied on weren’t being maintained anymore. That brought its own set of challenges when I wanted to tweak things here and there.
 
-Switching to Astro JS will grant me more control over my website's design and functionality, while also ensuring a smoother and more efficient user experience. I've taken this opportunity to revamp the home page, make modifications to the about page, and seamlessly migrate all my previous blogs. I'm excited that I have a new and easy way to deliver insightful posts and I look forward to sharing more content with you on this refreshed platform."
+Switching to Astro JS gives me more control over the site's design and structure. I rebuilt the home page, cleaned up the about page, and migrated the old posts. The site finally feels easier to work on, which means I am more likely to actually use it."
 
 Can’t wait for you to check it out and share your thoughts! Enjoy exploring the new space, and stay tuned for more updates and stories coming your way!

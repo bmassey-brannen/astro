@@ -31,7 +31,7 @@ The goal is to help answer basic civic questions like:
 - Where did a claim, number, or note come from?
 - What is verified, what is just context, and what still needs more source work?
 
-That last part matters. A good dashboard should not just show conclusions. It should show where the information came from.
+That last part matters. A good dashboard should show where the information came from, not ask people to trust a summary.
 
 ## What is in it right now
 
@@ -39,11 +39,11 @@ The dashboard is still early, but the structure is starting to take shape.
 
 It includes sections for:
 
-- **City meetings and agenda awareness** — so important public discussions are easier to notice.
-- **Local project and development tracking** — a place to organize items that may matter for Waynesboro's future.
-- **Property and parcel context** — using public GIS or property references where appropriate.
-- **Budget, demographic, and economic indicators** — not as a final verdict, but as context.
-- **Source links and evidence rails** — so the dashboard points back to original public records instead of asking people to trust a summary.
+- City meetings and agenda awareness, so important public discussions are easier to notice.
+- Local project and development tracking, for items that may matter for Waynesboro's future.
+- Property and parcel context, using public GIS or property references where appropriate.
+- Budget, demographic, and economic indicators as context, not a final verdict.
+- Source links, so the dashboard points back to original public records.
 
 The long-term version should feel less like a static website and more like a small civic operating picture: a place where public information becomes easier to inspect.
 

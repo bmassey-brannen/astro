@@ -78,7 +78,7 @@ Remaining theta is small relative to upside cap risk.
 Recommended actions: close partial, roll higher, or define a price trigger.
 ```
 
-That kind of warning is more valuable than another price chart. A chart shows the bruise after the punch. The Warden should catch the fist moving.
+That kind of warning beats another price chart. A chart shows the bruise after the punch. The Warden should catch the fist moving.
 
 ## The rule I want built into the system
 

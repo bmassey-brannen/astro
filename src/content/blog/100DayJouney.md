@@ -9,13 +9,13 @@ This April, my friend Jordan Utley challenged a group of people to run a 5k ever
 
 But what's running without some data to back it up?
 
-📊 To give my challenge a data-driven approach, I wrote some Google Apps Script to automatically pull my running statistics from Strava to a google sheet and pumped it into Looker Studio. The result? A real-time dashboard that tracked distance, pace, and even weather conditions. I set this dashboard up to retrospectively break out my 102 day challenge and highlight my all time / 2023 totals.
+📊 I wanted the challenge to have a scoreboard, so I wrote some Google Apps Script to pull my Strava stats into Google Sheets and pushed the data into Looker Studio. The dashboard tracked distance, pace, weather, the 102-day streak, and my all-time / 2023 totals.
 
 **What I learned**
 
 - Consistency is key: Making something a daily habit is empowering.
 - Your own data can be a powerful motivator, this will help me the rest of the year as I pivot more to swimming and biking.
-- Scripting can make the mundane magical: automating the data collection makes the process seamless and lets me focus on improving my activities.
+- Scripting removes the boring part: once the data collection was automatic, I could focus on the running.
 - You are stronger than you know, there were many days were I was in pain and felt like I had to quit, but I kept pushing myself to accomplish something that originally seemed impossible.
 
 Not only did I improve my average speed and distance, I dropped 20 lbs and set myself up for a successful rest of the year.

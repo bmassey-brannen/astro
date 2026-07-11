@@ -14,9 +14,8 @@ My previous employer switched over from the Microsoft suite to GSuite in the sum
 
 <b>Index(match, match):</b> So much cleaner and easier to use on Google Sheets vs. Excel.
 
-<b>Seamless Integration between GSuite:</b>
-No breaking connections to PowerPoint slides. Sheets’ integration into slides and docs is incredible compared to Excel -> PowerPoint
-Forms -> sheets is simple and easy too. Great for data collection
+<b>GSuite integration:</b>
+No broken PowerPoint links. Sheets connects cleanly to Slides and Docs, and Forms -> Sheets is simple enough that people actually use it.
 
 <b>Automation:</b> is easier
 Google Apps Scripts is easier and more relevant to know than VBA (Javascript is king)

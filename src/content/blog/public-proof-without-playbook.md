@@ -1,99 +1,86 @@
 ---
 title: "Public Proof Without Giving Away the Playbook"
-description: "How I think about building in public around Small Town Capital while keeping private research, structure, and execution details protected."
+description: "How I think about writing publicly about Small Town Capital without publishing the private research, structure, and execution details."
 pubDate: "2026-07-10"
 heroImage: "/blog-images/proof-without-playbook.svg"
 ---
 
-Building in public sounds simple until the work starts touching real decisions.
+Building in public gets weird once the work starts touching real decisions.
 
-If you are making a toy app, publish everything. If you are writing a tutorial, show the steps. If you are building a business where the edge is distribution, maybe the playbook can be the marketing.
+If you are making a toy app, publish everything. If you are writing a tutorial, show the steps. If distribution is the edge, maybe the playbook can be the marketing.
 
-Small Town Capital is different.
+Small Town Capital is not that.
 
-The public version should earn trust. The private version should protect judgment.
+The public version should earn trust. The private version has to protect judgment.
 
-That means I need a line.
+So I need a line.
 
 ## The site is a receipt layer
 
-BenBrannen.com is not supposed to be a hype machine.
+BenBrannen.com is not here to be a hype machine.
 
-It is a receipt layer.
+It is a place to leave receipts.
 
-A good public receipt can show:
-
-- what I am studying
-- what kind of systems I am building
-- how I think about risk
-- why source-backed research matters
-- where the process is improving
-- what I learned from mistakes
+A good public receipt can show what I am studying, what I am building, how I think about risk, why sources matter, and where I got something wrong.
 
 It does not need to show every model, every watchlist rule, every private workflow, every account detail, or every tactical decision.
 
-There is a difference between proof of work and proof of edge.
+Proof of work is not the same thing as proof of edge.
 
 ## The useful middle
 
-The useful public middle is where the writing is specific enough to be real but not so specific that it becomes operational leakage.
+The useful middle is specific enough to be real and careful enough not to leak the guts.
 
-For example, I can write about why decision logs matter without publishing the whole private decision log.
+I can write about decision logs without publishing the whole private decision log.
 
-I can write about why short calls can become handcuffs without turning a live options structure into content bait.
+I can write about short calls becoming handcuffs without turning a live structure into content bait.
 
-I can write about public-record discipline without carelessly turning open questions into accusations.
+I can write about public records without turning open questions into accusations.
 
-I can write about local capital and Waynesboro without pretending every idea is ready for public campaign mode.
+I can write about Waynesboro without pretending every idea is ready for campaign mode.
 
-That is the lane: process, principles, receipts, and lessons.
+That is the lane: process, principles, receipts, lessons.
 
 Not signals. Not instructions. Not a treasure map.
 
-## Public writing should make the private work sharper
+## Publishing is pressure
 
-The best reason to publish is not attention.
+The best reason to publish is not attention. It is pressure.
 
-It is pressure.
+Public writing asks an annoying question: can I explain this cleanly without exaggerating it?
 
-Public writing forces a question: can I explain this cleanly without exaggerating it?
+If I need mystery, jargon, or fake certainty to make an idea sound good, the idea probably needs more work. If a post sounds like it is trying too hard to be smart, that is a warning. If a claim cannot survive a source check, it should not be on the site.
 
-If I cannot explain the idea without leaning on mystery, jargon, or fake certainty, the idea probably needs more work. If a post sounds like it is trying too hard to sound smart, that is a useful warning. If a claim cannot survive a source check, it should not be published.
-
-That makes the public layer useful to the private layer.
-
-It tightens the language. It exposes weak thinking. It creates a record of what I believed before the outcome was obvious.
+That makes the public layer useful to the private one. It tightens the language. It exposes weak thinking. It leaves a timestamp on what I believed before the outcome was obvious.
 
 ## The rule
 
-The rule I am trying to follow is simple:
+Show enough of the machine to prove the reps are real. Keep back the parts that create unnecessary risk.
 
-> Show enough of the machine to prove that the reps are real. Do not publish the parts that create unnecessary risk.
+No live position theater. No private account screenshots. No copy-trade breadcrumbs. No pretending agent research is magic. No public certainty when the honest answer is still, "I am investigating."
 
-That means no live position theater, no private account screenshots, no copy-trade breadcrumbs, no pretending agent research is a magic oracle, and no public certainty where the honest answer is still "I am investigating."
-
-The better public voice is quieter and stronger:
+The better public voice is quieter:
 
 - here is what I saw
 - here is how I framed it
 - here is the source trail
 - here is what would make me wrong
-- here is what I changed after the mistake
+- here is what changed after the mistake
 - here is what I am building next
 
 That is enough.
 
-The goal is not to become loud. The goal is to become legible.
+I am not trying to become loud. I am trying to become legible.
 
-## Why this matters
+## Why it matters
 
-Small Town Capital is still an early operating identity. It is not trying to look larger than it is. It is trying to become more disciplined than it was.
+Small Town Capital is still an early operating identity. It does not need to look bigger than it is. It needs to become more disciplined than it was.
 
 That is a better promise.
 
 A polished site can lie. A receipt trail is harder to fake over time.
 
-So the public layer will keep improving: better essays, cleaner pages, sharper visuals, more useful build logs, fewer vague claims, and more honest notes about what is still unfinished.
+So the public layer should keep getting cleaner: better essays, sharper visuals, fewer vague claims, more honest notes about what is still unfinished.
 
 Public enough to build trust.
 

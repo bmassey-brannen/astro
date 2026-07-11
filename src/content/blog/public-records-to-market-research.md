@@ -103,9 +103,9 @@ If the record is strong, the record can speak for itself.
 
 ## Building the intelligence habit
 
-The more I work on these projects, the more convinced I am that the real skill is not having one big idea.
+The more I work on these projects, the less impressed I am by one big idea.
 
-The real skill is building the habit of capture and review.
+The useful skill is capture and review.
 
 When something interesting appears, capture it. When a source supports it, attach the source. When a thesis changes, log the change. When a trade closes, review the decision.
 
