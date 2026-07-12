@@ -1,60 +1,58 @@
 ---
 title: "UI Iteration Is Operating Discipline"
-description: "A short build note on why interface polish is not vanity when the screen is supposed to guide decisions under pressure."
+description: "A short build note on why interface polish matters when a screen is supposed to help you make decisions."
 pubDate: "2026-07-12"
 heroImage: "/blog-images/ui-iteration-discipline.png"
 ---
 
-A dashboard can be technically correct and still be useless.
+A dashboard can work and still be useless.
 
-That is the uncomfortable part.
+The API returns data. The build passes. The chart renders. The cards line up. Then you open the page and still cannot tell what matters.
 
-The API can work. The build can pass. The chart can render. The cards can align. And the screen can still fail because the operator cannot tell what matters.
+That is why I do not think UI polish is decoration. If the screen is supposed to help me decide, the layout is part of the decision process.
 
-That is why UI iteration is not vanity. It is operating discipline.
+## The first version shows what I misunderstood
 
-## The first version is usually a map of confusion
+Early interfaces usually reveal my assumptions.
 
-Early interfaces reveal what I thought the problem was.
+The next few versions reveal what I missed.
 
-The second and third versions reveal what the problem actually is.
+A crowded screen usually means I have not made enough choices yet. Every metric gets promoted. Every module wants attention. Every label can be defended. The result is a room full of people talking at once.
 
-A crowded screen usually means I have not made enough decisions yet. Every metric gets promoted. Every module wants attention. Every label is technically defensible. The result is a room full of people talking at once.
+Making it prettier helps only after the page knows what it is trying to say.
 
-The work is not making it prettier.
+The work is deciding what gets to speak first.
 
-The work is deciding who gets to speak first.
-
-## Visual hierarchy is a risk control
+## Hierarchy is a risk control
 
 If a screen is used around money, time, or judgment, hierarchy matters.
 
-The interface should make the safe path easier:
+The safer path should be easier to see:
 
 - current state before commentary
 - source and freshness before interpretation
-- decision-relevant numbers before decoration
+- useful numbers before decoration
 - warnings where mistakes actually happen
-- empty and failed states that do not pretend everything is fine
+- failed states that look failed
 
-That is not just design. That is risk management with CSS attached.
+That is design, but it is also risk control.
 
-## The phone tells the truth
+## The phone catches the lie
 
-Desktop can hide a lot of sins.
+Desktop hides problems.
 
-Mobile is less polite. A header that felt refined on a big monitor suddenly becomes a billboard. A hero image turns into a weird floating postage stamp. A card that looked balanced starts pushing the page sideways.
+Mobile does not. A header that felt fine on a monitor becomes a billboard. A hero image turns into a weird floating card. A layout that looked balanced starts pushing sideways.
 
-That is useful humiliation.
+Annoying, but useful.
 
-The phone is where the interface admits whether it is actually responsive or just wearing a responsive costume.
+The phone tells you whether the page is actually responsive or just pretending.
 
-## The goal is less friction, not more theater
+## Less theater
 
-The best UI improvement is often subtraction.
+A lot of UI improvement is subtraction.
 
-Remove the panel nobody uses. Rename the clever label. Stop making private infrastructure sound like a product. Move the explanation below the action. Make failed data look failed. Let the important number breathe.
+Remove the panel nobody uses. Rename the clever label. Stop making private infrastructure sound like a product. Move the explanation below the thing it explains. Make failed data look failed. Let the important number breathe.
 
-There is no trophy for making a command center look like a movie prop.
+There is no prize for making a command center look like a movie prop.
 
-The trophy is opening it when tired and still understanding what to do next.
+The win is opening it when I am tired and still knowing what to do next.

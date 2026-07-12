@@ -1,29 +1,29 @@
 ---
 title: "Claude, Codex, and the Receipt"
-description: "A note on using coding agents as workers without pretending they are magic: scoped tasks, review loops, receipts, and knowing who owns the final decision."
+description: "A note on using coding agents without letting them turn the repo into a mystery box."
 pubDate: "2026-07-12"
 heroImage: "/blog-images/agent-receipt-loop.png"
 ---
 
 The agent is not the boss.
 
-That is the first rule.
+Claude and Codex are useful because they move fast through a repo. That does not mean they have judgment. A wrong change made quickly is still a wrong change.
 
-Claude and Codex are useful because they can move through a repo faster than I can type, but speed is not judgment. A fast wrong answer is just a more efficient pothole.
+So I am trying to use them less like magic and more like workers: give them a small job, make the boundaries clear, review what changed, and require a receipt.
 
-So the work is not "let the AI build it."
+## Smaller tasks work better
 
-The work is building a loop where the agent can help without becoming a slot machine with file-system access.
+Agents get weird when the prompt is vague.
 
-## The useful unit is a bounded task
+"Make the site better" is how you end up with a stranger redecorating your kitchen.
 
-Agents get worse when the mission is foggy.
+This works better:
 
-"Make the site better" is foggy.
+> Tighten the homepage copy. Keep the layout. Do not expose private infrastructure. Run the build. Leave a receipt with changed files and anything that still needs review.
 
-"Tighten the homepage copy, preserve the current layout, do not expose private infrastructure, run the build, and leave a receipt" is something an agent can actually do.
+That is not fancy. It is just a scoped work order.
 
-The better the boundary, the better the output:
+The useful parts are usually the boring parts:
 
 ```text
 scope
@@ -34,44 +34,44 @@ things not to touch
 receipt required
 ```
 
-That sounds bureaucratic until you have watched an agent confidently improve the wrong thing for thirty minutes.
+I have learned to be annoying about this because the alternative is spending half an hour figuring out what the agent thought it was doing.
 
-## Receipts turn motion into progress
+## The receipt matters
 
-The receipt is the part I care about most.
+A receipt is not "done!"
 
-Not a victory lap. Not "all done!" Not a paragraph of vibes.
-
-A useful receipt answers:
+It should answer a few plain questions:
 
 - What changed?
-- What files were touched?
+- Which files changed?
 - What did you verify?
 - What failed?
-- What remains uncertain?
+- What is still uncertain?
 - Is it committed?
 - Is it pushed?
 
-Without that, the next session starts by excavating the previous one. That is how small projects become haunted houses.
+Without that, the next session starts with archaeology.
 
-## Two agents are not automatically a team
+That is how small projects get haunted. Nobody remembers which edit was intentional, which test passed, or whether the thing on the server matches the thing in the repo.
 
-Claude and Codex have different strengths, but the important part is not the mascot on the command line.
+## Two agents do not make a team by default
+
+Claude and Codex have different strengths, but the logo is not the important part.
 
 The important part is role separation.
 
-One worker edits. Another reviews. The human decides. The repo records.
+One worker edits. Another reviews. I decide. Git records.
 
-That sounds simple, but it changes the psychology. Instead of treating the agent like a genius intern, the system treats it like a fast contractor who still needs a punch list, a spec, and inspection before the keys get handed over.
+That setup changes the mood. The agent stops being a genius intern and becomes a fast contractor. Useful, but still someone whose work needs a punch list and inspection before it ships.
 
-## The human still owns the taste
+## Taste is still manual
 
-The agent can spot broken imports. It can refactor a component. It can run a test. It can even make a decent first draft.
+An agent can fix an import, refactor a component, run a build, and write a decent first draft.
 
-But it does not know when the thing feels fake.
+It cannot always tell when a sentence sounds fake.
 
-It does not know when the line sounds like a LinkedIn goblin. It does not know when a dashboard is technically clean but emotionally unusable. It does not know when a public page says too much about private machinery.
+It cannot tell when a dashboard is technically clean but annoying to use. It cannot tell when a public page says too much about private work. It cannot tell when a clever line is the wrong kind of clever.
 
-That is still my job.
+That part is still mine.
 
-The goal is not to replace taste. The goal is to protect enough time and attention that taste can show up before the deploy button does.
+The point is not to replace taste. The point is to save enough attention that taste is still available before I push.
