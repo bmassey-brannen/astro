@@ -1,32 +1,28 @@
 ---
 title: "A New Age"
-description: "Rebuilding My Development Environment"
+description: "Rebuilding my development environment."
 pubDate: "2026-05-05"
 heroImage: "/wizard.jpg"
 ---
 
-## Rebuilding My Development Environment
+## Rebuilding my development environment
 
-Over the past few years, I’ve accumulated a random collection of projects spanning analytics, automation, investing, Raspberry Pi builds, dashboards, and web development.
+Over the past few years I have collected a strange pile of projects: analytics, automation, investing notes, Raspberry Pi builds, dashboards, scripts, and websites.
 
-Recently, after building a new PC, I had to rebuild my development environment from scratch. While it was a little painful at first, it reminded me how important it is to keep systems simple and documented.
+After building a new PC, I had to rebuild the development environment from scratch. Annoying at first. Useful by the end.
 
-This website was originally built with Astro, and getting everything running locally again forced me to revisit:
+It forced me to revisit the basics:
 
-Git & GitHub workflows
-Node.js/npm
-VS Code setup
-Local development servers
-Project organization
+- Git and GitHub
+- Node and npm
+- VS Code
+- local dev servers
+- project folders and deployment habits
 
-I’m planning to use this site more actively going forward as a place to document projects, ideas, experiments, and lessons learned across:
+That kind of setup work is easy to ignore until it breaks. Then it becomes the whole project.
 
-investing
-automation
-AI workflows
-dashboards
-local research
-and building systems that compound over time
+I want this site to become a cleaner place to document what I am building across investing, automation, AI workflows, dashboards, local research, and whatever else keeps pulling at me.
 
-For now, this post is mostly a checkpoint:
-the builder workflow is back online.
+For now, this is a checkpoint.
+
+The builder workflow is back online.

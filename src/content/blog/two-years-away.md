@@ -5,69 +5,39 @@ pubDate: "May 6, 2026"
 heroImage: "/astro.jpg"
 ---
 
-## Fixing an Old Astro Site After Two Years Away
+## Fixing an old Astro site after two years away
 
-I recently built a new PC and realized I had not touched my personal website since 2024.
+I built a new PC and realized I had not touched my personal website since 2024.
 
-The site was originally built with Astro and hosted through GitHub Pages with a custom domain. At the time, everything worked great. Then life, work, kids, projects, and a hundred other distractions happened, and the site slowly became dormant.
+The site was built with Astro and hosted on GitHub Pages with a custom domain. It worked, then life happened: work, kids, side projects, distractions. The site stayed online, but the workflow went cold.
 
-After setting up my new machine, I decided to get the full development environment running again from scratch.
+When I tried to run it again, the rebuild started simple enough:
 
-I quickly realized how many moving pieces had quietly accumulated over the years.
+- install Git
+- install Node and npm
+- clone the repo
+- run the Astro dev server
 
-The rebuild started simple enough:
-- Install Git
-- Install Node.js/npm
-- Clone the repository
-- Run the Astro development server
+Within an hour I was debugging old deployment settings, Astro routing, GitHub Actions, GitHub Pages, and custom domain issues I had completely forgotten about.
 
-Within an hour I was deep into debugging old deployment configurations, Astro routing, GitHub Actions, GitHub Pages, and custom domain issues that I had completely forgotten about.
+The problems were not exotic:
 
-Some of the issues I ran into:
-- Missing Git and Node installations
+- missing Git and Node installs
 - Astro frontmatter validation errors
-- Old `/docs` GitHub Pages deployments conflicting with Astro's newer `/dist` output
-- Broken custom domain routing
-- CNAME placement issues
-- GitHub Actions deployment problems
-- Old configuration leftovers from my original Mac setup
+- old `/docs` publishing settings conflicting with Astro's `/dist` output
+- broken custom-domain routing
+- CNAME placement
+- GitHub Actions workflow leftovers
+- configuration debris from my old Mac setup
 
-At one point, the site was successfully deploying but still returning a 404 on both the GitHub Pages URL and my custom domain. The final issue ended up being a mix of outdated deployment settings and an old GitHub Pages workflow still trying to publish from the wrong folder.
+At one point the site deployed successfully and still returned a 404 on both GitHub Pages and the custom domain. The final fix was a mix of moving fully to GitHub Actions, updating the Astro config, putting the `CNAME` file in `public`, and rebuilding the deployment workflow cleanly.
 
-The fix ultimately came down to:
-- Switching GitHub Pages fully over to GitHub Actions
-- Updating the Astro config for the custom domain
-- Moving the `CNAME` file into the `public` directory
-- Rebuilding the deployment workflow from scratch
+Once it was live again, I realized I had rebuilt more than the website.
 
-Once everything finally went live again, I realized the biggest thing I had actually rebuilt was not the website itself.
+I had rebuilt the habit of shipping.
 
-It was the workflow.
+This site will probably hold a messy mix of analytics dashboards, automation, investing systems, Raspberry Pi projects, AI workflows, local research, trading ideas, data visualization, scripting, and infrastructure.
 
-There is something satisfying about getting back into:
-- building
-- debugging
-- writing
-- shipping
-- and making ideas public again
+That is fine. Not every project needs to become a startup or a polished product. Some things just need to be built, written down, and improved.
 
-Over the last few years I have accumulated a strange mix of interests and projects:
-- analytics dashboards
-- automation
-- investing systems
-- Raspberry Pi projects
-- AI workflows
-- local research projects
-- trading ideas
-- data visualization
-- scripting and infrastructure
-
-This site will probably become a place to document more of that moving forward.
-
-Not everything needs to become a startup or a polished product. Sometimes it is enough to simply build things, document the process, and keep the momentum alive.
-
-For now, this post is mostly a checkpoint.
-
-The site is back online.
-The workflow is working again.
-And builder mode is officially reactivated.
+For now, the site is back online and the workflow works again.

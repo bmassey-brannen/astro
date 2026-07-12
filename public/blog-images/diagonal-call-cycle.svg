@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" role="img" aria-labelledby="title desc">
+<title id="title">Diagonal call management loop</title>
+<desc id="desc">A simple cycle showing buy time, sell carefully, monitor extrinsic value, roll or close, and record the lesson.</desc>
+<rect width="1100" height="640" fill="#111b14"/>
+<text x="62" y="70" font-family="Georgia, serif" font-size="36" fill="#f2ead2">A diagonal is a management loop, not free income</text>
+<text x="62" y="104" font-family="Inter, Arial" font-size="18" fill="#d5caa9">The short call has to be managed against the reason you bought the LEAP.</text>
+<g font-family="Inter, Arial" font-size="18" fill="#f2ead2">
+  <rect x="80" y="170" width="250" height="118" rx="18" fill="#182a1e" stroke="#c9b46b"/>
+  <text x="112" y="215" font-size="24" font-family="Georgia, serif">1. Buy time</text>
+  <text x="112" y="247">Long-dated call gives</text><text x="112" y="273">the thesis room.</text>
+  <rect x="425" y="170" width="250" height="118" rx="18" fill="#182a1e" stroke="#c9b46b"/>
+  <text x="457" y="215" font-size="24" font-family="Georgia, serif">2. Sell carefully</text>
+  <text x="457" y="247">Short call finances,</text><text x="457" y="273">but also caps.</text>
+  <rect x="770" y="170" width="250" height="118" rx="18" fill="#182a1e" stroke="#c9b46b"/>
+  <text x="802" y="215" font-size="24" font-family="Georgia, serif">3. Watch extrinsic</text>
+  <text x="802" y="247">Theta helps only if</text><text x="802" y="273">value is left to decay.</text>
+  <rect x="600" y="405" width="250" height="118" rx="18" fill="#182a1e" stroke="#c9b46b"/>
+  <text x="632" y="450" font-size="24" font-family="Georgia, serif">4. Roll or close</text>
+  <text x="632" y="482">Remove handcuffs before</text><text x="632" y="508">they force the trade.</text>
+  <rect x="250" y="405" width="250" height="118" rx="18" fill="#182a1e" stroke="#c9b46b"/>
+  <text x="282" y="450" font-size="24" font-family="Georgia, serif">5. Write it down</text>
+  <text x="282" y="482">Cost, cap, reason,</text><text x="282" y="508">lesson, next rule.</text>
+</g>
+<g stroke="#c9b46b" stroke-width="4" fill="none" marker-end="url(#arrow)">
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#c9b46b"/></marker></defs>
+  <path d="M333 229 H414"/><path d="M678 229 H759"/><path d="M890 292 C875 355 835 390 785 406"/><path d="M595 465 H512"/><path d="M250 465 C142 445 111 336 154 292"/>
+</g>
+<text x="72" y="590" font-family="Inter, Arial" font-size="17" fill="#d5caa9">Rule: sell short calls as financing, not as handcuffs.</text>
+</svg>

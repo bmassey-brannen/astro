@@ -1,18 +1,20 @@
 ---
-title: "Announcement! Introducing BMBlogs 2.0!"
-description: "Announcing my new and improved website"
+title: "Announcement: BMBlogs 2.0"
+description: "Announcing my rebuilt personal website."
 pubDate: "September 29, 2023"
 heroImage: "/astronaut.jpg"
 ---
 
-## My New & Improved Website
+## The site is rebuilt
 
-I'm excited to share that I've recently rebuilt and upgraded my entire website! It is now powered by Astro JS and hosted on GitHub Pages at no cost.
+I rebuilt my personal website with Astro and moved the hosting to GitHub Pages.
 
-Two years back, I built my original website from the ground up using Vue JS & Firebase. It was a huge accomplishment to build this first site, but I rarely touched it after it was finalized. Since then, life got busy, and the site remained pretty much the same.
+The first version of the site was built with Vue and Firebase. Getting it online was a big deal at the time, but I barely touched it after launch. Work got busy, life got busy, and the site slowly turned into a time capsule.
 
-Recently, as I started penning down more thoughts and wanted to give the site a fresh feel, I realized a lot of the old tools I relied on weren’t being maintained anymore. That brought its own set of challenges when I wanted to tweak things here and there.
+When I came back to it, a lot of the old setup felt heavier than it needed to be. I wanted something easier to edit, easier to deploy, and less annoying to maintain.
 
-Switching to Astro JS gives me more control over the site's design and structure. I rebuilt the home page, cleaned up the about page, and migrated the old posts. The site finally feels easier to work on, which means I am more likely to actually use it."
+Astro fit that job.
 
-Can’t wait for you to check it out and share your thoughts! Enjoy exploring the new space, and stay tuned for more updates and stories coming your way!
+I rebuilt the homepage, cleaned up the About page, migrated the old posts, and got the site back into a place where I might actually use it.
+
+That is the point of this version: fewer moving parts, more writing, more project notes, and a site that does not fight me every time I want to change something.
