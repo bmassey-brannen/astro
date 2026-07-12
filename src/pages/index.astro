@@ -14,8 +14,11 @@ const sortedPosts = posts.sort((a, b) => {
   return dateB.getTime() - dateA.getTime();
 });
 
-const featuredPost = sortedPosts[0];
-const recentPosts = sortedPosts.slice(1, 4);
+const pinnedSlug = "how-i-think-about-leaps-and-diagonal-calls";
+const pinnedPost = sortedPosts.find((post) => post.slug === pinnedSlug) ?? sortedPosts[0];
+const recentPosts = sortedPosts
+  .filter((post) => post.slug !== pinnedPost?.slug)
+  .slice(0, 3);
 ---
 
 <!doctype html>
@@ -277,6 +280,16 @@ const recentPosts = sortedPosts.slice(1, 4);
         padding: 1.25rem 1.25rem 1.25rem 0;
       }
 
+      .pin-label {
+        color: var(--accent);
+        display: inline-block;
+        font-size: 0.78rem;
+        font-weight: 900;
+        letter-spacing: 0.14em;
+        margin-bottom: 0.35rem;
+        text-transform: uppercase;
+      }
+
       .feature-content h3 {
         font-size: clamp(1.55rem, 3vw, 2.15rem);
         margin-top: 0.4rem;
@@ -508,34 +521,35 @@ const recentPosts = sortedPosts.slice(1, 4);
       </section>
 
       {
-        featuredPost && (
+        pinnedPost && (
           <section aria-labelledby="featured-heading">
             <div class="section-heading">
-              <h2 id="featured-heading">Featured latest</h2>
+              <h2 id="featured-heading">Pinned post</h2>
               <a href="/blog/">All posts →</a>
             </div>
             <article class="feature-card">
-              <a href={`/blog/${featuredPost.slug}/`}>
-                {featuredPost.data.heroImage && (
+              <a href={`/blog/${pinnedPost.slug}/`}>
+                {pinnedPost.data.heroImage && (
                   <img
-                    src={featuredPost.data.heroImage}
-                    alt={featuredPost.data.title}
+                    src={pinnedPost.data.heroImage}
+                    alt={pinnedPost.data.title}
                     loading="eager"
                   />
                 )}
               </a>
               <div class="feature-content">
+                <span class="pin-label">Options structure note</span>
                 <div class="date">
-                  <FormattedDate date={featuredPost.data.pubDate} />
+                  <FormattedDate date={pinnedPost.data.pubDate} />
                 </div>
                 <h3>
-                  <a href={`/blog/${featuredPost.slug}/`}>
-                    {featuredPost.data.title}
+                  <a href={`/blog/${pinnedPost.slug}/`}>
+                    {pinnedPost.data.title}
                   </a>
                 </h3>
-                <p>{featuredPost.data.description}</p>
-                <a class="button secondary" href={`/blog/${featuredPost.slug}/`}>
-                  Read the post
+                <p>{pinnedPost.data.description}</p>
+                <a class="button secondary" href={`/blog/${pinnedPost.slug}/`}>
+                  Read the pinned post
                 </a>
               </div>
             </article>
