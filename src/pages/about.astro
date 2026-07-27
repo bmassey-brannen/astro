@@ -4,14 +4,15 @@ import Layout from "../layouts/BlogPost.astro";
 
 <Layout
   title="About Ben Brannen"
-  description="Ben Brannen builds practical intelligence tools for automation, market research, dashboards, source-backed systems, and Small Town Capital."
+  description="Ben Brannen builds practical intelligence tools for dashboards, market research, public records, automation, and Small Town Capital."
   pubDate={new Date("June 3 2026")}
   heroImage="/atl_thon.jpg"
 >
   <style>
     :global(.prose.prose) {
       width: min(920px, calc(100% - 2rem)) !important;
-      max-width: calc(100% - 2rem) !important;
+      max-width: 920px !important;
+      margin-inline: auto !important;
       padding-inline: 0 !important;
     }
 
@@ -19,27 +20,22 @@ import Layout from "../layouts/BlogPost.astro";
       max-width: none !important;
     }
 
-    .about-kicker {
-      color: var(--accent);
-      font-size: 0.85rem;
-      font-weight: 800;
-      letter-spacing: 0.12em;
-      margin-bottom: 0.75rem;
-      text-transform: uppercase;
-    }
-
     .about-lede {
-      color: rgb(var(--gray-dark));
+      color: rgb(var(--ink-muted));
       font-size: 1.25rem;
       line-height: 1.55;
       margin-bottom: 2rem;
     }
 
     .about-card {
-      background: rgba(255, 255, 255, 0.72);
-      border: 1px solid rgba(var(--gray), 0.18);
+      background:
+        linear-gradient(145deg, rgba(255, 255, 255, 0.105), rgba(255, 255, 255, 0.035)),
+        var(--glass-bg);
+      backdrop-filter: blur(18px) saturate(125%);
+      -webkit-backdrop-filter: blur(18px) saturate(125%);
+      border: 1px solid var(--glass-border);
       border-radius: 18px;
-      box-shadow: 0 10px 28px rgba(var(--gray), 0.12);
+      box-shadow: var(--glass-shadow);
       margin: 1.5rem 0;
       padding: 1.55rem 1.7rem;
     }
@@ -55,22 +51,22 @@ import Layout from "../layouts/BlogPost.astro";
     }
 
     .theme-panel > p {
-      color: rgb(var(--gray));
+      color: rgb(var(--ink-muted));
       margin-top: -0.25rem;
     }
 
     .theme-list {
       display: grid;
       gap: 1rem;
-      grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       list-style: none;
       margin: 1.25rem 0 0;
       padding: 0;
     }
 
     .theme-list li {
-      background: rgba(255, 255, 255, 0.62);
-      border: 1px solid rgba(var(--gray), 0.16);
+      background: rgba(255, 255, 255, 0.055);
+      border: 1px solid rgba(238, 243, 246, 0.12);
       border-radius: 14px;
       padding: 0.95rem;
     }
@@ -90,24 +86,28 @@ import Layout from "../layouts/BlogPost.astro";
     }
 
     .pill-list li {
-      background: rgba(55, 80, 92, 0.09);
-      border: 1px solid rgba(55, 80, 92, 0.18);
+      background: rgba(255, 255, 255, 0.055);
+      border: 1px solid rgba(238, 243, 246, 0.12);
       border-radius: 999px;
-      color: rgb(var(--gray-dark));
+      color: rgb(var(--ink));
       font-size: 0.88rem;
       line-height: 1.25;
       padding: 0.45rem 0.72rem;
     }
 
     .small-note {
-      color: rgb(var(--gray));
+      color: rgb(var(--ink-muted));
       font-size: 0.95rem;
       line-height: 1.6;
     }
 
     .connect-box {
-      background: linear-gradient(135deg, rgba(55, 80, 92, 0.12), rgba(31, 93, 66, 0.12));
-      border: 1px solid rgba(55, 80, 92, 0.2);
+      background:
+        linear-gradient(135deg, rgba(200, 155, 95, 0.12), rgba(55, 80, 92, 0.16)),
+        var(--glass-bg);
+      backdrop-filter: blur(18px) saturate(125%);
+      -webkit-backdrop-filter: blur(18px) saturate(125%);
+      border: 1px solid rgba(238, 243, 246, 0.14);
       border-radius: 20px;
       margin-top: 2rem;
       padding: 1.5rem;
@@ -117,79 +117,74 @@ import Layout from "../layouts/BlogPost.astro";
       .about-lede {
         font-size: 1.12rem;
       }
+
+      .theme-list {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 
-  <p class="about-kicker">Builder · Investigator · Operator</p>
-
   <p class="about-lede">
-    I’m Ben. I build practical tools around messy systems: dashboards,
-    automations, market notes, source-backed research, and small experiments that
-    turn confusion into something useful.
+    I’m Ben. I live in Waynesboro, Georgia, and I build practical tools around
+    messy systems: dashboards, market notes, public records, automation, and
+    small experiments that usually start because I wanted to understand something
+    better.
   </p>
 
   <div class="about-card">
     <h2>What I’m building now</h2>
     <p>
-      My current work is centered around <strong>Small Town Capital</strong>: a
-      research-driven operating identity for market speculation, local
-      intelligence, automation, public writing, and eventually real-world capital
-      allocation.
+      Most of the current work sits under the Small Town Capital idea: a private
+      market research dashboard, options notes, public-record projects, automation
+      workflows, and this site as the public notebook.
     </p>
     <p>
-      The public version is not a guru page or a victory-lap feed. It is an
-      operator journal: what I’m seeing, what I’m building, what I’m learning,
-      and where the process still needs work.
+      I use AI coding tools heavily, but the point is not to look automated. The
+      point is to build faster, keep better receipts, and still know what has to
+      be checked by hand.
     </p>
   </div>
 
   <section class="about-card theme-panel">
-    <h2>Systems and project themes</h2>
+    <h2>Things I keep coming back to</h2>
     <p>
-      The common thread is turning scattered information into cleaner decisions,
-      repeatable workflows, and a public trail of the work.
+      The common thread is taking scattered information and turning it into
+      cleaner decisions, repeatable workflows, and a public trail of the work.
     </p>
     <ul class="theme-list">
       <li>
-        <strong>Research dashboards</strong>
-        Turning notes, data, filings, and watchlists into decision systems.
+        <strong>Dashboards</strong>
+        Taking information that lives in ten scattered places and putting it in
+        one place I can actually use.
       </li>
       <li>
-        <strong>Automation workflows</strong>
-        Using scripts, APIs, spreadsheets, and agents to remove repetitive work.
+        <strong>Automation</strong>
+        Scripts, spreadsheets, APIs, and agents that remove repetitive work.
       </li>
       <li>
-        <strong>Source-backed research</strong>
-        Keeping claims tied to original sources, context, and open questions.
+        <strong>Investing</strong>
+        Researching companies, options structures, and trade decisions for my own
+        account, then writing down what I learn, especially the mistakes.
       </li>
       <li>
-        <strong>Trading Command Center</strong>
-        A private dashboard for market research, options structures, decision
-        logs, and review discipline.
-      </li>
-      <li>
-        <strong>Options Council</strong>
-        An agent-style framework for debating convexity, theta, risk, tactics,
-        and final trade verdicts.
-      </li>
-      <li>
-        <strong>Operator journal</strong>
-        Writing publicly about the process without pretending every idea is
-        already polished.
+        <strong>Public records</strong>
+        Filings, meeting minutes, property records, and datasets that are public
+        but annoying to use, plus tools that make the trail easier to follow.
       </li>
     </ul>
   </section>
 
   <div class="about-card">
-    <h2>How I think about the work</h2>
+    <h2>Why this site exists</h2>
     <p>
-      The loop is simple:
-      <strong>research → structure → publish → build → invest → learn → repeat.</strong>
+      Mostly to write things down. Projects make more sense to me after I explain
+      them, and half-finished experiments are easier to pick back up when there
+      are notes. If I cannot describe a project plainly, it probably is not as far
+      along as I think.
     </p>
     <p>
-      I’m interested in overlooked markets, overlooked towns, overlooked data,
-      and overlooked workflows. The goal is to build machines that remember the
-      thesis better than my emotions do.
+      The public version is an operator journal: what I saw, what I built, what
+      broke, and what became a rule for next time. The private work stays private.
     </p>
   </div>
 
@@ -217,23 +212,23 @@ import Layout from "../layouts/BlogPost.astro";
   </div>
 
   <div class="about-card">
-    <h2>Outside the terminal</h2>
+    <h2>Outside of projects</h2>
     <p>
-      I’m also a runner, skier, self-directed guitar player, and someone who has
-      learned a lot from turning personal challenges into data projects.
+      I’m also a runner, a skier, a self-taught guitar player, and someone who
+      has a habit of turning personal challenges into data projects.
     </p>
     <p>
-      One example: I once ran <a href="https://lookerstudio.google.com/u/0/reporting/29998d2b-7d6e-4f42-b4e7-cfa489bff4a9/page/tlXZD">102 straight days of 5K+</a>
-      and turned the streak into a dashboard. That is basically the theme here:
-      do the thing, instrument the thing, learn from the thing.
+      One example: I once ran <a href="https://lookerstudio.google.com/u/0/reporting/29998d2b-7d6e-4f42-b4e7-cfa489bff4a9/page/tlXZD">102 straight days of 5K or more</a>
+      and built a dashboard to keep score. Do the thing, track the thing, learn
+      from the thing.
     </p>
   </div>
 
   <div class="connect-box">
-    <h2>Let’s connect</h2>
+    <h2>Say hello</h2>
     <p>
-      If you’re interested in dashboards, automation, source-backed research,
-      market structure, Small Town Capital, or useful systems, reach out.
+      If you want to talk about dashboards, automation, public records, markets,
+      running, or a project you are building, reach out.
     </p>
     <p>
       Email: <a href="mailto:benjamin.m.brannen@gmail.com">benjamin.m.brannen@gmail.com</a><br />

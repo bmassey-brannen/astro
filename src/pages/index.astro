@@ -50,8 +50,13 @@ const recentPosts = sortedPosts
         margin: 1.65rem auto 2.15rem;
       }
 
+      .hero-copy {
+        border-radius: 28px;
+        padding: clamp(1.25rem, 3vw, 2rem);
+      }
+
       .eyebrow {
-        color: var(--accent);
+        color: var(--accent-warm);
         font-size: 0.82rem;
         font-weight: 900;
         letter-spacing: 0.14em;
@@ -69,7 +74,7 @@ const recentPosts = sortedPosts
       }
 
       .hero-lede {
-        color: rgb(var(--gray-dark));
+        color: rgb(var(--ink-muted));
         font-size: clamp(1.04rem, 1.8vw, 1.2rem);
         line-height: 1.55;
         max-width: 680px;
@@ -93,21 +98,26 @@ const recentPosts = sortedPosts
       }
 
       .button.primary {
-        background: var(--accent);
+        background: linear-gradient(135deg, #c89b5f, #8f6836);
+        box-shadow: 0 14px 34px rgba(200, 155, 95, 0.18);
         color: white;
       }
 
       .button.secondary {
-        background: rgba(55, 80, 92, 0.08);
-        border: 1px solid rgba(55, 80, 92, 0.18);
-        color: var(--accent-dark);
+        background: rgba(255, 255, 255, 0.055);
+        border: 1px solid rgba(238, 243, 246, 0.14);
+        color: rgb(var(--ink));
       }
 
       .portrait-card {
-        background: rgba(255, 255, 255, 0.72);
-        border: 1px solid rgba(var(--gray), 0.18);
+        background:
+          linear-gradient(145deg, rgba(255, 255, 255, 0.105), rgba(255, 255, 255, 0.035)),
+          var(--glass-bg);
+        backdrop-filter: blur(18px) saturate(125%);
+        -webkit-backdrop-filter: blur(18px) saturate(125%);
+        border: 1px solid var(--glass-border);
         border-radius: 24px;
-        box-shadow: 0 12px 30px rgba(var(--gray), 0.16);
+        box-shadow: var(--glass-shadow);
         margin: 0;
         overflow: hidden;
         max-width: 340px;
@@ -122,7 +132,7 @@ const recentPosts = sortedPosts
       }
 
       .portrait-card figcaption {
-        color: rgb(var(--gray));
+        color: rgb(var(--ink-muted));
         font-size: 0.9rem;
         line-height: 1.45;
         padding: 0.85rem 1rem 1rem;
@@ -153,10 +163,23 @@ const recentPosts = sortedPosts
       .focus-card,
       .feature-card,
       .post-card {
-        background: rgba(255, 255, 255, 0.75);
-        border: 1px solid rgba(var(--gray), 0.16);
+        background:
+          linear-gradient(145deg, rgba(255, 255, 255, 0.105), rgba(255, 255, 255, 0.035)),
+          var(--glass-bg);
+        backdrop-filter: blur(18px) saturate(125%);
+        -webkit-backdrop-filter: blur(18px) saturate(125%);
+        border: 1px solid var(--glass-border);
         border-radius: 22px;
-        box-shadow: 0 10px 28px rgba(var(--gray), 0.12);
+        box-shadow: var(--glass-shadow);
+        transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+      }
+
+      .focus-card:hover,
+      .feature-card:hover,
+      .post-card:hover {
+        border-color: rgba(200, 155, 95, 0.28);
+        box-shadow: 0 26px 76px rgba(0, 0, 0, 0.42), 0 0 34px rgba(200, 155, 95, 0.08);
+        transform: translateY(-2px);
       }
 
       .focus-card {
@@ -169,91 +192,10 @@ const recentPosts = sortedPosts
       }
 
       .focus-card p {
-        color: rgb(var(--gray-dark));
+        color: rgb(var(--ink-muted));
         font-size: 0.98rem;
         line-height: 1.55;
         margin-bottom: 0;
-      }
-
-      .proof-strip {
-        background: linear-gradient(135deg, rgba(55, 80, 92, 0.12), rgba(31, 93, 66, 0.12));
-        border: 1px solid rgba(55, 80, 92, 0.18);
-        border-radius: 24px;
-        margin: 2.35rem 0;
-        padding: 1.15rem 1.25rem;
-      }
-
-      .proof-strip p {
-        font-size: 1.08rem;
-        line-height: 1.65;
-        margin: 0;
-      }
-
-      .desk-grid {
-        display: grid;
-        gap: 1rem;
-        grid-template-columns: 1.1fr 0.9fr;
-        margin: 2.35rem 0;
-      }
-
-      .desk-panel {
-        background: #111b20;
-        border: 1px solid rgba(255, 255, 255, 0.12);
-        border-radius: 24px;
-        box-shadow: 0 18px 45px rgba(17, 27, 32, 0.22);
-        color: #edf3ed;
-        padding: 1.35rem;
-      }
-
-      .desk-panel h2,
-      .desk-panel h3 {
-        color: #fff8df;
-      }
-
-      .desk-panel h2 {
-        font-size: clamp(1.6rem, 3vw, 2.15rem);
-        margin-top: 0;
-      }
-
-      .desk-panel p {
-        color: rgba(237, 243, 237, 0.82);
-        line-height: 1.6;
-      }
-
-      .desk-list {
-        display: grid;
-        gap: 0.8rem;
-        list-style: none;
-        margin: 1rem 0 0;
-        padding: 0;
-      }
-
-      .desk-list li {
-        border-top: 1px solid rgba(255, 255, 255, 0.12);
-        padding-top: 0.8rem;
-      }
-
-      .desk-list strong {
-        color: #fff8df;
-        display: block;
-        margin-bottom: 0.15rem;
-      }
-
-      .private-note {
-        background: rgba(255, 248, 223, 0.78);
-        border: 1px solid rgba(55, 80, 92, 0.16);
-        border-radius: 24px;
-        box-shadow: 0 10px 28px rgba(var(--gray), 0.1);
-        padding: 1.35rem;
-      }
-
-      .private-note h3 {
-        margin-top: 0;
-      }
-
-      .private-note p {
-        color: rgb(var(--gray-dark));
-        line-height: 1.58;
       }
 
       .feature-card {
@@ -296,7 +238,7 @@ const recentPosts = sortedPosts
       }
 
       .date {
-        color: rgb(var(--gray));
+        color: rgb(var(--ink-muted));
         font-size: 0.9rem;
         font-weight: 700;
       }
@@ -335,11 +277,11 @@ const recentPosts = sortedPosts
 
       .post-card a:hover,
       .feature-card a:hover {
-        color: var(--accent-dark);
+        color: #f0c989;
       }
 
       .mini-note {
-        color: rgb(var(--gray));
+        color: rgb(var(--ink-muted));
         font-size: 0.95rem;
       }
 
@@ -347,7 +289,6 @@ const recentPosts = sortedPosts
         .hero,
         .feature-card,
         .focus-grid,
-        .desk-grid,
         .post-grid {
           grid-template-columns: 1fr;
         }
@@ -417,107 +358,57 @@ const recentPosts = sortedPosts
     <Header title={SITE_TITLE} />
     <main>
       <section class="hero">
-        <div>
-          <p class="eyebrow">Small Town Capital · Operator Journal</p>
-          <h1>The garage-built intelligence desk.</h1>
+        <div class="hero-copy glass-panel">
+          <p class="eyebrow">Operator journal · Project notebook</p>
+          <h1>Hi, I’m Ben.</h1>
           <p class="hero-lede">
-            I write about the work behind Small Town Capital: dashboards, public
-            records, market structure, local capital, and the little tools that
-            make messy systems easier to see. No guru act. No magic signals.
-            Just the notebook, the receipts, and the parts I can show without
-            giving away the playbook.
+            I build websites, dashboards, and small tools to understand messy
+            systems: markets, public records, local projects, data, and the
+            occasional personal experiment that gets out of hand. This site is
+            where I keep the notes, receipts, mistakes, and build logs.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="/blog/">Read the journal</a>
-            <a class="button secondary" href="/about/">About Ben</a>
+            <a class="button secondary" href="/about/">About me</a>
           </div>
         </div>
 
         <figure class="portrait-card">
           <img src="/bmbrun.jpg" alt="Ben Brannen running" />
           <figcaption>
-            Runner, builder, dashboard tinkerer, and operator behind Small Town
-            Capital.
+            Runner, dashboard tinkerer, market-note hoarder, and serial starter
+            of projects that turn into systems.
           </figcaption>
         </figure>
       </section>
 
       <section aria-labelledby="focus-heading">
         <div class="section-heading">
-          <h2 id="focus-heading">What this site is about</h2>
+          <h2 id="focus-heading">What shows up here</h2>
         </div>
         <div class="focus-grid">
           <article class="focus-card">
             <h3>Build logs</h3>
             <p>
-              Notes from building dashboards, trading tools, automations, and
-              research systems that make scattered information easier to act on.
+              Websites, dashboards, scripts, and tools I built because a system
+              was too scattered, too manual, or too annoying to leave alone.
             </p>
           </article>
           <article class="focus-card">
-            <h3>Market structure</h3>
+            <h3>Markets and mistakes</h3>
             <p>
-              Notes on options architecture, LEAPs, short-call handcuffs,
-              decision logs, and the discipline of not strangling a good trade
-              because I got impatient.
+              Notes on stocks, options, research structure, decision logs, and
+              the trading lessons I do not want to pay for twice.
             </p>
           </article>
           <article class="focus-card">
-            <h3>Public records</h3>
+            <h3>Public records and local data</h3>
             <p>
-              Research habits from following entities, incentives, filings,
-              meeting minutes, property records, and the paperwork trail.
+              Field notes from following paperwork, entities, incentives, meeting
+              minutes, property records, and the tools that make them usable.
             </p>
           </article>
         </div>
-      </section>
-
-      <section class="proof-strip" aria-label="Operating loop">
-        <p>
-          The loop is <strong>research → structure → publish → build → invest → learn → repeat.</strong>
-          This site is the public notebook for that loop. Enough proof to show
-          the work. Not so much detail that the playbook becomes a giveaway.
-        </p>
-      </section>
-
-      <section class="desk-grid" aria-labelledby="desk-heading">
-        <div class="desk-panel">
-          <p class="eyebrow">Current desk</p>
-          <h2 id="desk-heading">What I’m building toward</h2>
-          <p>
-            The private work is becoming a research terminal, market desk, source
-            tracker, and decision journal. The whole point is to keep the thesis
-            intact when emotion gets loud. The public work proves the reps are
-            happening.
-          </p>
-          <ul class="desk-list">
-            <li>
-              <strong>Research before reaction</strong>
-              Source-backed notes, not screenshots pretending to be a thesis.
-            </li>
-            <li>
-              <strong>Structure before exposure</strong>
-              Defined-risk thinking, patience, and fewer ways to cap the thing I was right about.
-            </li>
-            <li>
-              <strong>Receipts before reputation</strong>
-              Build logs and visible learning before any grand claim.
-            </li>
-          </ul>
-        </div>
-        <aside class="private-note">
-          <h3>What stays off the site</h3>
-          <p>
-            I am not publishing live trade instructions, private scanner rules,
-            account details, or anything that turns research into a copy-trade
-            circus. The public layer should make the work legible without leaking
-            the edge.
-          </p>
-          <p>
-            If a post sounds more like a field note than a sales page, good.
-            Public writing should show the work without turning the whole thing into a pitch. The useful parts are the source links, the lessons, and the process. The private edge stays private.
-          </p>
-        </aside>
       </section>
 
       {
@@ -559,7 +450,7 @@ const recentPosts = sortedPosts
 
       <section aria-labelledby="recent-heading">
         <div class="section-heading">
-          <h2 id="recent-heading">Recent field notes</h2>
+          <h2 id="recent-heading">Recent notes</h2>
           <a href="/blog/">Browse the archive →</a>
         </div>
         <div class="post-grid">

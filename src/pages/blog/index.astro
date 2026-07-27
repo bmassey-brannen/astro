@@ -44,12 +44,14 @@ const years = [...byYear.keys()].sort((a, b) => b - a);
       }
 
       .archive-hero {
+        border-radius: 28px;
         margin: 2rem 0 1.5rem;
         max-width: 820px;
+        padding: clamp(1.25rem, 3vw, 2rem);
       }
 
       .eyebrow {
-        color: var(--accent);
+        color: var(--accent-warm);
         font-size: 0.82rem;
         font-weight: 900;
         letter-spacing: 0.14em;
@@ -65,7 +67,7 @@ const years = [...byYear.keys()].sort((a, b) => b - a);
       }
 
       .archive-hero p {
-        color: rgb(var(--gray-dark));
+        color: rgb(var(--ink-muted));
         font-size: 1.12rem;
         line-height: 1.6;
         max-width: 720px;
@@ -73,11 +75,23 @@ const years = [...byYear.keys()].sort((a, b) => b - a);
 
       .feature-card,
       .post-card {
-        background: rgba(255, 255, 255, 0.78);
-        border: 1px solid rgba(var(--gray), 0.16);
+        background:
+          linear-gradient(145deg, rgba(255, 255, 255, 0.105), rgba(255, 255, 255, 0.035)),
+          var(--glass-bg);
+        backdrop-filter: blur(18px) saturate(125%);
+        -webkit-backdrop-filter: blur(18px) saturate(125%);
+        border: 1px solid var(--glass-border);
         border-radius: 24px;
-        box-shadow: 0 12px 30px rgba(var(--gray), 0.12);
+        box-shadow: var(--glass-shadow);
         overflow: hidden;
+        transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+      }
+
+      .feature-card:hover,
+      .post-card:hover {
+        border-color: rgba(200, 155, 95, 0.28);
+        box-shadow: 0 26px 76px rgba(0, 0, 0, 0.42), 0 0 34px rgba(200, 155, 95, 0.08);
+        transform: translateY(-2px);
       }
 
       .feature-card {
@@ -115,7 +129,7 @@ const years = [...byYear.keys()].sort((a, b) => b - a);
       }
 
       .date {
-        color: rgb(var(--gray));
+        color: rgb(var(--ink-muted));
         font-size: 0.9rem;
         font-weight: 800;
       }
@@ -128,10 +142,10 @@ const years = [...byYear.keys()].sort((a, b) => b - a);
 
       .button {
         align-items: center;
-        background: rgba(55, 80, 92, 0.08);
-        border: 1px solid rgba(55, 80, 92, 0.18);
+        background: rgba(255, 255, 255, 0.055);
+        border: 1px solid rgba(238, 243, 246, 0.14);
         border-radius: 999px;
-        color: var(--accent-dark);
+        color: rgb(var(--ink));
         display: inline-flex;
         font-weight: 800;
         line-height: 1;
@@ -146,7 +160,7 @@ const years = [...byYear.keys()].sort((a, b) => b - a);
 
       .year-group h2 {
         align-items: baseline;
-        color: rgb(var(--gray));
+        color: rgb(var(--ink-muted));
         display: flex;
         font-size: 1rem;
         font-weight: 900;
@@ -156,7 +170,7 @@ const years = [...byYear.keys()].sort((a, b) => b - a);
       }
 
       .year-group h2::after {
-        background: rgba(var(--gray), 0.25);
+        background: rgba(238, 243, 246, 0.15);
         content: "";
         flex: 1;
         height: 1px;
@@ -169,7 +183,7 @@ const years = [...byYear.keys()].sort((a, b) => b - a);
       }
 
       .entry {
-        border-bottom: 1px solid rgba(var(--gray), 0.16);
+        border-bottom: 1px solid rgba(238, 243, 246, 0.12);
       }
 
       .entry a {
@@ -180,7 +194,7 @@ const years = [...byYear.keys()].sort((a, b) => b - a);
       }
 
       .entry a:hover h3 {
-        color: var(--accent-dark);
+        color: #f0c989;
         text-decoration: underline;
       }
 
@@ -196,20 +210,11 @@ const years = [...byYear.keys()].sort((a, b) => b - a);
       }
 
       .entry p {
-        color: rgb(var(--gray));
+        color: rgb(var(--ink-muted));
         font-size: 0.96rem;
         grid-column: 2;
         line-height: 1.55;
         margin: 0.25rem 0 0;
-      }
-
-      .archive-note {
-        background: rgba(255, 248, 223, 0.78);
-        border: 1px solid rgba(55, 80, 92, 0.16);
-        border-radius: 22px;
-        color: rgb(var(--gray-dark));
-        margin: 2rem 0;
-        padding: 1.1rem 1.25rem;
       }
 
       @media (max-width: 860px) {
@@ -243,14 +248,13 @@ const years = [...byYear.keys()].sort((a, b) => b - a);
   <body>
     <Header />
     <main>
-      <section class="archive-hero">
+      <section class="archive-hero glass-panel">
         <p class="eyebrow">Operator journal</p>
-        <h1>Build logs, research notes, and field reports.</h1>
+        <h1>Build logs, market notes, and field reports.</h1>
         <p>
-          This is the public layer of the work: what I am learning while building
-          dashboards, research systems, local intelligence workflows, and Small
-          Town Capital. Enough of the process to be useful. Not enough to turn
-          the private playbook into a giveaway.
+          Notes from building dashboards, researching markets, following public
+          records, testing tools, and writing down the mistakes before they get
+          expensive. Public receipts, not trade alerts.
         </p>
       </section>
 
@@ -271,11 +275,6 @@ const years = [...byYear.keys()].sort((a, b) => b - a);
           </article>
         )
       }
-
-      <p class="archive-note">
-        Note: public posts are receipts and reflections. They are not trade alerts,
-        execution instructions, or a map of the private research system.
-      </p>
 
       {
         years.map((year) => (

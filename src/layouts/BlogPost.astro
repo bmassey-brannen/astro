@@ -30,7 +30,7 @@ const { title, description, pubDate, updatedDate, heroImage, journalFooter = fal
       main {
         width: calc(100% - 2em);
         max-width: 100%;
-        margin: 0;
+        margin: 0 auto;
       }
       .hero-image {
         width: 100%;
@@ -39,17 +39,17 @@ const { title, description, pubDate, updatedDate, heroImage, journalFooter = fal
         display: block;
         margin: 0 auto;
         border-radius: 12px;
-        box-shadow: var(--box-shadow);
+        box-shadow: var(--glass-shadow);
       }
       .prose {
         width: 720px;
         max-width: calc(100% - 2em);
         margin: auto;
         padding: 1em;
-        color: rgb(var(--gray-dark));
+        color: rgb(var(--ink));
       }
       .title {
-        border-bottom: 1px solid rgb(var(--gray-light));
+        border-bottom: 1px solid rgba(238, 243, 246, 0.12);
         margin: 0 0 2.25rem;
         padding: 1.5rem 0 1.75rem;
       }
@@ -61,7 +61,7 @@ const { title, description, pubDate, updatedDate, heroImage, journalFooter = fal
         text-wrap: balance;
       }
       .meta {
-        color: rgb(var(--gray));
+        color: var(--accent-warm);
         font-size: 0.85rem;
         font-weight: 700;
         letter-spacing: 0.08em;
@@ -69,14 +69,14 @@ const { title, description, pubDate, updatedDate, heroImage, journalFooter = fal
         text-transform: uppercase;
       }
       .last-updated-on {
-        color: rgb(var(--gray));
+        color: rgb(var(--ink-muted));
         font-size: 0.92rem;
         font-style: italic;
         margin-top: 0.7rem;
       }
       .post-footer {
-        border-top: 1px solid rgb(var(--gray-light));
-        color: rgb(var(--gray));
+        border-top: 1px solid rgba(238, 243, 246, 0.12);
+        color: rgb(var(--ink-muted));
         font-size: 0.95rem;
         line-height: 1.6;
         margin-top: 3.5rem;
