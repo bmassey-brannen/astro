@@ -1,0 +1,2472 @@
+{
+  "candidate_queue_is_trade_approved": false,
+  "contract_name": "estel_source_receipt_queue",
+  "contract_version": "1.0.0",
+  "generated_at": "2026-08-01T03:41:26+00:00",
+  "receipt_queue": [
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-30.",
+        "Company identity from SEC ticker map: MARKETAXESS HOLDINGS INC (CIK 0001278021)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 47,
+      "source_title": "SEC EDGAR 8-K for MARKETAXESS HOLDINGS INC",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1278021/000119312526324950/d121662d8k.htm",
+      "ticker": "MKTX"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 6-K filed 2026-07-30.",
+        "Company identity from SEC ticker map: PN Smart Energy Ltd (CIK 0002001288)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 48,
+      "source_title": "SEC EDGAR 6-K for PN Smart Energy Ltd",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/2001288/000192998026000399/skycorp_6k.htm",
+      "ticker": "PN"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 10-Q filed 2026-07-30.",
+        "Company identity from SEC ticker map: Bausch Health Companies Inc. (CIK 0000885590)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 49,
+      "source_title": "SEC EDGAR 10-Q for Bausch Health Companies Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/885590/000088559026000107/bhc-20260630.htm",
+      "ticker": "BHC"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 10-Q filed 2026-07-29.",
+        "Company identity from SEC ticker map: Porch Group, Inc. (CIK 0001784535)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 50,
+      "source_title": "SEC EDGAR 10-Q for Porch Group, Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1784535/000178453526000048/prch-20260630.htm",
+      "ticker": "PRCH"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-29.",
+        "Company identity from SEC ticker map: Sanara MedTech Inc. (CIK 0000714256)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 51,
+      "source_title": "SEC EDGAR 8-K for Sanara MedTech Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/714256/000149315226035196/form8-k.htm",
+      "ticker": "SMTI"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "MSFL"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-30.",
+        "Company identity from SEC ticker map: AXT INC (CIK 0001051627)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 52,
+      "source_title": "SEC EDGAR 8-K for AXT INC",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1051627/000143774926025061/axti20260609_8k.htm",
+      "ticker": "AXTI"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "ORCU"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-24.",
+        "Company identity from SEC ticker map: FARADAY FUTURE INTELLIGENT ELECTRIC INC. (CIK 0001805521)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 53,
+      "source_title": "SEC EDGAR 8-K for FARADAY FUTURE INTELLIGENT ELECTRIC INC.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1805521/000121390026081373/ea0299114-8k_faraday.htm",
+      "ticker": "FFAI"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 10-Q filed 2026-07-29.",
+        "Company identity from SEC ticker map: CORCEPT THERAPEUTICS INC (CIK 0001088856)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 54,
+      "source_title": "SEC EDGAR 10-Q for CORCEPT THERAPEUTICS INC",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1088856/000162828026050613/cort-20260630.htm",
+      "ticker": "CORT"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 10-Q filed 2026-07-31.",
+        "Company identity from SEC ticker map: Cactus, Inc. (CIK 0001699136)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 55,
+      "source_title": "SEC EDGAR 10-Q for Cactus, Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1699136/000162828026051177/whd-20260630.htm",
+      "ticker": "WHD"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 10-Q filed 2026-07-29.",
+        "Company identity from SEC ticker map: Sprouts Farmers Market, Inc. (CIK 0001575515)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 56,
+      "source_title": "SEC EDGAR 10-Q for Sprouts Farmers Market, Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1575515/000157551526000037/sfm-20260628.htm",
+      "ticker": "SFM"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 10-K filed 2026-07-29.",
+        "Company identity from SEC ticker map: MICROSOFT CORP (CIK 0000789019)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 57,
+      "source_title": "SEC EDGAR 10-K for MICROSOFT CORP",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "ticker": "MSFT"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 6-K filed 2026-07-08.",
+        "Company identity from SEC ticker map: Seanergy Maritime Holdings Corp. (CIK 0001448397)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 58,
+      "source_title": "SEC EDGAR 6-K for Seanergy Maritime Holdings Corp.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1448397/000114036126027976/ef20077570_6k.htm",
+      "ticker": "SHIP"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-05-14.",
+        "Company identity from SEC ticker map: Surrozen, Inc./DE (CIK 0001824893)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 59,
+      "source_title": "SEC EDGAR 8-K for Surrozen, Inc./DE",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1824893/000119312526224037/srzn-20260513.htm",
+      "ticker": "SRZN"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "MSFX"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "AMZU"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 10-Q filed 2026-07-30.",
+        "Company identity from SEC ticker map: BAXTER INTERNATIONAL INC (CIK 0000010456)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 60,
+      "source_title": "SEC EDGAR 10-Q for BAXTER INTERNATIONAL INC",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/10456/000162828026051118/bax-20260630.htm",
+      "ticker": "BAX"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-30.",
+        "Company identity from SEC ticker map: BLUE OWL CAPITAL INC. (CIK 0001823945)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 61,
+      "source_title": "SEC EDGAR 8-K for BLUE OWL CAPITAL INC.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1823945/000182394526000036/owl-20260730.htm",
+      "ticker": "OWL"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-24.",
+        "Company identity from SEC ticker map: Nuwellis, Inc. (CIK 0001506492)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 62,
+      "source_title": "SEC EDGAR 8-K for Nuwellis, Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1506492/000114036126029609/ef20078435_8k.htm",
+      "ticker": "NUWE"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-30.",
+        "Company identity from SEC ticker map: Xerox Holdings Corp (CIK 0001770450)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 63,
+      "source_title": "SEC EDGAR 8-K for Xerox Holdings Corp",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1770450/000177045026000034/xrx-20260730.htm",
+      "ticker": "XRX"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "AXTX"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-20.",
+        "Company identity from SEC ticker map: Fossil Group, Inc. (CIK 0000883569)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 64,
+      "source_title": "SEC EDGAR 8-K for Fossil Group, Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/883569/000088356926000049/fosl-20260720.htm",
+      "ticker": "FOSL"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 6-K filed 2026-07-30.",
+        "Company identity from SEC ticker map: Trekor Metals Ltd (CIK 0000878518)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 65,
+      "source_title": "SEC EDGAR 6-K for Trekor Metals Ltd",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/878518/000117184326005095/f6k_073026.htm",
+      "ticker": "TGB"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-30.",
+        "Company identity from SEC ticker map: MOHAWK INDUSTRIES INC (CIK 0000851968)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 66,
+      "source_title": "SEC EDGAR 8-K for MOHAWK INDUSTRIES INC",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/851968/000085196826000031/mhk-20260730.htm",
+      "ticker": "MHK"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "AIA"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 10-Q filed 2026-07-30.",
+        "Company identity from SEC ticker map: PBF Energy Inc. (CIK 0001534504)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 67,
+      "source_title": "SEC EDGAR 10-Q for PBF Energy Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1534504/000153450426000030/pbf-20260630.htm",
+      "ticker": "PBF"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 10-Q filed 2026-07-30.",
+        "Company identity from SEC ticker map: Butterfly Network, Inc. (CIK 0001804176)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 68,
+      "source_title": "SEC EDGAR 10-Q for Butterfly Network, Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1804176/000180417626000027/bfly-20260630.htm",
+      "ticker": "BFLY"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "MSFU"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 10-Q filed 2026-07-30.",
+        "Company identity from SEC ticker map: LINCOLN NATIONAL CORP (CIK 0000059558)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 69,
+      "source_title": "SEC EDGAR 10-Q for LINCOLN NATIONAL CORP",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/59558/000005955826000060/lnc-20260630.htm",
+      "ticker": "LNC"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-29.",
+        "Company identity from SEC ticker map: CHIPOTLE MEXICAN GRILL INC (CIK 0001058090)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 70,
+      "source_title": "SEC EDGAR 8-K for CHIPOTLE MEXICAN GRILL INC",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1058090/000105809026000063/cmg-20260729.htm",
+      "ticker": "CMG"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-06-04.",
+        "Company identity from SEC ticker map: Oruka Therapeutics, Inc. (CIK 0000907654)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 71,
+      "source_title": "SEC EDGAR 8-K for Oruka Therapeutics, Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/907654/000121390026065294/ea0293648-8k_oruka.htm",
+      "ticker": "ORKA"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-30.",
+        "Company identity from SEC ticker map: STEVEN MADDEN, LTD. (CIK 0000913241)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 72,
+      "source_title": "SEC EDGAR 8-K for STEVEN MADDEN, LTD.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/913241/000149315226035322/form8-k.htm",
+      "ticker": "SHOO"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "ORCX"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 10-Q filed 2026-05-13.",
+        "Company identity from SEC ticker map: SOLV Energy, Inc. (CIK 0002065636)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 73,
+      "source_title": "SEC EDGAR 10-Q for SOLV Energy, Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/2065636/000119312526220257/d27005d10q.htm",
+      "ticker": "MWH"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 10-Q filed 2026-07-30.",
+        "Company identity from SEC ticker map: Arxis, Inc. (CIK 0002093536)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 74,
+      "source_title": "SEC EDGAR 10-Q for Arxis, Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/2093536/000119312526325027/arxs-20260630.htm",
+      "ticker": "ARXS"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 10-K filed 2026-07-30.",
+        "Company identity from SEC ticker map: NEOGEN CORP (CIK 0000711377)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 75,
+      "source_title": "SEC EDGAR 10-K for NEOGEN CORP",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/711377/000119312526326092/neog-20260531.htm",
+      "ticker": "NEOG"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 10-Q filed 2026-07-30.",
+        "Company identity from SEC ticker map: Pagaya Technologies Ltd. (CIK 0001883085)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 76,
+      "source_title": "SEC EDGAR 10-Q for Pagaya Technologies Ltd.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1883085/000188308526000058/pgy-20260630.htm",
+      "ticker": "PGY"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 10-Q filed 2026-07-30.",
+        "Company identity from SEC ticker map: FEDERAL SIGNAL CORP /DE/ (CIK 0000277509)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 77,
+      "source_title": "SEC EDGAR 10-Q for FEDERAL SIGNAL CORP /DE/",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/277509/000162828026050993/fss-20260630.htm",
+      "ticker": "FSS"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 10-Q filed 2026-07-30.",
+        "Company identity from SEC ticker map: BELDEN INC. (CIK 0000913142)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 78,
+      "source_title": "SEC EDGAR 10-Q for BELDEN INC.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/913142/000091314226000034/bdc-20260628.htm",
+      "ticker": "BDC"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "SMU"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "ICLN"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-30.",
+        "Company identity from SEC ticker map: Glucotrack, Inc. (CIK 0001506983)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 79,
+      "source_title": "SEC EDGAR 8-K for Glucotrack, Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1506983/000149315226035503/form8-k.htm",
+      "ticker": "GCTK"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-29.",
+        "Company identity from SEC ticker map: Cycurion, Inc. (CIK 0001868419)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 80,
+      "source_title": "SEC EDGAR 8-K for Cycurion, Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1868419/000149315226035138/form8-k.htm",
+      "ticker": "CYCU"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 6-K filed 2026-07-14.",
+        "Company identity from SEC ticker map: Globavend Holdings Ltd (CIK 0001978527)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 81,
+      "source_title": "SEC EDGAR 6-K for Globavend Holdings Ltd",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1978527/000121390026077782/ea0297093-6k_globavend.htm",
+      "ticker": "GVH"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 6-K filed 2026-07-24.",
+        "Company identity from SEC ticker map: China SXT Pharmaceuticals, Inc. (CIK 0001723980)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 82,
+      "source_title": "SEC EDGAR 6-K for China SXT Pharmaceuticals, Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1723980/000121390026081405/ea0299108-6k_chinasxt.htm",
+      "ticker": "SXTC"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 6-K filed 2026-07-31.",
+        "Company identity from SEC ticker map: Diginex Ltd (CIK 0002010499)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 83,
+      "source_title": "SEC EDGAR 6-K for Diginex Ltd",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/2010499/000149315226035509/form6-k.htm",
+      "ticker": "DGNX"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-30.",
+        "Company identity from SEC ticker map: EASTMAN CHEMICAL CO (CIK 0000915389)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 84,
+      "source_title": "SEC EDGAR 8-K for EASTMAN CHEMICAL CO",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/915389/000091538926000138/emn-20260730.htm",
+      "ticker": "EMN"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-29.",
+        "Company identity from SEC ticker map: PROCORE TECHNOLOGIES, INC. (CIK 0001611052)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 85,
+      "source_title": "SEC EDGAR 8-K for PROCORE TECHNOLOGIES, INC.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1611052/000119312526323800/d119085d8k.htm",
+      "ticker": "PCOR"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-29.",
+        "Company identity from SEC ticker map: Adaptive Biotechnologies Corp (CIK 0001478320)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 86,
+      "source_title": "SEC EDGAR 8-K for Adaptive Biotechnologies Corp",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1478320/000119312526323753/adpt-20260724.htm",
+      "ticker": "ADPT"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-02.",
+        "Company identity from SEC ticker map: Terra Property Trust, Inc. (CIK 0001674356)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 87,
+      "source_title": "SEC EDGAR 8-K for Terra Property Trust, Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1674356/000110465926080408/tm2619604d1_8k.htm",
+      "ticker": "TPTS"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 6-K filed 2026-06-12.",
+        "Company identity from SEC ticker map: Intercorp Financial Services Inc. (CIK 0001615903)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 88,
+      "source_title": "SEC EDGAR 6-K for Intercorp Financial Services Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1615903/000119312526269749/ifs_-_6-k_-_auditors_202.htm",
+      "ticker": "IFS"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 10-Q filed 2026-07-30.",
+        "Company identity from SEC ticker map: Tempus AI, Inc. (CIK 0001717115)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 89,
+      "source_title": "SEC EDGAR 10-Q for Tempus AI, Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1717115/000119312526326090/tem-20260630.htm",
+      "ticker": "TEM"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-24.",
+        "Company identity from SEC ticker map: Hewlett Packard Enterprise Co (CIK 0001645590)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 90,
+      "source_title": "SEC EDGAR 8-K for Hewlett Packard Enterprise Co",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000072/hpe-20260724.htm",
+      "ticker": "HPE"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-06.",
+        "Company identity from SEC ticker map: Keel Infrastructure Corp. (CIK 0001812477)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 91,
+      "source_title": "SEC EDGAR 8-K for Keel Infrastructure Corp.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1812477/000121390026075205/ea0297077-8k_keelinfra.htm",
+      "ticker": "KEEL"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-07-30.",
+        "Company identity from SEC ticker map: T1 Energy Inc. (CIK 0001992243)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 92,
+      "source_title": "SEC EDGAR 8-K for T1 Energy Inc.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1992243/000121390026083033/ea0299711-8k_t1energy.htm",
+      "ticker": "TE"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "CBRG"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 8-K filed 2026-06-05.",
+        "Company identity from SEC ticker map: Invesco CurrencyShares Japanese Yen Trust (CIK 0001353613)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 93,
+      "source_title": "SEC EDGAR 8-K for Invesco CurrencyShares Japanese Yen Trust",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/1353613/000119312526259975/d146954d8k.htm",
+      "ticker": "FXY"
+    },
+    {
+      "blockers": [],
+      "confidence": "sec_primary_source",
+      "facts": [
+        "SEC EDGAR latest primary filing: 6-K filed 2026-07-30.",
+        "Company identity from SEC ticker map: Banco Santander, S.A. (CIK 0000891478)."
+      ],
+      "receipt_status": "present",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": 94,
+      "source_title": "SEC EDGAR 6-K for Banco Santander, S.A.",
+      "source_type": "filing",
+      "source_url_or_path": "https://www.sec.gov/Archives/edgar/data/891478/000095010326011481/dp250874_6k.htm",
+      "ticker": "SAN"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "URTH"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "KSA"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "STKH"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "SPHY"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "SKHX"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "APLD"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "VNET"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "AMKR"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "SEI"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "DRAM"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "RKLB"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "MULL"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "MARA"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "XE"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "SMR"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "NBIL"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "WULF"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "QBTS"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "RAM"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "ASTS"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "SKUU"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "ASTX"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "INFQ"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "IRE"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "MUU"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "CLSK"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "BE"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "NBIS"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "ONDS"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "DFNS"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "WU"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "TDOC"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "IREZ"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "TW"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "BEZ"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "PHAT"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "ALNY"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "BXMT"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "NBIZ"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "RTO"
+    },
+    {
+      "blockers": [
+        "primary_source_receipt_missing"
+      ],
+      "confidence": "missing",
+      "facts": [],
+      "receipt_status": "needs_primary_source",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_id": null,
+      "source_title": null,
+      "source_type": null,
+      "source_url_or_path": null,
+      "ticker": "LKQ"
+    }
+  ],
+  "receipt_queue_count": 100,
+  "safety": {
+    "broker_calls_enabled": false,
+    "broker_mutation_enabled": false,
+    "execution_controls": [],
+    "model_inference_enabled": false,
+    "model_training_enabled": false,
+    "order_intents_enabled": false,
+    "order_placement_enabled": false,
+    "read_only_research": true,
+    "supabase_writes_enabled": false
+  },
+  "status_counts": {
+    "needs_primary_source": 52,
+    "present": 48
+  }
+}

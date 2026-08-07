@@ -1,0 +1,69 @@
+{
+  "schema_version": "stc.estel_company_intelligence_contract.v1",
+  "generated_at": "2026-07-29T00:00:00Z",
+  "doctrine": "Estel is STC's longitudinal company memory: collect receipts, score the vibe, preserve history, and surface whether a company has improved or worsened enough to feed future campaigns.",
+  "roles": {
+    "shadowfax": "Finds smoke: price, volume, options, catalyst scent.",
+    "estel": "Knows the company: source receipts, legitimacy, fragility, convexity, vibe trend.",
+    "citadel": "Decides whether the setup deserves campaign/review path.",
+    "structure_lab": "Builds survivable options architecture only after thesis approval."
+  },
+  "profile_fields": [
+    "ticker",
+    "company_name",
+    "sector",
+    "industry",
+    "market_cap",
+    "business_summary",
+    "legitimacy_label",
+    "legitimacy_score",
+    "convexity_label",
+    "convexity_score",
+    "dilution_risk",
+    "reverse_split_risk",
+    "scam_risk",
+    "call_load_fit",
+    "what_makes_it_violent",
+    "what_makes_us_wrong",
+    "source_receipts",
+    "last_refreshed_at"
+  ],
+  "source_receipt_fields": [
+    "ticker",
+    "source_type",
+    "source_title",
+    "source_url",
+    "source_date",
+    "captured_at",
+    "facts",
+    "credibility_label"
+  ],
+  "vibe_snapshot_fields": {
+    "ticker": "Stock symbol.",
+    "snapshot_at": "Timestamp of the assessment.",
+    "vibe_label": "improving | worsening | stable_positive | stable_negative | unclear | unverified",
+    "vibe_score": "0-100 directional quality score.",
+    "direction": "improved | worsened | unchanged | first_read",
+    "prior_vibe_score": "Prior score if available.",
+    "delta_score": "Current score minus prior score.",
+    "improved_reasons": "Receipt-backed reasons the company improved.",
+    "worsened_reasons": "Receipt-backed reasons the company worsened.",
+    "unchanged_reasons": "Receipt-backed reasons the prior view still holds.",
+    "campaign_relevance_label": "campaign_candidate | research_more | watch | reject | avoid",
+    "campaign_relevance_score": "0-100 future campaign usefulness score.",
+    "what_changed": "Plain-English explanation of what changed.",
+    "what_to_watch_next": "Specific next receipts or catalysts needed.",
+    "source_receipt_ids": "Local Estel receipt IDs backing the assessment."
+  },
+  "safety": {
+    "read_only_research_memory": true,
+    "broker_calls_enabled": false,
+    "broker_mutation": false,
+    "order_intents_created": false,
+    "order_placement_enabled": false,
+    "live_trading_enabled": false,
+    "supabase_writes_in_first_slice": false,
+    "production_wiring_enabled": false
+  },
+  "next_build_slice": "Build local-only Estel vibe snapshot generator for top synced Shadowfax rows, then expose read-only trend badges in /research-candidates."
+}

@@ -1,0 +1,2993 @@
+{
+  "blocked_local_rows": [],
+  "counts": {
+    "blocked_local_rows": 0,
+    "local_rows": 50,
+    "planned_deletes": 0,
+    "planned_inserts": 50,
+    "planned_updates": 0,
+    "remote_rows": 0
+  },
+  "generated_at": "2026-07-29T17:06:20+00:00",
+  "mode": "dry_run_diff_only_no_network_no_writes",
+  "next_gate": "Founder approval required before any Supabase migration, credential wiring, network call, insert, update, or delete.",
+  "not_deleted_remote_only": [],
+  "planned_deletes": [],
+  "planned_inserts": [
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "ABM-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "ABM Industries Incorporated",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for ABM; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 0.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 30.5
+      },
+      "shadowfax_rank": 28.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "ABM",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "AMRC-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "Ameresco, Inc.",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for AMRC; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 25.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 31.0
+      },
+      "shadowfax_rank": 24.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "AMRC",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "AVTR-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "Avantor, Inc.",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for AVTR; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 0.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 34.4
+      },
+      "shadowfax_rank": 9.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "AVTR",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "BF.B-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 30.8
+      },
+      "shadowfax_rank": 27.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "BF.B",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "BOBS-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 32.0
+      },
+      "shadowfax_rank": 15.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "BOBS",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "CAKE-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "The Cheesecake Factory Incorporated",
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 39.8
+      },
+      "shadowfax_rank": 5.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "CAKE",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "CDE-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "Coeur Mining, Inc.",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for CDE; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 25.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 28.9
+      },
+      "shadowfax_rank": 41.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "CDE",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "COO-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "The Cooper Companies, Inc.",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for COO; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 0.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 31.3
+      },
+      "shadowfax_rank": 19.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "COO",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "DFNS-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 43.5
+      },
+      "shadowfax_rank": 3.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "DFNS",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "DOCU-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "DocuSign, Inc.",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for DOCU; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 0.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 29.4
+      },
+      "shadowfax_rank": 34.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "DOCU",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "EGG-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 32.0
+      },
+      "shadowfax_rank": 14.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "EGG",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "EPAM-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 28.8
+      },
+      "shadowfax_rank": 43.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "EPAM",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "EXLS-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 31.1
+      },
+      "shadowfax_rank": 21.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "EXLS",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "FOUR-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 31.2
+      },
+      "shadowfax_rank": 20.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "FOUR",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "FTRE-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 29.0
+      },
+      "shadowfax_rank": 39.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "FTRE",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "G-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 28.3
+      },
+      "shadowfax_rank": 50.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "G",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "GLOB-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 31.0
+      },
+      "shadowfax_rank": 23.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "GLOB",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "GLXY-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "Galaxy Digital Inc.",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for GLXY; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 0.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 29.2
+      },
+      "shadowfax_rank": 37.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "GLXY",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "GRMN-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "Garmin Ltd.",
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 67.7
+      },
+      "shadowfax_rank": 1.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "GRMN",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "GWRE-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "Guidewire Software, Inc.",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for GWRE; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 0.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 30.2
+      },
+      "shadowfax_rank": 29.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "GWRE",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "HAS-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 30.9
+      },
+      "shadowfax_rank": 25.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "HAS",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "ICLR-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 29.2
+      },
+      "shadowfax_rank": 36.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "ICLR",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "IMAX-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 28.7
+      },
+      "shadowfax_rank": 44.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "IMAX",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "INSM-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "Insmed Incorporated",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for INSM; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 0.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 31.0
+      },
+      "shadowfax_rank": 22.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "INSM",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "IQV-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 28.9
+      },
+      "shadowfax_rank": 40.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "IQV",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "ITRI-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 31.4
+      },
+      "shadowfax_rank": 18.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "ITRI",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "KEEL-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "Keel Infrastructure Corp.",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for KEEL; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 25.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 30.1
+      },
+      "shadowfax_rank": 31.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "KEEL",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "KNSA-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 36.3
+      },
+      "shadowfax_rank": 7.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "present"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "KNSA",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "KOD-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "Kodiak Sciences Inc",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for KOD; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 0.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 29.3
+      },
+      "shadowfax_rank": 35.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "KOD",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "LMT-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 28.6
+      },
+      "shadowfax_rank": 45.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "LMT",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "LULU-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "lululemon athletica inc.",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [],
+      "public_safe_thesis": "Insufficient verified business context for LULU; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 0.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 32.0
+      },
+      "shadowfax_rank": 11.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "ben_review",
+      "status": "candidate",
+      "ticker": "LULU",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "MAIR-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 32.0
+      },
+      "shadowfax_rank": 13.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "MAIR",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "MANH-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "Manhattan Associates, Inc.",
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 45.7
+      },
+      "shadowfax_rank": 2.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "MANH",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "MLYS-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "Mineralys Therapeutics, Inc.",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for MLYS; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 25.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 28.5
+      },
+      "shadowfax_rank": 48.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "MLYS",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "MRLN-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "Merlin, Inc.",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for MRLN; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 0.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 32.0
+      },
+      "shadowfax_rank": 12.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "MRLN",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "MSTR-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "Strategy Inc",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for MSTR; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 0.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 29.5
+      },
+      "shadowfax_rank": 33.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "MSTR",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "MUX-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "McEwen Inc.",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for MUX; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 25.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 28.6
+      },
+      "shadowfax_rank": 46.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "MUX",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "MUZ-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 35.9
+      },
+      "shadowfax_rank": 8.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "MUZ",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "NG-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "Novagold Resources Inc.",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for NG; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 25.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 30.9
+      },
+      "shadowfax_rank": 26.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "NG",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "NXPI-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "NXP Semiconductors N.V.",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for NXPI; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 25.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 29.7
+      },
+      "shadowfax_rank": 32.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "NXPI",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "PL-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "Planet Labs PBC",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for PL; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 0.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 31.8
+      },
+      "shadowfax_rank": 17.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "PL",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "PNR-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 28.3
+      },
+      "shadowfax_rank": 49.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "PNR",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "PSN-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "Parsons Corporation",
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 38.0
+      },
+      "shadowfax_rank": 6.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "PSN",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "SNDQ-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 42.0
+      },
+      "shadowfax_rank": 4.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "SNDQ",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "SOLV-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 28.9
+      },
+      "shadowfax_rank": 42.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "SOLV",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "UL-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 32.6
+      },
+      "shadowfax_rank": 10.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "present"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "UL",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "USO-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 29.1
+      },
+      "shadowfax_rank": 38.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "USO",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "VFC-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 30.2
+      },
+      "shadowfax_rank": 30.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "VFC",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "WLTH-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": "Wealthfront Corporation",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "missing_receipts": [
+        "options_chain_receipt_missing"
+      ],
+      "public_safe_thesis": "Insufficient verified business context for WLTH; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": 0.0,
+        "estel_legitimacy": 45.0,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 32.0
+      },
+      "shadowfax_rank": 16.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "estel_thesis",
+      "status": "watch",
+      "ticker": "WLTH",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [],
+      "campaign_type": "leap",
+      "candidate_id": "XOP-leap",
+      "citadel_review_status": "unreviewed",
+      "cloud_sensitivity": "internal_research_only",
+      "company_name": null,
+      "estel_confidence": null,
+      "estel_status": "missing",
+      "missing_receipts": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "public_safe_thesis": null,
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "scores": {
+        "catalyst": null,
+        "convexity": null,
+        "estel_legitimacy": null,
+        "liquidity": null,
+        "microstructure": null,
+        "options": null,
+        "shadowfax": 28.5
+      },
+      "shadowfax_rank": 47.0,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "source_registry_path": null,
+      "stage": "shadowfax_scent",
+      "status": "research_more",
+      "ticker": "XOP",
+      "violent_if": null,
+      "visibility": "internal",
+      "wrong_if": null
+    }
+  ],
+  "planned_updates": [],
+  "remote_fixture_path": "/root/kingbeemo-command-center/data/fixtures/supabase/leap_candidates_remote_empty.json",
+  "remote_schema_version": null,
+  "safety": {
+    "broker_mutation": false,
+    "founder_gate_required": true,
+    "order_intents_created": false,
+    "production_wiring_enabled": false,
+    "service_restarts": false,
+    "supabase_network_calls": false,
+    "supabase_writes": false
+  },
+  "schema_version": "stc.supabase_leap_candidate_diff.v1",
+  "source_preview_generated_at": "2026-07-29T17:06:20+00:00",
+  "source_preview_path": "/root/kingbeemo-command-center/data/outputs/supabase-leap-candidate-preview.json",
+  "source_schema_version": "stc.supabase_leap_candidate_preview.v1",
+  "target_table_draft": "leap_candidates"
+}

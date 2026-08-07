@@ -1,0 +1,1705 @@
+{
+  "agent": "Shadowfax",
+  "analyst_rating_mix": {
+    "Unknown": 50
+  },
+  "brief_path": "data/briefs/2026-08-07-shadowfax-top-50.md",
+  "candidate_queue_is_trade_approved": false,
+  "candidates": [
+    {
+      "decision": "run_market_runner",
+      "rank": 1,
+      "raw": {
+        "Dollar volume 1 day": "146050852",
+        "High": "15.4",
+        "Low": "6.65",
+        "Open": "7.3",
+        "Price": "8.29",
+        "Price change % 1 day": "20.3193",
+        "Relative volume 1 day": "60.4061",
+        "Shadowfax polygon reasons": "price in workable lane: 8.29; high volume: 12,672,415; strong dollar volume: $146.1M; relative volume spike vs prior day: 60.41x; large positive move: +20.32%",
+        "Shadowfax polygon score": "100.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "PN",
+        "Transactions": "201230",
+        "VWAP": "11.5251",
+        "Volume 1 day": "12672415"
+      },
+      "raw_row_number": 1,
+      "reasons": [
+        "price gate ok: 8.29",
+        "reported move/change: +20.3193%",
+        "relative volume strong: 60.4061x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 1,
+      "ticker": "PN",
+      "warnings": [
+        "thin volume: 60"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 2,
+      "raw": {
+        "Dollar volume 1 day": "707794430",
+        "High": "26.17",
+        "Low": "7.7101",
+        "Open": "8.26",
+        "Price": "9.83",
+        "Price change % 1 day": "194.2585",
+        "Relative volume 1 day": "5251.2837",
+        "Shadowfax polygon reasons": "price in workable lane: 9.83; high volume: 57,781,967; strong dollar volume: $707.8M; relative volume spike vs prior day: 5251.28x; large positive move: +194.26%",
+        "Shadowfax polygon score": "100.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "WYHG",
+        "Transactions": "1223348",
+        "VWAP": "12.2494",
+        "Volume 1 day": "57781967"
+      },
+      "raw_row_number": 2,
+      "reasons": [
+        "price gate ok: 9.83",
+        "reported move/change: +194.258%",
+        "relative volume strong: 5251.28x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 2,
+      "ticker": "WYHG",
+      "warnings": [
+        "thin volume: 5,251"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 3,
+      "raw": {
+        "Dollar volume 1 day": "105685551",
+        "High": "8.1",
+        "Low": "6.41",
+        "Open": "7.3",
+        "Price": "6.89",
+        "Price change % 1 day": "37.525",
+        "Relative volume 1 day": "11.5377",
+        "Shadowfax polygon reasons": "price in workable lane: 6.89; high volume: 14,401,127; strong dollar volume: $105.7M; relative volume spike vs prior day: 11.54x; large positive move: +37.52%",
+        "Shadowfax polygon score": "100.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "ASPN",
+        "Transactions": "125077",
+        "VWAP": "7.3387",
+        "Volume 1 day": "14401127"
+      },
+      "raw_row_number": 3,
+      "reasons": [
+        "price gate ok: 6.89",
+        "reported move/change: +37.525%",
+        "relative volume strong: 11.5377x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 3,
+      "ticker": "ASPN",
+      "warnings": [
+        "thin volume: 11"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 4,
+      "raw": {
+        "Dollar volume 1 day": "244151352",
+        "High": "25.4",
+        "Low": "22.6",
+        "Open": "22.998",
+        "Price": "24.32",
+        "Price change % 1 day": "17.6584",
+        "Relative volume 1 day": "4.1722",
+        "Shadowfax polygon reasons": "price in workable lane: 24.32; high volume: 10,039,655; strong dollar volume: $244.2M; relative volume spike vs prior day: 4.17x; large positive move: +17.66%",
+        "Shadowfax polygon score": "100.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "MGNI",
+        "Transactions": "87481",
+        "VWAP": "24.3187",
+        "Volume 1 day": "10039654"
+      },
+      "raw_row_number": 4,
+      "reasons": [
+        "price gate ok: 24.32",
+        "reported move/change: +17.6584%",
+        "relative volume strong: 4.1722x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 4,
+      "ticker": "MGNI",
+      "warnings": [
+        "thin volume: 4"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 5,
+      "raw": {
+        "Dollar volume 1 day": "731588869",
+        "High": "12.49",
+        "Low": "8.22",
+        "Open": "11.685",
+        "Price": "9.8",
+        "Price change % 1 day": "166.3043",
+        "Relative volume 1 day": "8.1245",
+        "Shadowfax polygon reasons": "price in workable lane: 9.80; high volume: 69,447,607; strong dollar volume: $731.6M; relative volume spike vs prior day: 8.12x; large positive move: +166.30%",
+        "Shadowfax polygon score": "100.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "CLRO",
+        "Transactions": "1031463",
+        "VWAP": "10.5344",
+        "Volume 1 day": "69447606"
+      },
+      "raw_row_number": 5,
+      "reasons": [
+        "price gate ok: 9.8",
+        "reported move/change: +166.304%",
+        "relative volume strong: 8.1245x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 5,
+      "ticker": "CLRO",
+      "warnings": [
+        "thin volume: 8"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 6,
+      "raw": {
+        "Dollar volume 1 day": "441318202",
+        "High": "6.39",
+        "Low": "5.63",
+        "Open": "5.95",
+        "Price": "6.21",
+        "Price change % 1 day": "43.0876",
+        "Relative volume 1 day": "4.7085",
+        "Shadowfax polygon reasons": "price in workable lane: 6.21; high volume: 73,430,649; strong dollar volume: $441.3M; relative volume spike vs prior day: 4.71x; large positive move: +43.09%",
+        "Shadowfax polygon score": "100.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "IOVA",
+        "Transactions": "226562",
+        "VWAP": "6.01",
+        "Volume 1 day": "73430649"
+      },
+      "raw_row_number": 6,
+      "reasons": [
+        "price gate ok: 6.21",
+        "reported move/change: +43.0876%",
+        "relative volume strong: 4.7085x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 6,
+      "ticker": "IOVA",
+      "warnings": [
+        "thin volume: 4"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 7,
+      "raw": {
+        "Dollar volume 1 day": "220129955",
+        "High": "28.42",
+        "Low": "22.75",
+        "Open": "25.8",
+        "Price": "25.26",
+        "Price change % 1 day": "28.8118",
+        "Relative volume 1 day": "6.9741",
+        "Shadowfax polygon reasons": "price in workable lane: 25.26; high volume: 8,432,773; strong dollar volume: $220.1M; relative volume spike vs prior day: 6.97x; large positive move: +28.81%",
+        "Shadowfax polygon score": "100.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "AEVA",
+        "Transactions": "91010",
+        "VWAP": "26.1041",
+        "Volume 1 day": "8432773"
+      },
+      "raw_row_number": 7,
+      "reasons": [
+        "price gate ok: 25.26",
+        "reported move/change: +28.8118%",
+        "relative volume strong: 6.9741x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 7,
+      "ticker": "AEVA",
+      "warnings": [
+        "thin volume: 6"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 8,
+      "raw": {
+        "Dollar volume 1 day": "1099535346",
+        "High": "33.41",
+        "Low": "27.76",
+        "Open": "28.3",
+        "Price": "31.25",
+        "Price change % 1 day": "20.5633",
+        "Relative volume 1 day": "3.6872",
+        "Shadowfax polygon reasons": "price in workable lane: 31.25; high volume: 34,856,642; strong dollar volume: $1099.5M; relative volume spike vs prior day: 3.69x; large positive move: +20.56%",
+        "Shadowfax polygon score": "100.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "CHYM",
+        "Transactions": "256319",
+        "VWAP": "31.5445",
+        "Volume 1 day": "34856642"
+      },
+      "raw_row_number": 8,
+      "reasons": [
+        "price gate ok: 31.25",
+        "reported move/change: +20.5633%",
+        "relative volume strong: 3.6872x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 8,
+      "ticker": "CHYM",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 9,
+      "raw": {
+        "Dollar volume 1 day": "109399706",
+        "High": "5.84",
+        "Low": "4.84",
+        "Open": "4.885",
+        "Price": "5.42",
+        "Price change % 1 day": "40.7792",
+        "Relative volume 1 day": "13.909",
+        "Shadowfax polygon reasons": "price in workable lane: 5.42; high volume: 20,096,572; strong dollar volume: $109.4M; relative volume spike vs prior day: 13.91x; large positive move: +40.78%",
+        "Shadowfax polygon score": "100.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "HNST",
+        "Transactions": "117797",
+        "VWAP": "5.4437",
+        "Volume 1 day": "20096571"
+      },
+      "raw_row_number": 9,
+      "reasons": [
+        "price gate ok: 5.42",
+        "reported move/change: +40.7792%",
+        "relative volume strong: 13.909x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 9,
+      "ticker": "HNST",
+      "warnings": [
+        "thin volume: 13"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 10,
+      "raw": {
+        "Dollar volume 1 day": "271195336",
+        "High": "9.7",
+        "Low": "6.0285",
+        "Open": "9.3",
+        "Price": "6.88",
+        "Price change % 1 day": "40.1222",
+        "Relative volume 1 day": "7.8621",
+        "Shadowfax polygon reasons": "price in workable lane: 6.88; high volume: 31,362,577; strong dollar volume: $271.2M; relative volume spike vs prior day: 7.86x; large positive move: +40.12%",
+        "Shadowfax polygon score": "100.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "PAVS",
+        "Transactions": "537346",
+        "VWAP": "8.6471",
+        "Volume 1 day": "31362576"
+      },
+      "raw_row_number": 10,
+      "reasons": [
+        "price gate ok: 6.88",
+        "reported move/change: +40.1222%",
+        "relative volume strong: 7.8621x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 10,
+      "ticker": "PAVS",
+      "warnings": [
+        "thin volume: 7"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 11,
+      "raw": {
+        "Dollar volume 1 day": "71554405",
+        "High": "26.615",
+        "Low": "25.4",
+        "Open": "25.94",
+        "Price": "25.95",
+        "Price change % 1 day": "25.9098",
+        "Relative volume 1 day": "4.5395",
+        "Shadowfax polygon reasons": "price in workable lane: 25.95; volume gate ok: 2,750,115; strong dollar volume: $71.6M; relative volume spike vs prior day: 4.54x; large positive move: +25.91%",
+        "Shadowfax polygon score": "93.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "WPP",
+        "Transactions": "31098",
+        "VWAP": "26.0187",
+        "Volume 1 day": "2750114"
+      },
+      "raw_row_number": 12,
+      "reasons": [
+        "price gate ok: 25.95",
+        "reported move/change: +25.9098%",
+        "relative volume strong: 4.5395x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 11,
+      "ticker": "WPP",
+      "warnings": [
+        "thin volume: 4"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 12,
+      "raw": {
+        "Dollar volume 1 day": "54678174",
+        "High": "29.278",
+        "Low": "26.3",
+        "Open": "27.59",
+        "Price": "28.16",
+        "Price change % 1 day": "15.4572",
+        "Relative volume 1 day": "5.1819",
+        "Shadowfax polygon reasons": "price in workable lane: 28.16; volume gate ok: 1,953,622; strong dollar volume: $54.7M; relative volume spike vs prior day: 5.18x; large positive move: +15.46%",
+        "Shadowfax polygon score": "93.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "TRUP",
+        "Transactions": "29502",
+        "VWAP": "27.9881",
+        "Volume 1 day": "1953622"
+      },
+      "raw_row_number": 13,
+      "reasons": [
+        "price gate ok: 28.16",
+        "reported move/change: +15.4572%",
+        "relative volume strong: 5.1819x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 12,
+      "ticker": "TRUP",
+      "warnings": [
+        "thin volume: 5"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 13,
+      "raw": {
+        "Dollar volume 1 day": "345749898",
+        "High": "107.13",
+        "Low": "99.5",
+        "Open": "99.5",
+        "Price": "104.31",
+        "Price change % 1 day": "13.6398",
+        "Relative volume 1 day": "3.1197",
+        "Shadowfax polygon reasons": "price in workable lane: 104.31; volume gate ok: 3,299,565; strong dollar volume: $345.7M; relative volume spike vs prior day: 3.12x; large positive move: +13.64%",
+        "Shadowfax polygon score": "93.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "TIGO",
+        "Transactions": "45976",
+        "VWAP": "104.7865",
+        "Volume 1 day": "3299565"
+      },
+      "raw_row_number": 14,
+      "reasons": [
+        "price gate ok: 104.31",
+        "reported move/change: +13.6398%",
+        "relative volume strong: 3.1197x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 13,
+      "ticker": "TIGO",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 14,
+      "raw": {
+        "Dollar volume 1 day": "136267293",
+        "High": "56.27",
+        "Low": "46.7001",
+        "Open": "48",
+        "Price": "52.4",
+        "Price change % 1 day": "13.3218",
+        "Relative volume 1 day": "3.0158",
+        "Shadowfax polygon reasons": "price in workable lane: 52.40; volume gate ok: 2,567,564; strong dollar volume: $136.3M; relative volume spike vs prior day: 3.02x; large positive move: +13.32%",
+        "Shadowfax polygon score": "93.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "GCT",
+        "Transactions": "41261",
+        "VWAP": "53.0726",
+        "Volume 1 day": "2567563"
+      },
+      "raw_row_number": 15,
+      "reasons": [
+        "price gate ok: 52.4",
+        "reported move/change: +13.3218%",
+        "relative volume strong: 3.0158x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 14,
+      "ticker": "GCT",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 15,
+      "raw": {
+        "Dollar volume 1 day": "59240812",
+        "High": "37.37",
+        "Low": "33.54",
+        "Open": "34.59",
+        "Price": "35.02",
+        "Price change % 1 day": "12.8585",
+        "Relative volume 1 day": "3.8387",
+        "Shadowfax polygon reasons": "price in workable lane: 35.02; volume gate ok: 1,633,833; strong dollar volume: $59.2M; relative volume spike vs prior day: 3.84x; large positive move: +12.86%",
+        "Shadowfax polygon score": "93.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "CDRE",
+        "Transactions": "21727",
+        "VWAP": "36.2588",
+        "Volume 1 day": "1633832"
+      },
+      "raw_row_number": 16,
+      "reasons": [
+        "price gate ok: 35.02",
+        "reported move/change: +12.8585%",
+        "relative volume strong: 3.8387x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 15,
+      "ticker": "CDRE",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 16,
+      "raw": {
+        "Dollar volume 1 day": "823409226",
+        "High": "220.4817",
+        "Low": "208",
+        "Open": "212.89",
+        "Price": "215.97",
+        "Price change % 1 day": "23.5526",
+        "Relative volume 1 day": "4.6148",
+        "Shadowfax polygon reasons": "price in workable lane: 215.97; volume gate ok: 3,831,195; strong dollar volume: $823.4M; relative volume spike vs prior day: 4.61x; large positive move: +23.55%",
+        "Shadowfax polygon score": "93.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "PAYC",
+        "Transactions": "74492",
+        "VWAP": "214.9223",
+        "Volume 1 day": "3831194"
+      },
+      "raw_row_number": 17,
+      "reasons": [
+        "price gate ok: 215.97",
+        "reported move/change: +23.5526%",
+        "relative volume strong: 4.6148x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 16,
+      "ticker": "PAYC",
+      "warnings": [
+        "thin volume: 4"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 17,
+      "raw": {
+        "Dollar volume 1 day": "220820188",
+        "High": "128.01",
+        "Low": "107.55",
+        "Open": "110.765",
+        "Price": "124.75",
+        "Price change % 1 day": "22.6165",
+        "Relative volume 1 day": "3.8251",
+        "Shadowfax polygon reasons": "price in workable lane: 124.75; volume gate ok: 1,819,509; strong dollar volume: $220.8M; relative volume spike vs prior day: 3.83x; large positive move: +22.62%",
+        "Shadowfax polygon score": "93.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "VAC",
+        "Transactions": "33330",
+        "VWAP": "121.3625",
+        "Volume 1 day": "1819509"
+      },
+      "raw_row_number": 18,
+      "reasons": [
+        "price gate ok: 124.75",
+        "reported move/change: +22.6165%",
+        "relative volume strong: 3.8251x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 17,
+      "ticker": "VAC",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 18,
+      "raw": {
+        "Dollar volume 1 day": "1645831937",
+        "High": "41.66",
+        "Low": "34.8",
+        "Open": "36.01",
+        "Price": "40.81",
+        "Price change % 1 day": "15.055",
+        "Relative volume 1 day": "2.3506",
+        "Shadowfax polygon reasons": "price in workable lane: 40.81; high volume: 41,035,822; strong dollar volume: $1645.8M; relative volume active vs prior day: 2.35x; large positive move: +15.05%",
+        "Shadowfax polygon score": "91.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "U",
+        "Transactions": "339184",
+        "VWAP": "40.1072",
+        "Volume 1 day": "41035822"
+      },
+      "raw_row_number": 23,
+      "reasons": [
+        "price gate ok: 40.81",
+        "reported move/change: +15.055%",
+        "relative volume strong: 2.3506x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 18,
+      "ticker": "U",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 19,
+      "raw": {
+        "Dollar volume 1 day": "1580556615",
+        "High": "137.7",
+        "Low": "126.15",
+        "Open": "128.22",
+        "Price": "132.55",
+        "Price change % 1 day": "33.8618",
+        "Relative volume 1 day": "2.4566",
+        "Shadowfax polygon reasons": "price in workable lane: 132.55; high volume: 12,036,146; strong dollar volume: $1580.6M; relative volume active vs prior day: 2.46x; large positive move: +33.86%",
+        "Shadowfax polygon score": "91.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "INSM",
+        "Transactions": "141846",
+        "VWAP": "131.3175",
+        "Volume 1 day": "12036146"
+      },
+      "raw_row_number": 24,
+      "reasons": [
+        "price gate ok: 132.55",
+        "reported move/change: +33.8618%",
+        "relative volume strong: 2.4566x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 19,
+      "ticker": "INSM",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 20,
+      "raw": {
+        "Dollar volume 1 day": "661952122",
+        "High": "8.19",
+        "Low": "7",
+        "Open": "8.045",
+        "Price": "7.08",
+        "Price change % 1 day": "10.1089",
+        "Relative volume 1 day": "2.4415",
+        "Shadowfax polygon reasons": "price in workable lane: 7.08; high volume: 89,567,975; strong dollar volume: $662.0M; relative volume active vs prior day: 2.44x; large positive move: +10.11%",
+        "Shadowfax polygon score": "91.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "SOUN",
+        "Transactions": "272751",
+        "VWAP": "7.3905",
+        "Volume 1 day": "89567975"
+      },
+      "raw_row_number": 27,
+      "reasons": [
+        "price gate ok: 7.08",
+        "reported move/change: +10.1089%",
+        "relative volume strong: 2.4415x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 20,
+      "ticker": "SOUN",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 21,
+      "raw": {
+        "Dollar volume 1 day": "75927583",
+        "High": "113.48",
+        "Low": "100.475",
+        "Open": "103.25",
+        "Price": "111.21",
+        "Price change % 1 day": "19.2601",
+        "Relative volume 1 day": "3.3151",
+        "Shadowfax polygon reasons": "price in workable lane: 111.21; strong dollar volume: $75.9M; relative volume spike vs prior day: 3.32x; large positive move: +19.26%",
+        "Shadowfax polygon score": "86.0",
+        "Shadowfax polygon warnings": "volume acceptable but thinner: 692,902",
+        "Symbol": "ALNT",
+        "Transactions": "14991",
+        "VWAP": "109.5791",
+        "Volume 1 day": "692902"
+      },
+      "raw_row_number": 37,
+      "reasons": [
+        "price gate ok: 111.21",
+        "reported move/change: +19.2601%",
+        "relative volume strong: 3.3151x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 21,
+      "ticker": "ALNT",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 22,
+      "raw": {
+        "Dollar volume 1 day": "19234039",
+        "High": "13.29",
+        "Low": "9.82",
+        "Open": "10.16",
+        "Price": "11.73",
+        "Price change % 1 day": "10.7649",
+        "Relative volume 1 day": "3.181",
+        "Shadowfax polygon reasons": "price in workable lane: 11.73; volume gate ok: 1,592,657; dollar volume workable: $19.2M; relative volume spike vs prior day: 3.18x; large positive move: +10.76%",
+        "Shadowfax polygon score": "85.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "POEL",
+        "Transactions": "6660",
+        "VWAP": "12.0767",
+        "Volume 1 day": "1592656"
+      },
+      "raw_row_number": 38,
+      "reasons": [
+        "price gate ok: 11.73",
+        "reported move/change: +10.7649%",
+        "relative volume strong: 3.181x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 22,
+      "ticker": "POEL",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 23,
+      "raw": {
+        "Dollar volume 1 day": "29500246",
+        "High": "12.32",
+        "Low": "11.08",
+        "Open": "11.305",
+        "Price": "11.88",
+        "Price change % 1 day": "12.8205",
+        "Relative volume 1 day": "3.1916",
+        "Shadowfax polygon reasons": "price in workable lane: 11.88; volume gate ok: 2,493,871; dollar volume workable: $29.5M; relative volume spike vs prior day: 3.19x; large positive move: +12.82%",
+        "Shadowfax polygon score": "85.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "ZVRA",
+        "Transactions": "29698",
+        "VWAP": "11.8291",
+        "Volume 1 day": "2493870"
+      },
+      "raw_row_number": 40,
+      "reasons": [
+        "price gate ok: 11.88",
+        "reported move/change: +12.8205%",
+        "relative volume strong: 3.1916x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 23,
+      "ticker": "ZVRA",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 24,
+      "raw": {
+        "Dollar volume 1 day": "24922157",
+        "High": "8.225",
+        "Low": "7.02",
+        "Open": "7.04",
+        "Price": "7.82",
+        "Price change % 1 day": "23.7342",
+        "Relative volume 1 day": "6.9877",
+        "Shadowfax polygon reasons": "price in workable lane: 7.82; volume gate ok: 3,169,669; dollar volume workable: $24.9M; relative volume spike vs prior day: 6.99x; large positive move: +23.73%",
+        "Shadowfax polygon score": "85.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "TASK",
+        "Transactions": "32127",
+        "VWAP": "7.8627",
+        "Volume 1 day": "3169669"
+      },
+      "raw_row_number": 42,
+      "reasons": [
+        "price gate ok: 7.82",
+        "reported move/change: +23.7342%",
+        "relative volume strong: 6.9877x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 24,
+      "ticker": "TASK",
+      "warnings": [
+        "thin volume: 6"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 25,
+      "raw": {
+        "Dollar volume 1 day": "13980331",
+        "High": "7.49",
+        "Low": "6.6",
+        "Open": "6.7",
+        "Price": "7.28",
+        "Price change % 1 day": "16.8539",
+        "Relative volume 1 day": "3.5598",
+        "Shadowfax polygon reasons": "price in workable lane: 7.28; volume gate ok: 1,923,149; dollar volume workable: $14.0M; relative volume spike vs prior day: 3.56x; large positive move: +16.85%",
+        "Shadowfax polygon score": "85.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "CION",
+        "Transactions": "16029",
+        "VWAP": "7.2695",
+        "Volume 1 day": "1923148"
+      },
+      "raw_row_number": 43,
+      "reasons": [
+        "price gate ok: 7.28",
+        "reported move/change: +16.8539%",
+        "relative volume strong: 3.5598x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 25,
+      "ticker": "CION",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 26,
+      "raw": {
+        "Dollar volume 1 day": "45223378",
+        "High": "15.62",
+        "Low": "14",
+        "Open": "14.03",
+        "Price": "15.47",
+        "Price change % 1 day": "22.4861",
+        "Relative volume 1 day": "6.8973",
+        "Shadowfax polygon reasons": "price in workable lane: 15.47; volume gate ok: 2,986,658; dollar volume workable: $45.2M; relative volume spike vs prior day: 6.90x; large positive move: +22.49%",
+        "Shadowfax polygon score": "85.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "DCTH",
+        "Transactions": "30942",
+        "VWAP": "15.1418",
+        "Volume 1 day": "2986658"
+      },
+      "raw_row_number": 44,
+      "reasons": [
+        "price gate ok: 15.47",
+        "reported move/change: +22.4861%",
+        "relative volume strong: 6.8973x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 26,
+      "ticker": "DCTH",
+      "warnings": [
+        "thin volume: 6"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 27,
+      "raw": {
+        "Dollar volume 1 day": "18068014",
+        "High": "8.7163",
+        "Low": "7.1",
+        "Open": "7.1",
+        "Price": "8.23",
+        "Price change % 1 day": "32.5282",
+        "Relative volume 1 day": "5.1394",
+        "Shadowfax polygon reasons": "price in workable lane: 8.23; volume gate ok: 2,196,212; dollar volume workable: $18.1M; relative volume spike vs prior day: 5.14x; large positive move: +32.53%",
+        "Shadowfax polygon score": "85.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "KRO",
+        "Transactions": "27123",
+        "VWAP": "8.2269",
+        "Volume 1 day": "2196211"
+      },
+      "raw_row_number": 45,
+      "reasons": [
+        "price gate ok: 8.23",
+        "reported move/change: +32.5282%",
+        "relative volume strong: 5.1394x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 27,
+      "ticker": "KRO",
+      "warnings": [
+        "thin volume: 5"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 28,
+      "raw": {
+        "Dollar volume 1 day": "18782476",
+        "High": "8.3",
+        "Low": "6.74",
+        "Open": "6.74",
+        "Price": "8.05",
+        "Price change % 1 day": "32.8383",
+        "Relative volume 1 day": "4.9081",
+        "Shadowfax polygon reasons": "price in workable lane: 8.05; volume gate ok: 2,452,181; dollar volume workable: $18.8M; relative volume spike vs prior day: 4.91x; large positive move: +32.84%",
+        "Shadowfax polygon score": "85.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "OPRT",
+        "Transactions": "28797",
+        "VWAP": "7.6595",
+        "Volume 1 day": "2452180"
+      },
+      "raw_row_number": 46,
+      "reasons": [
+        "price gate ok: 8.05",
+        "reported move/change: +32.8383%",
+        "relative volume strong: 4.9081x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 28,
+      "ticker": "OPRT",
+      "warnings": [
+        "thin volume: 4"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 29,
+      "raw": {
+        "Dollar volume 1 day": "29192922",
+        "High": "21.8",
+        "Low": "18.845",
+        "Open": "19.05",
+        "Price": "20.88",
+        "Price change % 1 day": "13.6636",
+        "Relative volume 1 day": "7.111",
+        "Shadowfax polygon reasons": "price in workable lane: 20.88; volume gate ok: 1,388,632; dollar volume workable: $29.2M; relative volume spike vs prior day: 7.11x; large positive move: +13.66%",
+        "Shadowfax polygon score": "85.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "ZLAB",
+        "Transactions": "20673",
+        "VWAP": "21.0228",
+        "Volume 1 day": "1388631"
+      },
+      "raw_row_number": 47,
+      "reasons": [
+        "price gate ok: 20.88",
+        "reported move/change: +13.6636%",
+        "relative volume strong: 7.111x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 29,
+      "ticker": "ZLAB",
+      "warnings": [
+        "thin volume: 7"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 30,
+      "raw": {
+        "Dollar volume 1 day": "36379125",
+        "High": "36.5",
+        "Low": "31.15",
+        "Open": "34.54",
+        "Price": "35.21",
+        "Price change % 1 day": "16.4737",
+        "Relative volume 1 day": "3.7575",
+        "Shadowfax polygon reasons": "price in workable lane: 35.21; volume gate ok: 1,064,913; dollar volume workable: $36.4M; relative volume spike vs prior day: 3.76x; large positive move: +16.47%",
+        "Shadowfax polygon score": "85.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "HRTG",
+        "Transactions": "17662",
+        "VWAP": "34.1616",
+        "Volume 1 day": "1064912"
+      },
+      "raw_row_number": 48,
+      "reasons": [
+        "price gate ok: 35.21",
+        "reported move/change: +16.4737%",
+        "relative volume strong: 3.7575x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 30,
+      "ticker": "HRTG",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 31,
+      "raw": {
+        "Dollar volume 1 day": "40604660",
+        "High": "12.84",
+        "Low": "10.3",
+        "Open": "10.36",
+        "Price": "12.4",
+        "Price change % 1 day": "29.3014",
+        "Relative volume 1 day": "4.2007",
+        "Shadowfax polygon reasons": "price in workable lane: 12.40; volume gate ok: 3,326,642; dollar volume workable: $40.6M; relative volume spike vs prior day: 4.20x; large positive move: +29.30%",
+        "Shadowfax polygon score": "85.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "PAYS",
+        "Transactions": "36886",
+        "VWAP": "12.2059",
+        "Volume 1 day": "3326642"
+      },
+      "raw_row_number": 49,
+      "reasons": [
+        "price gate ok: 12.4",
+        "reported move/change: +29.3014%",
+        "relative volume strong: 4.2007x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 31,
+      "ticker": "PAYS",
+      "warnings": [
+        "thin volume: 4"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 32,
+      "raw": {
+        "Dollar volume 1 day": "110540884",
+        "High": "24.58",
+        "Low": "21.46",
+        "Open": "22.155",
+        "Price": "24.12",
+        "Price change % 1 day": "17.3152",
+        "Relative volume 1 day": "2.9548",
+        "Shadowfax polygon reasons": "price in workable lane: 24.12; volume gate ok: 4,725,747; strong dollar volume: $110.5M; relative volume active vs prior day: 2.95x; large positive move: +17.32%",
+        "Shadowfax polygon score": "84.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "FA",
+        "Transactions": "54249",
+        "VWAP": "23.3912",
+        "Volume 1 day": "4725746"
+      },
+      "raw_row_number": 51,
+      "reasons": [
+        "price gate ok: 24.12",
+        "reported move/change: +17.3152%",
+        "relative volume strong: 2.9548x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 32,
+      "ticker": "FA",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 33,
+      "raw": {
+        "Dollar volume 1 day": "72366300",
+        "High": "57.25",
+        "Low": "51.241",
+        "Open": "52.53",
+        "Price": "56.84",
+        "Price change % 1 day": "10.6482",
+        "Relative volume 1 day": "2.6779",
+        "Shadowfax polygon reasons": "price in workable lane: 56.84; volume gate ok: 1,311,506; strong dollar volume: $72.4M; relative volume active vs prior day: 2.68x; large positive move: +10.65%",
+        "Shadowfax polygon score": "84.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "DPC",
+        "Transactions": "16442",
+        "VWAP": "55.178",
+        "Volume 1 day": "1311506"
+      },
+      "raw_row_number": 52,
+      "reasons": [
+        "price gate ok: 56.84",
+        "reported move/change: +10.6482%",
+        "relative volume strong: 2.6779x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 33,
+      "ticker": "DPC",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 34,
+      "raw": {
+        "Dollar volume 1 day": "96206455",
+        "High": "37.855",
+        "Low": "34.38",
+        "Open": "35.52",
+        "Price": "37.07",
+        "Price change % 1 day": "11.3882",
+        "Relative volume 1 day": "2.9564",
+        "Shadowfax polygon reasons": "price in workable lane: 37.07; volume gate ok: 2,585,278; strong dollar volume: $96.2M; relative volume active vs prior day: 2.96x; large positive move: +11.39%",
+        "Shadowfax polygon score": "84.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "HP",
+        "Transactions": "34385",
+        "VWAP": "37.2132",
+        "Volume 1 day": "2585277"
+      },
+      "raw_row_number": 55,
+      "reasons": [
+        "price gate ok: 37.07",
+        "reported move/change: +11.3882%",
+        "relative volume strong: 2.9564x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 34,
+      "ticker": "HP",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 35,
+      "raw": {
+        "Dollar volume 1 day": "392733485",
+        "High": "137.15",
+        "Low": "117.5",
+        "Open": "119.74",
+        "Price": "134.78",
+        "Price change % 1 day": "11.1588",
+        "Relative volume 1 day": "2.123",
+        "Shadowfax polygon reasons": "price in workable lane: 134.78; volume gate ok: 2,943,881; strong dollar volume: $392.7M; relative volume active vs prior day: 2.12x; large positive move: +11.16%",
+        "Shadowfax polygon score": "84.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "SMTC",
+        "Transactions": "50567",
+        "VWAP": "133.4067",
+        "Volume 1 day": "2943881"
+      },
+      "raw_row_number": 57,
+      "reasons": [
+        "price gate ok: 134.78",
+        "reported move/change: +11.1588%",
+        "relative volume strong: 2.123x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 35,
+      "ticker": "SMTC",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 36,
+      "raw": {
+        "Dollar volume 1 day": "91852353",
+        "High": "13.9",
+        "Low": "11.58",
+        "Open": "11.78",
+        "Price": "12.86",
+        "Price change % 1 day": "8.7067",
+        "Relative volume 1 day": "2.5441",
+        "Shadowfax polygon reasons": "price in workable lane: 12.86; high volume: 7,281,432; strong dollar volume: $91.9M; relative volume active vs prior day: 2.54x; positive momentum: +8.71%",
+        "Shadowfax polygon score": "83.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "REPL",
+        "Transactions": "64069",
+        "VWAP": "12.6146",
+        "Volume 1 day": "7281432"
+      },
+      "raw_row_number": 64,
+      "reasons": [
+        "price gate ok: 12.86",
+        "reported move/change: +8.7067%",
+        "relative volume strong: 2.5441x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 36,
+      "ticker": "REPL",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 37,
+      "raw": {
+        "Dollar volume 1 day": "65468683",
+        "High": "11.44",
+        "Low": "10.51",
+        "Open": "10.51",
+        "Price": "11.33",
+        "Price change % 1 day": "8.7332",
+        "Relative volume 1 day": "2.1009",
+        "Shadowfax polygon reasons": "price in workable lane: 11.33; high volume: 5,860,436; strong dollar volume: $65.5M; relative volume active vs prior day: 2.10x; positive momentum: +8.73%",
+        "Shadowfax polygon score": "83.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "OTF",
+        "Transactions": "40829",
+        "VWAP": "11.1713",
+        "Volume 1 day": "5860435"
+      },
+      "raw_row_number": 72,
+      "reasons": [
+        "price gate ok: 11.33",
+        "reported move/change: +8.7332%",
+        "relative volume strong: 2.1009x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 37,
+      "ticker": "OTF",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 38,
+      "raw": {
+        "Dollar volume 1 day": "556361814",
+        "High": "382.54",
+        "Low": "343.73",
+        "Open": "350.47",
+        "Price": "370.16",
+        "Price change % 1 day": "15.954",
+        "Relative volume 1 day": "5.4821",
+        "Shadowfax polygon reasons": "volume gate ok: 1,507,119; strong dollar volume: $556.4M; relative volume spike vs prior day: 5.48x; large positive move: +15.95%",
+        "Shadowfax polygon score": "81.0",
+        "Shadowfax polygon warnings": "price outside default lane: 370.16",
+        "Symbol": "PRAX",
+        "Transactions": "41563",
+        "VWAP": "369.1559",
+        "Volume 1 day": "1507118"
+      },
+      "raw_row_number": 86,
+      "reasons": [
+        "price gate ok: 370.16",
+        "reported move/change: +15.954%",
+        "relative volume strong: 5.4821x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 38,
+      "ticker": "PRAX",
+      "warnings": [
+        "thin volume: 5"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 39,
+      "raw": {
+        "Dollar volume 1 day": "64750820",
+        "High": "83.42",
+        "Low": "70.63",
+        "Open": "76.88",
+        "Price": "83.01",
+        "Price change % 1 day": "14.1031",
+        "Relative volume 1 day": "2.3574",
+        "Shadowfax polygon reasons": "price in workable lane: 83.01; strong dollar volume: $64.8M; relative volume active vs prior day: 2.36x; large positive move: +14.10%",
+        "Shadowfax polygon score": "77.0",
+        "Shadowfax polygon warnings": "volume acceptable but thinner: 792,112",
+        "Symbol": "DGII",
+        "Transactions": "17376",
+        "VWAP": "81.7445",
+        "Volume 1 day": "792112"
+      },
+      "raw_row_number": 92,
+      "reasons": [
+        "price gate ok: 83.01",
+        "reported move/change: +14.1031%",
+        "relative volume strong: 2.3574x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 39,
+      "ticker": "DGII",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 40,
+      "raw": {
+        "Dollar volume 1 day": "21273244",
+        "High": "7.52",
+        "Low": "6.54",
+        "Open": "6.99",
+        "Price": "7.41",
+        "Price change % 1 day": "19.9029",
+        "Relative volume 1 day": "2.5155",
+        "Shadowfax polygon reasons": "price in workable lane: 7.41; volume gate ok: 2,919,903; dollar volume workable: $21.3M; relative volume active vs prior day: 2.52x; large positive move: +19.90%",
+        "Shadowfax polygon score": "76.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "EOLS",
+        "Transactions": "38050",
+        "VWAP": "7.2856",
+        "Volume 1 day": "2919902"
+      },
+      "raw_row_number": 99,
+      "reasons": [
+        "price gate ok: 7.41",
+        "reported move/change: +19.9029%",
+        "relative volume strong: 2.5155x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 40,
+      "ticker": "EOLS",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 41,
+      "raw": {
+        "Dollar volume 1 day": "25186237",
+        "High": "18.73",
+        "Low": "16.332",
+        "Open": "17.69",
+        "Price": "17.8",
+        "Price change % 1 day": "15.5094",
+        "Relative volume 1 day": "2.0926",
+        "Shadowfax polygon reasons": "price in workable lane: 17.80; volume gate ok: 1,466,311; dollar volume workable: $25.2M; relative volume active vs prior day: 2.09x; large positive move: +15.51%",
+        "Shadowfax polygon score": "76.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "FWRD",
+        "Transactions": "21552",
+        "VWAP": "17.1766",
+        "Volume 1 day": "1466311"
+      },
+      "raw_row_number": 100,
+      "reasons": [
+        "price gate ok: 17.8",
+        "reported move/change: +15.5094%",
+        "relative volume strong: 2.0926x"
+      ],
+      "score": 62.0,
+      "shadowfax_rank": 41,
+      "ticker": "FWRD",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 42,
+      "raw": {
+        "Dollar volume 1 day": "98616258",
+        "High": "16.11",
+        "Low": "15.19",
+        "Open": "15.43",
+        "Price": "15.39",
+        "Price change % 1 day": "8.2278",
+        "Relative volume 1 day": "2.925",
+        "Shadowfax polygon reasons": "price in workable lane: 15.39; high volume: 6,345,268; strong dollar volume: $98.6M; relative volume active vs prior day: 2.92x; positive momentum: +8.23%",
+        "Shadowfax polygon score": "83.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "DNOW",
+        "Transactions": "53789",
+        "VWAP": "15.5417",
+        "Volume 1 day": "6345268"
+      },
+      "raw_row_number": 66,
+      "reasons": [
+        "price gate ok: 15.39",
+        "reported move/change: +8.2278%",
+        "relative volume strong: 2.925x"
+      ],
+      "score": 61.68,
+      "shadowfax_rank": 42,
+      "ticker": "DNOW",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 43,
+      "raw": {
+        "Dollar volume 1 day": "217218714",
+        "High": "27.15",
+        "Low": "24.11",
+        "Open": "25.98",
+        "Price": "25.93",
+        "Price change % 1 day": "7.7275",
+        "Relative volume 1 day": "2.9945",
+        "Shadowfax polygon reasons": "price in workable lane: 25.93; high volume: 8,359,485; strong dollar volume: $217.2M; relative volume active vs prior day: 2.99x; positive momentum: +7.73%",
+        "Shadowfax polygon score": "83.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "RELY",
+        "Transactions": "88584",
+        "VWAP": "25.9847",
+        "Volume 1 day": "8359485"
+      },
+      "raw_row_number": 61,
+      "reasons": [
+        "price gate ok: 25.93",
+        "reported move/change: +7.7275%",
+        "relative volume strong: 2.9945x"
+      ],
+      "score": 60.18,
+      "shadowfax_rank": 43,
+      "ticker": "RELY",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "decision": "run_market_runner",
+      "rank": 44,
+      "raw": {
+        "Dollar volume 1 day": "66311801",
+        "High": "14.44",
+        "Low": "11.5",
+        "Open": "13.96",
+        "Price": "13.57",
+        "Price change % 1 day": "7.6984",
+        "Relative volume 1 day": "2.0529",
+        "Shadowfax polygon reasons": "price in workable lane: 13.57; high volume: 5,133,366; strong dollar volume: $66.3M; relative volume active vs prior day: 2.05x; positive momentum: +7.70%",
+        "Shadowfax polygon score": "83.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "AAOZ",
+        "Transactions": "25487",
+        "VWAP": "12.9178",
+        "Volume 1 day": "5133366"
+      },
+      "raw_row_number": 65,
+      "reasons": [
+        "price gate ok: 13.57",
+        "reported move/change: +7.6984%",
+        "relative volume strong: 2.0529x"
+      ],
+      "score": 60.1,
+      "shadowfax_rank": 44,
+      "ticker": "AAOZ",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "decision": "watch",
+      "rank": 45,
+      "raw": {
+        "Dollar volume 1 day": "105917550",
+        "High": "66.24",
+        "Low": "57.63",
+        "Open": "57.63",
+        "Price": "65.33",
+        "Price change % 1 day": "6.5916",
+        "Relative volume 1 day": "4.6502",
+        "Shadowfax polygon reasons": "price in workable lane: 65.33; volume gate ok: 1,648,984; strong dollar volume: $105.9M; relative volume spike vs prior day: 4.65x; positive momentum: +6.59%",
+        "Shadowfax polygon score": "85.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "TARS",
+        "Transactions": "24350",
+        "VWAP": "64.232",
+        "Volume 1 day": "1648984"
+      },
+      "raw_row_number": 41,
+      "reasons": [
+        "price gate ok: 65.33",
+        "reported move/change: +6.5916%",
+        "relative volume strong: 4.6502x"
+      ],
+      "score": 56.77,
+      "shadowfax_rank": 45,
+      "ticker": "TARS",
+      "warnings": [
+        "thin volume: 4"
+      ]
+    },
+    {
+      "decision": "watch",
+      "rank": 46,
+      "raw": {
+        "Dollar volume 1 day": "22596467",
+        "High": "16.3",
+        "Low": "14.21",
+        "Open": "14.51",
+        "Price": "14.76",
+        "Price change % 1 day": "6.1107",
+        "Relative volume 1 day": "3.0206",
+        "Shadowfax polygon reasons": "price in workable lane: 14.76; volume gate ok: 1,475,370; dollar volume workable: $22.6M; relative volume spike vs prior day: 3.02x; positive momentum: +6.11%",
+        "Shadowfax polygon score": "77.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "SBGI",
+        "Transactions": "19375",
+        "VWAP": "15.3158",
+        "Volume 1 day": "1475369"
+      },
+      "raw_row_number": 90,
+      "reasons": [
+        "price gate ok: 14.76",
+        "reported move/change: +6.1107%",
+        "relative volume strong: 3.0206x"
+      ],
+      "score": 55.33,
+      "shadowfax_rank": 46,
+      "ticker": "SBGI",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "decision": "watch",
+      "rank": 47,
+      "raw": {
+        "Dollar volume 1 day": "79973413",
+        "High": "6.64",
+        "Low": "2.58",
+        "Open": "2.6964",
+        "Price": "3.22",
+        "Price change % 1 day": "21.9327",
+        "Relative volume 1 day": "356.1837",
+        "Shadowfax polygon reasons": "price in workable lane: 3.22; high volume: 16,772,244; strong dollar volume: $80.0M; relative volume spike vs prior day: 356.18x; large positive move: +21.93%",
+        "Shadowfax polygon score": "100.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "BYAH",
+        "Transactions": "196788",
+        "VWAP": "4.7682",
+        "Volume 1 day": "16772243"
+      },
+      "raw_row_number": 11,
+      "reasons": [
+        "reported move/change: +21.9327%",
+        "relative volume strong: 356.184x"
+      ],
+      "score": 55.0,
+      "shadowfax_rank": 47,
+      "ticker": "BYAH",
+      "warnings": [
+        "sub-$5 name: 3.22; treat as small-cap exception, not default lane",
+        "thin volume: 356"
+      ]
+    },
+    {
+      "decision": "watch",
+      "rank": 48,
+      "raw": {
+        "Dollar volume 1 day": "17327752",
+        "High": "3.12",
+        "Low": "2.902",
+        "Open": "3.02",
+        "Price": "3.07",
+        "Price change % 1 day": "12.8676",
+        "Relative volume 1 day": "3.3177",
+        "Shadowfax polygon reasons": "price in workable lane: 3.07; high volume: 5,699,731; dollar volume workable: $17.3M; relative volume spike vs prior day: 3.32x; large positive move: +12.87%",
+        "Shadowfax polygon score": "92.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "CRON",
+        "Transactions": "25901",
+        "VWAP": "3.0401",
+        "Volume 1 day": "5699731"
+      },
+      "raw_row_number": 19,
+      "reasons": [
+        "reported move/change: +12.8676%",
+        "relative volume strong: 3.3177x"
+      ],
+      "score": 55.0,
+      "shadowfax_rank": 48,
+      "ticker": "CRON",
+      "warnings": [
+        "sub-$5 name: 3.07; treat as small-cap exception, not default lane",
+        "thin volume: 3"
+      ]
+    },
+    {
+      "decision": "watch",
+      "rank": 49,
+      "raw": {
+        "Dollar volume 1 day": "38955532",
+        "High": "7.67",
+        "Low": "3.3501",
+        "Open": "3.5",
+        "Price": "4.12",
+        "Price change % 1 day": "16.3842",
+        "Relative volume 1 day": "21.5043",
+        "Shadowfax polygon reasons": "price in workable lane: 4.12; high volume: 7,194,536; dollar volume workable: $39.0M; relative volume spike vs prior day: 21.50x; large positive move: +16.38%",
+        "Shadowfax polygon score": "92.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "LBGJ",
+        "Transactions": "89973",
+        "VWAP": "5.4146",
+        "Volume 1 day": "7194535"
+      },
+      "raw_row_number": 20,
+      "reasons": [
+        "reported move/change: +16.3842%",
+        "relative volume strong: 21.5043x"
+      ],
+      "score": 55.0,
+      "shadowfax_rank": 49,
+      "ticker": "LBGJ",
+      "warnings": [
+        "sub-$5 name: 4.12; treat as small-cap exception, not default lane",
+        "thin volume: 21"
+      ]
+    },
+    {
+      "decision": "watch",
+      "rank": 50,
+      "raw": {
+        "Dollar volume 1 day": "35350806",
+        "High": "5.6",
+        "Low": "2.79",
+        "Open": "2.79",
+        "Price": "4.24",
+        "Price change % 1 day": "46.7128",
+        "Relative volume 1 day": "26.4161",
+        "Shadowfax polygon reasons": "price in workable lane: 4.24; high volume: 8,288,194; dollar volume workable: $35.4M; relative volume spike vs prior day: 26.42x; large positive move: +46.71%",
+        "Shadowfax polygon score": "92.0",
+        "Shadowfax polygon warnings": "",
+        "Symbol": "WLDS",
+        "Transactions": "72401",
+        "VWAP": "4.2652",
+        "Volume 1 day": "8288194"
+      },
+      "raw_row_number": 21,
+      "reasons": [
+        "reported move/change: +46.7128%",
+        "relative volume strong: 26.4161x"
+      ],
+      "score": 55.0,
+      "shadowfax_rank": 50,
+      "ticker": "WLDS",
+      "warnings": [
+        "sub-$5 name: 4.24; treat as small-cap exception, not default lane",
+        "thin volume: 26"
+      ]
+    }
+  ],
+  "counts": {
+    "research_more": 0,
+    "run_market_runner": 44,
+    "selected": 50,
+    "source_candidates": 100,
+    "watch": 6
+  },
+  "graph_scale": {
+    "no_25_stock_ceiling": true,
+    "scale_posture": "broad_universe_ready",
+    "selected": 50,
+    "selection_limit": 50,
+    "source_candidates": 100
+  },
+  "next_commands": [
+    "python3 scripts/stc_market_intelligence.py --once",
+    "python3 scripts/stc_daily_decision_pipeline.py --max-reports 10"
+  ],
+  "path": "/outputs/shadowfax-top-50",
+  "raw_receipt": "data/raw/screener-csv/20260807T113109Z/polygon-stock-screener-2026-08-06.csv",
+  "safety": {
+    "broker_calls_enabled": false,
+    "broker_mutation_enabled": false,
+    "execution_controls": [],
+    "model_inference_enabled": false,
+    "model_training_enabled": false,
+    "order_intents_enabled": false,
+    "order_placement_enabled": false,
+    "read_only_research": true,
+    "supabase_writes_enabled": false
+  },
+  "sector_mix": {
+    "Unknown": 50
+  },
+  "selection_rule": "Sort by Shadowfax screener score, preserve raw receipt, cap downstream heavy scans to top 25/50.",
+  "slug": "shadowfax-top-50",
+  "source_csv": "/root/kingbeemo-command-center/data/inbox/screener-csv/polygon-stock-screener-2026-08-06.csv",
+  "source_output": "data/outputs/screener-candidates.json",
+  "status": "ranked",
+  "summary": "Selected top 50 ticker scents from 100 Shadowfax intake candidates. Candidate queue loaded, not approved for trading. Current downstream scan command uses the read-only STC Market Intelligence engine.",
+  "title": "Shadowfax Top 50 Ideas",
+  "top_tickers": [
+    "PN",
+    "WYHG",
+    "ASPN",
+    "MGNI",
+    "CLRO",
+    "IOVA",
+    "AEVA",
+    "CHYM",
+    "HNST",
+    "PAVS",
+    "WPP",
+    "TRUP",
+    "TIGO",
+    "GCT",
+    "CDRE",
+    "PAYC",
+    "VAC",
+    "U",
+    "INSM",
+    "SOUN",
+    "ALNT",
+    "POEL",
+    "ZVRA",
+    "TASK",
+    "CION",
+    "DCTH",
+    "KRO",
+    "OPRT",
+    "ZLAB",
+    "HRTG",
+    "PAYS",
+    "FA",
+    "DPC",
+    "HP",
+    "SMTC",
+    "REPL",
+    "OTF",
+    "PRAX",
+    "DGII",
+    "EOLS",
+    "FWRD",
+    "DNOW",
+    "RELY",
+    "AAOZ",
+    "TARS",
+    "SBGI",
+    "BYAH",
+    "CRON",
+    "LBGJ",
+    "WLDS"
+  ],
+  "type": "screener-top-50",
+  "updated": "2026-08-07T11:31:09.066526+00:00"
+}

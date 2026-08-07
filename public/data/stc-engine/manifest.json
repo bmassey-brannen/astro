@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-08-07T20:46:22Z",
+  "lanes": {
+    "estel": {
+      "copied": 139,
+      "destination": "/root/astro/public/data/stc-engine/estel",
+      "files": [
+        "data/stc-engine/estel/estel-receipt-harvest-queue.json",
+        "data/stc-engine/estel/estel-source-receipt-queue.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-MWH.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-ORCX.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-SHOO.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-ORKA.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-CMG.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-LNC.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-MSFU.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-BFLY.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-PBF.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-AIA.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-MHK.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-TGB.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-FOSL.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-AXTX.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-XRX.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-NUWE.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-OWL.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-BAX.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-AMZU.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-MSFX.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-SRZN.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-SHIP.json",
+        "data/stc-engine/estel/estel-vibe-snapshot-MSFT.json"
+      ],
+      "pattern": "/root/kingbeemo-command-center/data/outputs/estel-*.json"
+    },
+    "pytorch": {
+      "copied": 2,
+      "destination": "/root/astro/public/data/stc-engine/pytorch",
+      "files": [
+        "data/stc-engine/pytorch/pytorch-feature-smoke-receipt.json",
+        "data/stc-engine/pytorch/pytorch-feature-vectors.json"
+      ],
+      "pattern": "/root/kingbeemo-command-center/data/outputs/pytorch-*.json"
+    },
+    "shadowfax": {
+      "copied": 4,
+      "destination": "/root/astro/public/data/stc-engine/shadowfax",
+      "files": [
+        "data/stc-engine/shadowfax/shadowfax-universe.json",
+        "data/stc-engine/shadowfax/shadowfax-top-50.json",
+        "data/stc-engine/shadowfax/shadowfax-lead-packets.json",
+        "data/stc-engine/shadowfax/shadowfax-leveraged-products.json"
+      ],
+      "pattern": "/root/kingbeemo-command-center/data/outputs/shadowfax-*.json"
+    },
+    "supabase": {
+      "copied": 10,
+      "destination": "/root/astro/public/data/stc-engine/supabase",
+      "files": [
+        "data/stc-engine/supabase/supabase-promotion-readiness.json",
+        "data/stc-engine/supabase/supabase-remote-counts-verification.json",
+        "data/stc-engine/supabase/supabase-canonical-loop-direct-db-sync-receipt.json",
+        "data/stc-engine/supabase/supabase-canonical-loop-sync-receipt.json",
+        "data/stc-engine/supabase/supabase-canonical-loop-dry-run-diff.json",
+        "data/stc-engine/supabase/supabase-schema-apply-receipt.json",
+        "data/stc-engine/supabase/supabase-readonly-health.json",
+        "data/stc-engine/supabase/supabase-leap-candidate-index-cards.json",
+        "data/stc-engine/supabase/supabase-leap-candidate-diff.json",
+        "data/stc-engine/supabase/supabase-leap-candidate-preview.json"
+      ],
+      "pattern": "/root/kingbeemo-command-center/data/outputs/supabase-*.json"
+    }
+  },
+  "rules": {
+    "contract": "stc.public-site-intraday-refresh-rules",
+    "lanes": {
+      "estel": {
+        "cadence": "copy_after_command_center_refresh_or_each_site_cycle",
+        "job": "publish company-story/source/vibe outputs from Command Center",
+        "public_path": "/data/stc-engine/estel/",
+        "source": "/root/kingbeemo-command-center/data/outputs/estel-*.json"
+      },
+      "market": {
+        "cadence": "every_5_minutes_regular_hours",
+        "job": "refresh market_packet, internals, trust, and catalyst tape",
+        "public_path": "/data/market_packet.json",
+        "tool": "sketch tools/refresh_market_site.py"
+      },
+      "options": {
+        "cadence": "every_30_minutes_regular_hours",
+        "job": "refresh read-only options chain summaries and LEAP candidates",
+        "public_path": "/data/options_summary.json",
+        "tool": "sketch tools/build_options_universe.py"
+      },
+      "pytorch": {
+        "cadence": "copy_after_command_center_refresh_or_each_site_cycle",
+        "job": "publish feature-vector/model-smoke outputs without trade execution authority",
+        "public_path": "/data/stc-engine/pytorch/",
+        "source": "/root/kingbeemo-command-center/data/outputs/pytorch-*.json"
+      },
+      "shadowfax": {
+        "cadence": "copy_after_command_center_refresh_or_each_site_cycle",
+        "job": "publish underfollowed/convexity candidate outputs from Command Center",
+        "public_path": "/data/stc-engine/shadowfax/",
+        "source": "/root/kingbeemo-command-center/data/outputs/shadowfax-*.json"
+      },
+      "supabase": {
+        "cadence": "copy_after_command_center_refresh_or_each_site_cycle",
+        "job": "publish Supabase readonly health/candidate preview receipts",
+        "public_path": "/data/stc-engine/supabase/",
+        "source": "/root/kingbeemo-command-center/data/outputs/supabase-*.json"
+      },
+      "ticker": {
+        "cadence": "hourly_regular_hours",
+        "job": "refresh ticker dossiers, SEC/company profile receipts where available",
+        "public_path": "/data/tickers/*.json",
+        "tool": "sketch tools/build_ticker_universe.py"
+      }
+    },
+    "safety": {
+      "account_mutation": false,
+      "broker_actions": false,
+      "market_data_provider": "Polygon paid API when available",
+      "orders": false,
+      "public_claims": "source-labeled_or_observation_only"
+    },
+    "version": 1
+  }
+}

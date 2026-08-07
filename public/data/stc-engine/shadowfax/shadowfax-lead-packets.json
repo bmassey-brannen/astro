@@ -1,0 +1,3726 @@
+{
+  "candidate_queue_is_trade_approved": false,
+  "contract_name": "shadowfax_lead_packets",
+  "contract_version": "1.0.0",
+  "generated_at": "2026-08-01T03:41:25+00:00",
+  "input_path": "data/outputs/shadowfax-top-50.json",
+  "lead_count": 100,
+  "lead_packets": [
+    {
+      "attention_score": 62.0,
+      "market_context": {
+        "dollar_volume_1d": 1539455165.0,
+        "move_pct_1d": 29.452,
+        "price": 162.76,
+        "relative_volume_1d": 14.6194,
+        "volume_1d": 9443548.0
+      },
+      "motion_reasons": [
+        "price gate ok: 162.76",
+        "reported move/change: +29.452%",
+        "relative volume strong: 14.6194x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:MKTX:rank-1"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "MKTX",
+      "warnings": [
+        "thin volume: 14"
+      ]
+    },
+    {
+      "attention_score": 62.0,
+      "market_context": {
+        "dollar_volume_1d": 154682176.0,
+        "move_pct_1d": 120.8022,
+        "price": 23.67,
+        "relative_volume_1d": 32.5371,
+        "volume_1d": 8506919.0
+      },
+      "motion_reasons": [
+        "price gate ok: 23.67",
+        "reported move/change: +120.802%",
+        "relative volume strong: 32.5371x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:PN:rank-2"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "PN",
+      "warnings": [
+        "thin volume: 32"
+      ]
+    },
+    {
+      "attention_score": 62.0,
+      "market_context": {
+        "dollar_volume_1d": 108970528.0,
+        "move_pct_1d": 28.8462,
+        "price": 6.03,
+        "relative_volume_1d": 5.1101,
+        "volume_1d": 18662852.0
+      },
+      "motion_reasons": [
+        "price gate ok: 6.03",
+        "reported move/change: +28.8462%",
+        "relative volume strong: 5.1101x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:BHC:rank-3"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "BHC",
+      "warnings": [
+        "thin volume: 5"
+      ]
+    },
+    {
+      "attention_score": 62.0,
+      "market_context": {
+        "dollar_volume_1d": 67732008.0,
+        "move_pct_1d": 16.0194,
+        "price": 14.34,
+        "relative_volume_1d": 3.2137,
+        "volume_1d": 4727610.0
+      },
+      "motion_reasons": [
+        "price gate ok: 14.34",
+        "reported move/change: +16.0194%",
+        "relative volume strong: 3.2137x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:PRCH:rank-4"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "PRCH",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "attention_score": 62.0,
+      "market_context": {
+        "dollar_volume_1d": 109845884.0,
+        "move_pct_1d": 12.595,
+        "price": 34.06,
+        "relative_volume_1d": 8.3903,
+        "volume_1d": 3249262.0
+      },
+      "motion_reasons": [
+        "price gate ok: 34.06",
+        "reported move/change: +12.595%",
+        "relative volume strong: 8.3903x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:SMTI:rank-5"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "SMTI",
+      "warnings": [
+        "thin volume: 8"
+      ]
+    },
+    {
+      "attention_score": 62.0,
+      "market_context": {
+        "dollar_volume_1d": 151998485.0,
+        "move_pct_1d": 30.137,
+        "price": 20.9,
+        "relative_volume_1d": 2.1847,
+        "volume_1d": 7450394.0
+      },
+      "motion_reasons": [
+        "price gate ok: 20.9",
+        "reported move/change: +30.137%",
+        "relative volume strong: 2.1847x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:MSFL:rank-6"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "MSFL",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "attention_score": 62.0,
+      "market_context": {
+        "dollar_volume_1d": 882580876.0,
+        "move_pct_1d": 26.9678,
+        "price": 46.94,
+        "relative_volume_1d": 2.3113,
+        "volume_1d": 18555609.0
+      },
+      "motion_reasons": [
+        "price gate ok: 46.94",
+        "reported move/change: +26.9678%",
+        "relative volume strong: 2.3113x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:AXTI:rank-7"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "AXTI",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "attention_score": 62.0,
+      "market_context": {
+        "dollar_volume_1d": 53040209.0,
+        "move_pct_1d": 16.3462,
+        "price": 6.05,
+        "relative_volume_1d": 2.3434,
+        "volume_1d": 9025662.0
+      },
+      "motion_reasons": [
+        "price gate ok: 6.05",
+        "reported move/change: +16.3462%",
+        "relative volume strong: 2.3434x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:ORCU:rank-8"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "ORCU",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "attention_score": 62.0,
+      "market_context": {
+        "dollar_volume_1d": 16789868.0,
+        "move_pct_1d": 15.8009,
+        "price": 5.35,
+        "relative_volume_1d": 3.8324,
+        "volume_1d": 3036801.0
+      },
+      "motion_reasons": [
+        "price gate ok: 5.35",
+        "reported move/change: +15.8009%",
+        "relative volume strong: 3.8324x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:FFAI:rank-9"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "FFAI",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "attention_score": 62.0,
+      "market_context": {
+        "dollar_volume_1d": 527960951.0,
+        "move_pct_1d": 27.2942,
+        "price": 118.32,
+        "relative_volume_1d": 2.9008,
+        "volume_1d": 4498077.0
+      },
+      "motion_reasons": [
+        "price gate ok: 118.32",
+        "reported move/change: +27.2942%",
+        "relative volume strong: 2.9008x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:CORT:rank-10"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "CORT",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "attention_score": 62.0,
+      "market_context": {
+        "dollar_volume_1d": 100381415.0,
+        "move_pct_1d": 18.5015,
+        "price": 62.0,
+        "relative_volume_1d": 2.3021,
+        "volume_1d": 1683051.0
+      },
+      "motion_reasons": [
+        "price gate ok: 62",
+        "reported move/change: +18.5015%",
+        "relative volume strong: 2.3021x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:WHD:rank-11"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "WHD",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "attention_score": 62.0,
+      "market_context": {
+        "dollar_volume_1d": 466195364.0,
+        "move_pct_1d": 9.7145,
+        "price": 86.85,
+        "relative_volume_1d": 2.0805,
+        "volume_1d": 5257638.0
+      },
+      "motion_reasons": [
+        "price gate ok: 86.85",
+        "reported move/change: +9.7145%",
+        "relative volume strong: 2.0805x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:SFM:rank-12"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "SFM",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "attention_score": 62.0,
+      "market_context": {
+        "dollar_volume_1d": 49432379740.0,
+        "move_pct_1d": 15.5067,
+        "price": 451.1,
+        "relative_volume_1d": 2.3335,
+        "volume_1d": 110160704.0
+      },
+      "motion_reasons": [
+        "price gate ok: 451.1",
+        "reported move/change: +15.5067%",
+        "relative volume strong: 2.3335x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:MSFT:rank-13"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "MSFT",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "attention_score": 62.0,
+      "market_context": {
+        "dollar_volume_1d": 11725141.0,
+        "move_pct_1d": 10.752,
+        "price": 17.82,
+        "relative_volume_1d": 3.0659,
+        "volume_1d": 671877.0
+      },
+      "motion_reasons": [
+        "price gate ok: 17.82",
+        "reported move/change: +10.752%",
+        "relative volume strong: 3.0659x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:SHIP:rank-14"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "SHIP",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "attention_score": 62.0,
+      "market_context": {
+        "dollar_volume_1d": 21170033.0,
+        "move_pct_1d": 8.4896,
+        "price": 20.83,
+        "relative_volume_1d": 3.416,
+        "volume_1d": 1072177.0
+      },
+      "motion_reasons": [
+        "price gate ok: 20.83",
+        "reported move/change: +8.4896%",
+        "relative volume strong: 3.416x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:SRZN:rank-15"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "SRZN",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "attention_score": 62.0,
+      "market_context": {
+        "dollar_volume_1d": 26306491.0,
+        "move_pct_1d": 29.7247,
+        "price": 20.73,
+        "relative_volume_1d": 2.2452,
+        "volume_1d": 1292245.0
+      },
+      "motion_reasons": [
+        "price gate ok: 20.73",
+        "reported move/change: +29.7247%",
+        "relative volume strong: 2.2452x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:MSFX:rank-16"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "MSFX",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "attention_score": 61.96,
+      "market_context": {
+        "dollar_volume_1d": 337339546.0,
+        "move_pct_1d": 8.3193,
+        "price": 32.16,
+        "relative_volume_1d": 5.9358,
+        "volume_1d": 9939906.0
+      },
+      "motion_reasons": [
+        "price gate ok: 32.16",
+        "reported move/change: +8.3193%",
+        "relative volume strong: 5.9358x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:AMZU:rank-17"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "AMZU",
+      "warnings": [
+        "thin volume: 5"
+      ]
+    },
+    {
+      "attention_score": 60.98,
+      "market_context": {
+        "dollar_volume_1d": 623481864.0,
+        "move_pct_1d": 7.9935,
+        "price": 26.75,
+        "relative_volume_1d": 2.4032,
+        "volume_1d": 22671820.0
+      },
+      "motion_reasons": [
+        "price gate ok: 26.75",
+        "reported move/change: +7.9935%",
+        "relative volume strong: 2.4032x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:BAX:rank-18"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "BAX",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "attention_score": 56.16,
+      "market_context": {
+        "dollar_volume_1d": 408478444.0,
+        "move_pct_1d": 6.3874,
+        "price": 10.16,
+        "relative_volume_1d": 2.095,
+        "volume_1d": 40932164.0
+      },
+      "motion_reasons": [
+        "price gate ok: 10.16",
+        "reported move/change: +6.3874%",
+        "relative volume strong: 2.095x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:OWL:rank-19"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "OWL",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "attention_score": 55.0,
+      "market_context": {
+        "dollar_volume_1d": 563412494.0,
+        "move_pct_1d": 135.4497,
+        "price": 4.45,
+        "relative_volume_1d": 10.0967,
+        "volume_1d": 117940276.0
+      },
+      "motion_reasons": [
+        "reported move/change: +135.45%",
+        "relative volume strong: 10.0967x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:NUWE:rank-20"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "NUWE",
+      "warnings": [
+        "sub-$5 name: 4.45; treat as small-cap exception, not default lane",
+        "thin volume: 10"
+      ]
+    },
+    {
+      "attention_score": 55.0,
+      "market_context": {
+        "dollar_volume_1d": 102198825.0,
+        "move_pct_1d": 32.197,
+        "price": 3.49,
+        "relative_volume_1d": 9.623,
+        "volume_1d": 29519316.0
+      },
+      "motion_reasons": [
+        "reported move/change: +32.197%",
+        "relative volume strong: 9.623x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:XRX:rank-21"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "XRX",
+      "warnings": [
+        "sub-$5 name: 3.49; treat as small-cap exception, not default lane",
+        "thin volume: 9"
+      ]
+    },
+    {
+      "attention_score": 55.0,
+      "market_context": {
+        "dollar_volume_1d": 89552142.0,
+        "move_pct_1d": 56.1462,
+        "price": 4.7,
+        "relative_volume_1d": 2.7685,
+        "volume_1d": 17943803.0
+      },
+      "motion_reasons": [
+        "reported move/change: +56.1462%",
+        "relative volume strong: 2.7685x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:AXTX:rank-22"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "AXTX",
+      "warnings": [
+        "sub-$5 name: 4.7; treat as small-cap exception, not default lane",
+        "thin volume: 2"
+      ]
+    },
+    {
+      "attention_score": 55.0,
+      "market_context": {
+        "dollar_volume_1d": 10978123.0,
+        "move_pct_1d": 10.6818,
+        "price": 4.87,
+        "relative_volume_1d": 3.7058,
+        "volume_1d": 2172380.0
+      },
+      "motion_reasons": [
+        "reported move/change: +10.6818%",
+        "relative volume strong: 3.7058x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:FOSL:rank-23"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "FOSL",
+      "warnings": [
+        "sub-$5 name: 4.87; treat as small-cap exception, not default lane",
+        "thin volume: 3"
+      ]
+    },
+    {
+      "attention_score": 53.54,
+      "market_context": {
+        "dollar_volume_1d": 76174705.0,
+        "move_pct_1d": 5.5142,
+        "price": 7.08,
+        "relative_volume_1d": 2.0638,
+        "volume_1d": 10911561.0
+      },
+      "motion_reasons": [
+        "price gate ok: 7.08",
+        "reported move/change: +5.5142%",
+        "relative volume strong: 2.0638x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:TGB:rank-24"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "TGB",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "attention_score": 53.35,
+      "market_context": {
+        "dollar_volume_1d": 288676705.0,
+        "move_pct_1d": 5.4507,
+        "price": 119.56,
+        "relative_volume_1d": 3.2767,
+        "volume_1d": 2439666.0
+      },
+      "motion_reasons": [
+        "price gate ok: 119.56",
+        "reported move/change: +5.4507%",
+        "relative volume strong: 3.2767x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:MHK:rank-25"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "MHK",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "attention_score": 53.21,
+      "market_context": {
+        "dollar_volume_1d": 157738631.0,
+        "move_pct_1d": 5.4048,
+        "price": 131.64,
+        "relative_volume_1d": 4.1894,
+        "volume_1d": 1211050.0
+      },
+      "motion_reasons": [
+        "price gate ok: 131.64",
+        "reported move/change: +5.4048%",
+        "relative volume strong: 4.1894x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:AIA:rank-26"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "AIA",
+      "warnings": [
+        "thin volume: 4"
+      ]
+    },
+    {
+      "attention_score": 52.0,
+      "market_context": {
+        "dollar_volume_1d": 478503464.0,
+        "move_pct_1d": 15.3907,
+        "price": 73.1,
+        "relative_volume_1d": 1.834,
+        "volume_1d": 6594399.0
+      },
+      "motion_reasons": [
+        "price gate ok: 73.1",
+        "reported move/change: +15.3907%",
+        "relative volume active: 1.834x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:PBF:rank-27"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "PBF",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 52.0,
+      "market_context": {
+        "dollar_volume_1d": 79094177.0,
+        "move_pct_1d": 15.0704,
+        "price": 8.17,
+        "relative_volume_1d": 1.5042,
+        "volume_1d": 9982101.0
+      },
+      "motion_reasons": [
+        "price gate ok: 8.17",
+        "reported move/change: +15.0704%",
+        "relative volume active: 1.5042x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:BFLY:rank-28"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "BFLY",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 52.0,
+      "market_context": {
+        "dollar_volume_1d": 735977249.0,
+        "move_pct_1d": 30.1535,
+        "price": 31.38,
+        "relative_volume_1d": 1.8786,
+        "volume_1d": 23941616.0
+      },
+      "motion_reasons": [
+        "price gate ok: 31.38",
+        "reported move/change: +30.1535%",
+        "relative volume active: 1.8786x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:MSFU:rank-29"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "MSFU",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 52.0,
+      "market_context": {
+        "dollar_volume_1d": 266260071.0,
+        "move_pct_1d": 11.0789,
+        "price": 46.02,
+        "relative_volume_1d": 1.5084,
+        "volume_1d": 5837974.0
+      },
+      "motion_reasons": [
+        "price gate ok: 46.02",
+        "reported move/change: +11.0789%",
+        "relative volume active: 1.5084x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:LNC:rank-30"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "LNC",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 52.0,
+      "market_context": {
+        "dollar_volume_1d": 1368578402.0,
+        "move_pct_1d": 12.5,
+        "price": 38.52,
+        "relative_volume_1d": 1.8802,
+        "volume_1d": 35584369.0
+      },
+      "motion_reasons": [
+        "price gate ok: 38.52",
+        "reported move/change: +12.5%",
+        "relative volume active: 1.8802x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:CMG:rank-31"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "CMG",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 52.0,
+      "market_context": {
+        "dollar_volume_1d": 136351721.0,
+        "move_pct_1d": 11.1162,
+        "price": 97.86,
+        "relative_volume_1d": 1.823,
+        "volume_1d": 1440715.0
+      },
+      "motion_reasons": [
+        "price gate ok: 97.86",
+        "reported move/change: +11.1162%",
+        "relative volume active: 1.823x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:ORKA:rank-32"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "ORKA",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 52.0,
+      "market_context": {
+        "dollar_volume_1d": 99225767.0,
+        "move_pct_1d": 10.2074,
+        "price": 47.83,
+        "relative_volume_1d": 1.533,
+        "volume_1d": 2134305.0
+      },
+      "motion_reasons": [
+        "price gate ok: 47.83",
+        "reported move/change: +10.2074%",
+        "relative volume active: 1.533x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:SHOO:rank-33"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "SHOO",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 52.0,
+      "market_context": {
+        "dollar_volume_1d": 70464655.0,
+        "move_pct_1d": 16.4374,
+        "price": 16.93,
+        "relative_volume_1d": 1.6166,
+        "volume_1d": 4297463.0
+      },
+      "motion_reasons": [
+        "price gate ok: 16.93",
+        "reported move/change: +16.4374%",
+        "relative volume active: 1.6166x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:ORCX:rank-34"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "ORCX",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 52.0,
+      "market_context": {
+        "dollar_volume_1d": 73910724.0,
+        "move_pct_1d": 17.0997,
+        "price": 27.94,
+        "relative_volume_1d": 1.8482,
+        "volume_1d": 2704855.0
+      },
+      "motion_reasons": [
+        "price gate ok: 27.94",
+        "reported move/change: +17.0997%",
+        "relative volume active: 1.8482x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:MWH:rank-35"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "MWH",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 52.0,
+      "market_context": {
+        "dollar_volume_1d": 99558396.0,
+        "move_pct_1d": 15.3285,
+        "price": 48.98,
+        "relative_volume_1d": 1.848,
+        "volume_1d": 2044295.0
+      },
+      "motion_reasons": [
+        "price gate ok: 48.98",
+        "reported move/change: +15.3285%",
+        "relative volume active: 1.848x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:ARXS:rank-36"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "ARXS",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 52.0,
+      "market_context": {
+        "dollar_volume_1d": 52946611.0,
+        "move_pct_1d": 22.6596,
+        "price": 11.53,
+        "relative_volume_1d": 1.7354,
+        "volume_1d": 4761214.0
+      },
+      "motion_reasons": [
+        "price gate ok: 11.53",
+        "reported move/change: +22.6596%",
+        "relative volume active: 1.7354x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:NEOG:rank-37"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "NEOG",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 52.0,
+      "market_context": {
+        "dollar_volume_1d": 111640293.0,
+        "move_pct_1d": 8.9561,
+        "price": 17.64,
+        "relative_volume_1d": 1.8262,
+        "volume_1d": 6623296.0
+      },
+      "motion_reasons": [
+        "price gate ok: 17.64",
+        "reported move/change: +8.9561%",
+        "relative volume active: 1.8262x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:PGY:rank-38"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "PGY",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 52.0,
+      "market_context": {
+        "dollar_volume_1d": 110836241.0,
+        "move_pct_1d": 11.3445,
+        "price": 124.55,
+        "relative_volume_1d": 1.6411,
+        "volume_1d": 901435.0
+      },
+      "motion_reasons": [
+        "price gate ok: 124.55",
+        "reported move/change: +11.3445%",
+        "relative volume active: 1.6411x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:FSS:rank-39"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "FSS",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 52.0,
+      "market_context": {
+        "dollar_volume_1d": 109008241.0,
+        "move_pct_1d": 14.78,
+        "price": 117.11,
+        "relative_volume_1d": 1.5726,
+        "volume_1d": 948892.0
+      },
+      "motion_reasons": [
+        "price gate ok: 117.11",
+        "reported move/change: +14.78%",
+        "relative volume active: 1.5726x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:BDC:rank-40"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "BDC",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 52.0,
+      "market_context": {
+        "dollar_volume_1d": 13782542.0,
+        "move_pct_1d": 27.5168,
+        "price": 5.7,
+        "relative_volume_1d": 1.5169,
+        "volume_1d": 2574251.0
+      },
+      "motion_reasons": [
+        "price gate ok: 5.7",
+        "reported move/change: +27.5168%",
+        "relative volume active: 1.5169x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:SMU:rank-41"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "SMU",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 51.23,
+      "market_context": {
+        "dollar_volume_1d": 233528785.0,
+        "move_pct_1d": 4.7421,
+        "price": 17.67,
+        "relative_volume_1d": 2.1115,
+        "volume_1d": 13260242.0
+      },
+      "motion_reasons": [
+        "price gate ok: 17.67",
+        "reported move/change: +4.7421%",
+        "relative volume strong: 2.1115x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:ICLN:rank-42"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "ICLN",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "attention_score": 50.0,
+      "market_context": {
+        "dollar_volume_1d": 216211815.0,
+        "move_pct_1d": 173.6842,
+        "price": 0.78,
+        "relative_volume_1d": 15.2061,
+        "volume_1d": 367894871.0
+      },
+      "motion_reasons": [
+        "reported move/change: +173.684%",
+        "relative volume strong: 15.2061x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:GCTK:rank-43"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "GCTK",
+      "warnings": [
+        "low-priced name: 0.78; high noise/liquidity risk",
+        "thin volume: 15"
+      ]
+    },
+    {
+      "attention_score": 50.0,
+      "market_context": {
+        "dollar_volume_1d": 646784040.0,
+        "move_pct_1d": 495.8549,
+        "price": 1.61,
+        "relative_volume_1d": 821.3587,
+        "volume_1d": 645493054.0
+      },
+      "motion_reasons": [
+        "reported move/change: +495.855%",
+        "relative volume strong: 821.359x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:CYCU:rank-44"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "CYCU",
+      "warnings": [
+        "low-priced name: 1.61; high noise/liquidity risk",
+        "thin volume: 821"
+      ]
+    },
+    {
+      "attention_score": 50.0,
+      "market_context": {
+        "dollar_volume_1d": 11785692.0,
+        "move_pct_1d": 12.0879,
+        "price": 1.02,
+        "relative_volume_1d": 12.5457,
+        "volume_1d": 10235966.0
+      },
+      "motion_reasons": [
+        "reported move/change: +12.0879%",
+        "relative volume strong: 12.5457x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:GVH:rank-45"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "GVH",
+      "warnings": [
+        "low-priced name: 1.02; high noise/liquidity risk",
+        "thin volume: 12"
+      ]
+    },
+    {
+      "attention_score": 50.0,
+      "market_context": {
+        "dollar_volume_1d": 41615558.0,
+        "move_pct_1d": 39.2381,
+        "price": 0.0731,
+        "relative_volume_1d": 9.2218,
+        "volume_1d": 540742709.0
+      },
+      "motion_reasons": [
+        "reported move/change: +39.2381%",
+        "relative volume strong: 9.2218x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:SXTC:rank-46"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "SXTC",
+      "warnings": [
+        "low-priced name: 0.0731; high noise/liquidity risk",
+        "thin volume: 9"
+      ]
+    },
+    {
+      "attention_score": 50.0,
+      "market_context": {
+        "dollar_volume_1d": 15167379.0,
+        "move_pct_1d": 16.129,
+        "price": 1.8,
+        "relative_volume_1d": 10.3627,
+        "volume_1d": 8221693.0
+      },
+      "motion_reasons": [
+        "reported move/change: +16.129%",
+        "relative volume strong: 10.3627x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:DGNX:rank-47"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "DGNX",
+      "warnings": [
+        "low-priced name: 1.8; high noise/liquidity risk",
+        "thin volume: 10"
+      ]
+    },
+    {
+      "attention_score": 49.44,
+      "market_context": {
+        "dollar_volume_1d": 157929787.0,
+        "move_pct_1d": 4.1468,
+        "price": 70.07,
+        "relative_volume_1d": 2.3331,
+        "volume_1d": 2276767.0
+      },
+      "motion_reasons": [
+        "price gate ok: 70.07",
+        "reported move/change: +4.1468%",
+        "relative volume strong: 2.3331x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:EMN:rank-48"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "EMN",
+      "warnings": [
+        "thin volume: 2"
+      ]
+    },
+    {
+      "attention_score": 48.71,
+      "market_context": {
+        "dollar_volume_1d": 404017190.0,
+        "move_pct_1d": 7.2368,
+        "price": 53.79,
+        "relative_volume_1d": 1.8225,
+        "volume_1d": 7605988.0
+      },
+      "motion_reasons": [
+        "price gate ok: 53.79",
+        "reported move/change: +7.2368%",
+        "relative volume active: 1.8225x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:PCOR:rank-49"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "PCOR",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 48.54,
+      "market_context": {
+        "dollar_volume_1d": 123858030.0,
+        "move_pct_1d": 7.1809,
+        "price": 24.18,
+        "relative_volume_1d": 1.6788,
+        "volume_1d": 5284113.0
+      },
+      "motion_reasons": [
+        "price gate ok: 24.18",
+        "reported move/change: +7.1809%",
+        "relative volume active: 1.6788x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:ADPT:rank-50"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "ADPT",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 47.41,
+      "market_context": {
+        "dollar_volume_1d": 64943149.0,
+        "move_pct_1d": 3.4693,
+        "price": 17.0,
+        "relative_volume_1d": 433.4064,
+        "volume_1d": 3834780.0
+      },
+      "motion_reasons": [
+        "price gate ok: 17",
+        "reported move/change: +3.4693%",
+        "relative volume strong: 433.406x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:TPTS:rank-51"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "TPTS",
+      "warnings": [
+        "thin volume: 433"
+      ]
+    },
+    {
+      "attention_score": 47.18,
+      "market_context": {
+        "dollar_volume_1d": 62746980.0,
+        "move_pct_1d": 3.3928,
+        "price": 58.51,
+        "relative_volume_1d": 6.2748,
+        "volume_1d": 1081419.0
+      },
+      "motion_reasons": [
+        "price gate ok: 58.51",
+        "reported move/change: +3.3928%",
+        "relative volume strong: 6.2748x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:IFS:rank-52"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "IFS",
+      "warnings": [
+        "thin volume: 6"
+      ]
+    },
+    {
+      "attention_score": 46.78,
+      "market_context": {
+        "dollar_volume_1d": 328057600.0,
+        "move_pct_1d": 6.5945,
+        "price": 44.29,
+        "relative_volume_1d": 1.7185,
+        "volume_1d": 7555222.0
+      },
+      "motion_reasons": [
+        "price gate ok: 44.29",
+        "reported move/change: +6.5945%",
+        "relative volume active: 1.7185x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:TEM:rank-53"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "TEM",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 45.23,
+      "market_context": {
+        "dollar_volume_1d": 948912166.0,
+        "move_pct_1d": 6.0756,
+        "price": 47.14,
+        "relative_volume_1d": 1.6483,
+        "volume_1d": 20281924.0
+      },
+      "motion_reasons": [
+        "price gate ok: 47.14",
+        "reported move/change: +6.0756%",
+        "relative volume active: 1.6483x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:HPE:rank-54"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "HPE",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 45.0,
+      "market_context": {
+        "dollar_volume_1d": 267606710.0,
+        "move_pct_1d": 27.3585,
+        "price": 4.05,
+        "relative_volume_1d": 1.5384,
+        "volume_1d": 66291793.0
+      },
+      "motion_reasons": [
+        "reported move/change: +27.3585%",
+        "relative volume active: 1.5384x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:KEEL:rank-55"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "KEEL",
+      "warnings": [
+        "sub-$5 name: 4.05; treat as small-cap exception, not default lane",
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 45.0,
+      "market_context": {
+        "dollar_volume_1d": 312368220.0,
+        "move_pct_1d": 14.7849,
+        "price": 4.27,
+        "relative_volume_1d": 1.6372,
+        "volume_1d": 76144655.0
+      },
+      "motion_reasons": [
+        "reported move/change: +14.7849%",
+        "relative volume active: 1.6372x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:TE:rank-56"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "TE",
+      "warnings": [
+        "sub-$5 name: 4.27; treat as small-cap exception, not default lane",
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 45.0,
+      "market_context": {
+        "dollar_volume_1d": 67016794.0,
+        "move_pct_1d": 38.843,
+        "price": 4.2,
+        "relative_volume_1d": 1.8078,
+        "volume_1d": 17190846.0
+      },
+      "motion_reasons": [
+        "reported move/change: +38.843%",
+        "relative volume active: 1.8078x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:CBRG:rank-57"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "CBRG",
+      "warnings": [
+        "sub-$5 name: 4.2; treat as small-cap exception, not default lane",
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 44.75,
+      "market_context": {
+        "dollar_volume_1d": 105555752.0,
+        "move_pct_1d": 2.5833,
+        "price": 57.58,
+        "relative_volume_1d": 10.607,
+        "volume_1d": 1838921.0
+      },
+      "motion_reasons": [
+        "price gate ok: 57.58",
+        "reported move/change: +2.5833%",
+        "relative volume strong: 10.607x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:FXY:rank-58"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "FXY",
+      "warnings": [
+        "thin volume: 10"
+      ]
+    },
+    {
+      "attention_score": 43.37,
+      "market_context": {
+        "dollar_volume_1d": 192297279.0,
+        "move_pct_1d": 5.4559,
+        "price": 14.11,
+        "relative_volume_1d": 1.5215,
+        "volume_1d": 13691219.0
+      },
+      "motion_reasons": [
+        "price gate ok: 14.11",
+        "reported move/change: +5.4559%",
+        "relative volume active: 1.5215x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:SAN:rank-59"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "SAN",
+      "warnings": [
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 42.72,
+      "market_context": {
+        "dollar_volume_1d": 215839564.0,
+        "move_pct_1d": 1.9078,
+        "price": 202.98,
+        "relative_volume_1d": 4.2174,
+        "volume_1d": 1065709.0
+      },
+      "motion_reasons": [
+        "price gate ok: 202.98",
+        "reported move/change: +1.9078%",
+        "relative volume strong: 4.2174x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:URTH:rank-60"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "URTH",
+      "warnings": [
+        "thin volume: 4"
+      ]
+    },
+    {
+      "attention_score": 41.79,
+      "market_context": {
+        "dollar_volume_1d": 65875242.0,
+        "move_pct_1d": 1.596,
+        "price": 36.92,
+        "relative_volume_1d": 3.2854,
+        "volume_1d": 1784347.0
+      },
+      "motion_reasons": [
+        "price gate ok: 36.92",
+        "reported move/change: +1.596%",
+        "relative volume strong: 3.2854x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:KSA:rank-61"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "KSA",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "attention_score": 38.28,
+      "market_context": {
+        "dollar_volume_1d": 81815804.0,
+        "move_pct_1d": 4.428,
+        "price": 2.83,
+        "relative_volume_1d": 3.2041,
+        "volume_1d": 20261467.0
+      },
+      "motion_reasons": [
+        "reported move/change: +4.428%",
+        "relative volume strong: 3.2041x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:STKH:rank-62"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "STKH",
+      "warnings": [
+        "low-priced name: 2.83; high noise/liquidity risk",
+        "thin volume: 3"
+      ]
+    },
+    {
+      "attention_score": 37.91,
+      "market_context": {
+        "dollar_volume_1d": 987796187.0,
+        "move_pct_1d": 0.3019,
+        "price": 23.26,
+        "relative_volume_1d": 9.0073,
+        "volume_1d": 42465948.0
+      },
+      "motion_reasons": [
+        "price gate ok: 23.26",
+        "reported move/change: +0.3019%",
+        "relative volume strong: 9.0073x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:SPHY:rank-63"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "SPHY",
+      "warnings": [
+        "thin volume: 9"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 177340065.0,
+        "move_pct_1d": 34.3234,
+        "price": 12.21,
+        "relative_volume_1d": 0.6087,
+        "volume_1d": 15748023.0
+      },
+      "motion_reasons": [
+        "price gate ok: 12.21",
+        "reported move/change: +34.3234%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:SKHX:rank-64"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "SKHX",
+      "warnings": [
+        "relative volume muted: 0.6087x",
+        "thin volume: 0"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 717426439.0,
+        "move_pct_1d": 20.4565,
+        "price": 27.97,
+        "relative_volume_1d": 0.8204,
+        "volume_1d": 25995312.0
+      },
+      "motion_reasons": [
+        "price gate ok: 27.97",
+        "reported move/change: +20.4565%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:APLD:rank-65"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "APLD",
+      "warnings": [
+        "relative volume muted: 0.8204x",
+        "thin volume: 0"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 50068858.0,
+        "move_pct_1d": 16.3752,
+        "price": 7.32,
+        "relative_volume_1d": 1.3607,
+        "volume_1d": 6982033.0
+      },
+      "motion_reasons": [
+        "price gate ok: 7.32",
+        "reported move/change: +16.3752%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:VNET:rank-66"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "VNET",
+      "warnings": [
+        "relative volume muted: 1.3607x",
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 414646086.0,
+        "move_pct_1d": 12.9417,
+        "price": 48.26,
+        "relative_volume_1d": 0.7106,
+        "volume_1d": 8645989.0
+      },
+      "motion_reasons": [
+        "price gate ok: 48.26",
+        "reported move/change: +12.9417%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:AMKR:rank-67"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "AMKR",
+      "warnings": [
+        "relative volume muted: 0.7106x",
+        "thin volume: 0"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 303815798.0,
+        "move_pct_1d": 18.1023,
+        "price": 51.28,
+        "relative_volume_1d": 1.1281,
+        "volume_1d": 5983382.0
+      },
+      "motion_reasons": [
+        "price gate ok: 51.28",
+        "reported move/change: +18.1023%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:SEI:rank-68"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "SEI",
+      "warnings": [
+        "relative volume muted: 1.1281x",
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 6556338639.0,
+        "move_pct_1d": 16.7001,
+        "price": 52.34,
+        "relative_volume_1d": 1.0405,
+        "volume_1d": 130110867.0
+      },
+      "motion_reasons": [
+        "price gate ok: 52.34",
+        "reported move/change: +16.7001%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:DRAM:rank-69"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "DRAM",
+      "warnings": [
+        "relative volume muted: 1.0405x",
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 1149536124.0,
+        "move_pct_1d": 10.3754,
+        "price": 64.68,
+        "relative_volume_1d": 0.931,
+        "volume_1d": 18165293.0
+      },
+      "motion_reasons": [
+        "price gate ok: 64.68",
+        "reported move/change: +10.3754%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:RKLB:rank-70"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "RKLB",
+      "warnings": [
+        "relative volume muted: 0.931x",
+        "thin volume: 0"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 238343782.0,
+        "move_pct_1d": 36.9422,
+        "price": 18.72,
+        "relative_volume_1d": 0.9376,
+        "volume_1d": 13749994.0
+      },
+      "motion_reasons": [
+        "price gate ok: 18.72",
+        "reported move/change: +36.9422%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:MULL:rank-71"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "MULL",
+      "warnings": [
+        "relative volume muted: 0.9376x",
+        "thin volume: 0"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 530152517.0,
+        "move_pct_1d": 17.6119,
+        "price": 11.82,
+        "relative_volume_1d": 1.0394,
+        "volume_1d": 45393268.0
+      },
+      "motion_reasons": [
+        "price gate ok: 11.82",
+        "reported move/change: +17.6119%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:MARA:rank-72"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "MARA",
+      "warnings": [
+        "relative volume muted: 1.0394x",
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 93373106.0,
+        "move_pct_1d": 11.6568,
+        "price": 17.05,
+        "relative_volume_1d": 0.9653,
+        "volume_1d": 5499426.0
+      },
+      "motion_reasons": [
+        "price gate ok: 17.05",
+        "reported move/change: +11.6568%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:XE:rank-73"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "XE",
+      "warnings": [
+        "relative volume muted: 0.9653x",
+        "thin volume: 0"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 293815831.0,
+        "move_pct_1d": 13.307,
+        "price": 8.6,
+        "relative_volume_1d": 1.1108,
+        "volume_1d": 34973911.0
+      },
+      "motion_reasons": [
+        "price gate ok: 8.6",
+        "reported move/change: +13.307%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:SMR:rank-74"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "SMR",
+      "warnings": [
+        "relative volume muted: 1.1108x",
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 155991845.0,
+        "move_pct_1d": 53.3333,
+        "price": 20.47,
+        "relative_volume_1d": 1.0057,
+        "volume_1d": 7904524.0
+      },
+      "motion_reasons": [
+        "price gate ok: 20.47",
+        "reported move/change: +53.3333%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:NBIL:rank-75"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "NBIL",
+      "warnings": [
+        "relative volume muted: 1.0057x",
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 780701215.0,
+        "move_pct_1d": 18.0915,
+        "price": 17.82,
+        "relative_volume_1d": 0.9469,
+        "volume_1d": 44101184.0
+      },
+      "motion_reasons": [
+        "price gate ok: 17.82",
+        "reported move/change: +18.0915%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:WULF:rank-76"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "WULF",
+      "warnings": [
+        "relative volume muted: 0.9469x",
+        "thin volume: 0"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 354765356.0,
+        "move_pct_1d": 11.1248,
+        "price": 17.98,
+        "relative_volume_1d": 0.9922,
+        "volume_1d": 20125447.0
+      },
+      "motion_reasons": [
+        "price gate ok: 17.98",
+        "reported move/change: +11.1248%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:QBTS:rank-77"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "QBTS",
+      "warnings": [
+        "relative volume muted: 0.9922x",
+        "thin volume: 0"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 219240831.0,
+        "move_pct_1d": 32.5,
+        "price": 11.13,
+        "relative_volume_1d": 0.859,
+        "volume_1d": 21388723.0
+      },
+      "motion_reasons": [
+        "price gate ok: 11.13",
+        "reported move/change: +32.5%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:RAM:rank-78"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "RAM",
+      "warnings": [
+        "relative volume muted: 0.859x",
+        "thin volume: 0"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 734007711.0,
+        "move_pct_1d": 10.2018,
+        "price": 58.44,
+        "relative_volume_1d": 0.9982,
+        "volume_1d": 12852682.0
+      },
+      "motion_reasons": [
+        "price gate ok: 58.44",
+        "reported move/change: +10.2018%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:ASTS:rank-79"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "ASTS",
+      "warnings": [
+        "relative volume muted: 0.9982x",
+        "thin volume: 0"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 491977301.0,
+        "move_pct_1d": 34.702,
+        "price": 20.34,
+        "relative_volume_1d": 0.9171,
+        "volume_1d": 26733247.0
+      },
+      "motion_reasons": [
+        "price gate ok: 20.34",
+        "reported move/change: +34.702%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:SKUU:rank-80"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "SKUU",
+      "warnings": [
+        "relative volume muted: 0.9171x",
+        "thin volume: 0"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 56304934.0,
+        "move_pct_1d": 20.4289,
+        "price": 10.67,
+        "relative_volume_1d": 1.0221,
+        "volume_1d": 5587747.0
+      },
+      "motion_reasons": [
+        "price gate ok: 10.67",
+        "reported move/change: +20.4289%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:ASTX:rank-81"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "ASTX",
+      "warnings": [
+        "relative volume muted: 1.0221x",
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 84151594.0,
+        "move_pct_1d": 13.0238,
+        "price": 9.98,
+        "relative_volume_1d": 1.0427,
+        "volume_1d": 8725707.0
+      },
+      "motion_reasons": [
+        "price gate ok: 9.98",
+        "reported move/change: +13.0238%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:INFQ:rank-82"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "INFQ",
+      "warnings": [
+        "relative volume muted: 1.0427x",
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 126156090.0,
+        "move_pct_1d": 59.661,
+        "price": 9.42,
+        "relative_volume_1d": 0.9206,
+        "volume_1d": 14771338.0
+      },
+      "motion_reasons": [
+        "price gate ok: 9.42",
+        "reported move/change: +59.661%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:IRE:rank-83"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "IRE",
+      "warnings": [
+        "relative volume muted: 0.9206x",
+        "thin volume: 0"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 2146614498.0,
+        "move_pct_1d": 37.3917,
+        "price": 26.97,
+        "relative_volume_1d": 1.0446,
+        "volume_1d": 86628644.0
+      },
+      "motion_reasons": [
+        "price gate ok: 26.97",
+        "reported move/change: +37.3917%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:MUU:rank-84"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "MUU",
+      "warnings": [
+        "relative volume muted: 1.0446x",
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 438279631.0,
+        "move_pct_1d": 21.0658,
+        "price": 14.54,
+        "relative_volume_1d": 1.2242,
+        "volume_1d": 30563433.0
+      },
+      "motion_reasons": [
+        "price gate ok: 14.54",
+        "reported move/change: +21.0658%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:CLSK:rank-85"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "CLSK",
+      "warnings": [
+        "relative volume muted: 1.2242x",
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 7223342475.0,
+        "move_pct_1d": 26.4855,
+        "price": 207.12,
+        "relative_volume_1d": 0.7976,
+        "volume_1d": 35304290.0
+      },
+      "motion_reasons": [
+        "price gate ok: 207.12",
+        "reported move/change: +26.4855%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:BE:rank-86"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "BE",
+      "warnings": [
+        "relative volume muted: 0.7976x",
+        "thin volume: 0"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 7878604177.0,
+        "move_pct_1d": 27.1286,
+        "price": 188.43,
+        "relative_volume_1d": 1.0635,
+        "volume_1d": 42302388.0
+      },
+      "motion_reasons": [
+        "price gate ok: 188.43",
+        "reported move/change: +27.1286%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:NBIS:rank-87"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "NBIS",
+      "warnings": [
+        "relative volume muted: 1.0635x",
+        "thin volume: 1"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 404609851.0,
+        "move_pct_1d": 11.4706,
+        "price": 7.58,
+        "relative_volume_1d": 0.9405,
+        "volume_1d": 55505844.0
+      },
+      "motion_reasons": [
+        "price gate ok: 7.58",
+        "reported move/change: +11.4706%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:ONDS:rank-88"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "ONDS",
+      "warnings": [
+        "relative volume muted: 0.9405x",
+        "thin volume: 0"
+      ]
+    },
+    {
+      "attention_score": 37.0,
+      "market_context": {
+        "dollar_volume_1d": 788639681.0,
+        "move_pct_1d": 69.2155,
+        "price": 84.98,
+        "relative_volume_1d": 0.456,
+        "volume_1d": 9689805.0
+      },
+      "motion_reasons": [
+        "price gate ok: 84.98",
+        "reported move/change: +69.2155%"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:DFNS:rank-89"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "DFNS",
+      "warnings": [
+        "relative volume muted: 0.456x",
+        "thin volume: 0"
+      ]
+    },
+    {
+      "attention_score": 22.17,
+      "market_context": {
+        "dollar_volume_1d": 165689253.0,
+        "move_pct_1d": -4.9444,
+        "price": 7.69,
+        "relative_volume_1d": 3.0027,
+        "volume_1d": 21414903.0
+      },
+      "motion_reasons": [
+        "price gate ok: 7.69",
+        "reported move/change: -4.9444%",
+        "relative volume strong: 3.0027x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:WU:rank-90"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "WU",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "attention_score": 22.0,
+      "market_context": {
+        "dollar_volume_1d": 175541744.0,
+        "move_pct_1d": -28.3224,
+        "price": 6.58,
+        "relative_volume_1d": 3.1914,
+        "volume_1d": 26313763.0
+      },
+      "motion_reasons": [
+        "price gate ok: 6.58",
+        "reported move/change: -28.3224%",
+        "relative volume strong: 3.1914x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:TDOC:rank-91"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "TDOC",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "attention_score": 22.0,
+      "market_context": {
+        "dollar_volume_1d": 108561243.0,
+        "move_pct_1d": -61.2443,
+        "price": 15.2,
+        "relative_volume_1d": 8.6399,
+        "volume_1d": 5862787.0
+      },
+      "motion_reasons": [
+        "price gate ok: 15.2",
+        "reported move/change: -61.2443%",
+        "relative volume strong: 8.6399x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:IREZ:rank-92"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "IREZ",
+      "warnings": [
+        "thin volume: 8"
+      ]
+    },
+    {
+      "attention_score": 22.0,
+      "market_context": {
+        "dollar_volume_1d": 706196355.0,
+        "move_pct_1d": -9.5951,
+        "price": 97.8,
+        "relative_volume_1d": 3.0173,
+        "volume_1d": 7273363.0
+      },
+      "motion_reasons": [
+        "price gate ok: 97.8",
+        "reported move/change: -9.5951%",
+        "relative volume strong: 3.0173x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:TW:rank-93"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "TW",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "attention_score": 22.0,
+      "market_context": {
+        "dollar_volume_1d": 76110647.0,
+        "move_pct_1d": -52.9565,
+        "price": 12.65,
+        "relative_volume_1d": 3.5455,
+        "volume_1d": 5904902.0
+      },
+      "motion_reasons": [
+        "price gate ok: 12.65",
+        "reported move/change: -52.9565%",
+        "relative volume strong: 3.5455x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:BEZ:rank-94"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "BEZ",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "attention_score": 22.0,
+      "market_context": {
+        "dollar_volume_1d": 71363175.0,
+        "move_pct_1d": -22.4227,
+        "price": 9.03,
+        "relative_volume_1d": 10.4459,
+        "volume_1d": 7620200.0
+      },
+      "motion_reasons": [
+        "price gate ok: 9.03",
+        "reported move/change: -22.4227%",
+        "relative volume strong: 10.4459x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:PHAT:rank-95"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "PHAT",
+      "warnings": [
+        "thin volume: 10"
+      ]
+    },
+    {
+      "attention_score": 22.0,
+      "market_context": {
+        "dollar_volume_1d": 2033307874.0,
+        "move_pct_1d": -28.3093,
+        "price": 205.48,
+        "relative_volume_1d": 7.5573,
+        "volume_1d": 9835843.0
+      },
+      "motion_reasons": [
+        "price gate ok: 205.48",
+        "reported move/change: -28.3093%",
+        "relative volume strong: 7.5573x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:ALNY:rank-96"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "ALNY",
+      "warnings": [
+        "thin volume: 7"
+      ]
+    },
+    {
+      "attention_score": 22.0,
+      "market_context": {
+        "dollar_volume_1d": 80409074.0,
+        "move_pct_1d": -8.7195,
+        "price": 14.97,
+        "relative_volume_1d": 3.267,
+        "volume_1d": 5290035.0
+      },
+      "motion_reasons": [
+        "price gate ok: 14.97",
+        "reported move/change: -8.7195%",
+        "relative volume strong: 3.267x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:BXMT:rank-97"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "BXMT",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    },
+    {
+      "attention_score": 22.0,
+      "market_context": {
+        "dollar_volume_1d": 188590011.0,
+        "move_pct_1d": -54.1422,
+        "price": 19.54,
+        "relative_volume_1d": 6.1233,
+        "volume_1d": 9611543.0
+      },
+      "motion_reasons": [
+        "price gate ok: 19.54",
+        "reported move/change: -54.1422%",
+        "relative volume strong: 6.1233x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:NBIZ:rank-98"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "NBIZ",
+      "warnings": [
+        "thin volume: 6"
+      ]
+    },
+    {
+      "attention_score": 22.0,
+      "market_context": {
+        "dollar_volume_1d": 137171940.0,
+        "move_pct_1d": -17.6011,
+        "price": 24.25,
+        "relative_volume_1d": 4.1026,
+        "volume_1d": 5717999.0
+      },
+      "motion_reasons": [
+        "price gate ok: 24.25",
+        "reported move/change: -17.6011%",
+        "relative volume strong: 4.1026x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:RTO:rank-99"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "RTO",
+      "warnings": [
+        "thin volume: 4"
+      ]
+    },
+    {
+      "attention_score": 22.0,
+      "market_context": {
+        "dollar_volume_1d": 218842572.0,
+        "move_pct_1d": -14.3615,
+        "price": 22.6,
+        "relative_volume_1d": 3.5939,
+        "volume_1d": 9798277.0
+      },
+      "motion_reasons": [
+        "price gate ok: 22.6",
+        "reported move/change: -14.3615%",
+        "relative volume strong: 3.5939x"
+      ],
+      "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+      "safety": {
+        "broker_calls_enabled": false,
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "model_inference_enabled": false,
+        "model_training_enabled": false,
+        "order_intents_enabled": false,
+        "order_placement_enabled": false,
+        "read_only_research": true,
+        "supabase_writes_enabled": false
+      },
+      "source_receipt_ids": [
+        "shadowfax-top-50:2026-08-01T034125Z0000",
+        "shadowfax-top-50:LKQ:rank-100"
+      ],
+      "status": "needs_estel_refresh",
+      "surfaced_at": "2026-08-01T03:41:25+00:00",
+      "ticker": "LKQ",
+      "warnings": [
+        "thin volume: 3"
+      ]
+    }
+  ],
+  "run_id": "night-watch-2026-08-01T03:41:25+00:00",
+  "safety": {
+    "broker_calls_enabled": false,
+    "broker_mutation_enabled": false,
+    "execution_controls": [],
+    "model_inference_enabled": false,
+    "model_training_enabled": false,
+    "order_intents_enabled": false,
+    "order_placement_enabled": false,
+    "read_only_research": true,
+    "supabase_writes_enabled": false
+  },
+  "source_generated_at": "2026-08-01T03:41:25+00:00",
+  "status_counts": {
+    "needs_estel_refresh": 100
+  }
+}

@@ -1,0 +1,2489 @@
+{
+  "blocked_rows": [],
+  "cards": [
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "ABM-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "ABM Industries Incorporated",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for ABM; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 30.5,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "ABM",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "AMRC-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "Ameresco, Inc.",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for AMRC; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 31.0,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "AMRC",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "AVTR-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "Avantor, Inc.",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for AVTR; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 34.4,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "AVTR",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "BF.B-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "BF.B",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 30.8,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "BF.B",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "BOBS-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "BOBS",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 32.0,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "BOBS",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "CAKE-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "The Cheesecake Factory Incorporated",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 39.8,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "CAKE",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "CDE-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "Coeur Mining, Inc.",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for CDE; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 28.9,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "CDE",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "COO-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "The Cooper Companies, Inc.",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for COO; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 31.3,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "COO",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "DFNS-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "DFNS",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 43.5,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "DFNS",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "DOCU-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "DocuSign, Inc.",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for DOCU; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 29.4,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "DOCU",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "EGG-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "EGG",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 32.0,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "EGG",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "EPAM-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "EPAM",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 28.8,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "EPAM",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "EXLS-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "EXLS",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 31.1,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "EXLS",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "FOUR-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "FOUR",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 31.2,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "FOUR",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "FTRE-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "FTRE",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 29.0,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "FTRE",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "G-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "G",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 28.3,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "G",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "GLOB-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "GLOB",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 31.0,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "GLOB",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "GLXY-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "Galaxy Digital Inc.",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for GLXY; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 29.2,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "GLXY",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "GRMN-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "Garmin Ltd.",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 67.7,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "GRMN",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "GWRE-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "Guidewire Software, Inc.",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for GWRE; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 30.2,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "GWRE",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "HAS-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "HAS",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 30.9,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "HAS",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "ICLR-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "ICLR",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 29.2,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "ICLR",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "IMAX-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "IMAX",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 28.7,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "IMAX",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "INSM-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "Insmed Incorporated",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for INSM; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 31.0,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "INSM",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "IQV-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "IQV",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 28.9,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "IQV",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "ITRI-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "ITRI",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 31.4,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "ITRI",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "KEEL-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "Keel Infrastructure Corp.",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for KEEL; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 30.1,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "KEEL",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "KNSA-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "KNSA",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 36.3,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "present"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "KNSA",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "KOD-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "Kodiak Sciences Inc",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for KOD; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 29.3,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "KOD",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "LMT-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "LMT",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 28.6,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "LMT",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [],
+      "card_id": "LULU-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "lululemon athletica inc.",
+      "coordination_stage": "ben_review",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for LULU; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 32.0,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "candidate",
+      "ticker": "LULU",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "MAIR-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "MAIR",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 32.0,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "MAIR",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "MANH-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "Manhattan Associates, Inc.",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 45.7,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "MANH",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "MLYS-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "Mineralys Therapeutics, Inc.",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for MLYS; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 28.5,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "MLYS",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "MRLN-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "Merlin, Inc.",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for MRLN; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 32.0,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "MRLN",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "MSTR-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "Strategy Inc",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for MSTR; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 29.5,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "MSTR",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "MUX-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "McEwen Inc.",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for MUX; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 28.6,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "MUX",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "MUZ-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "MUZ",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 35.9,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "MUZ",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "NG-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "Novagold Resources Inc.",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for NG; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 30.9,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "NG",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "NXPI-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "NXP Semiconductors N.V.",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for NXPI; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 29.7,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "NXPI",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "PL-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "Planet Labs PBC",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for PL; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 31.8,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "PL",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "PNR-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "PNR",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 28.3,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "PNR",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "PSN-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "Parsons Corporation",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 38.0,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "PSN",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "SNDQ-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "SNDQ",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 42.0,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "SNDQ",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "SOLV-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "SOLV",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 28.9,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "SOLV",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "UL-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "UL",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 32.6,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "present"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "UL",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "USO-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "USO",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 29.1,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "USO",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "VFC-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "VFC",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 30.2,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "VFC",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    },
+    {
+      "blockers": [
+        "options_chain_receipt_missing"
+      ],
+      "card_id": "WLTH-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "Wealthfront Corporation",
+      "coordination_stage": "estel_thesis",
+      "estel_confidence": "low",
+      "estel_status": "thin",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Insufficient verified business context for WLTH; treat as unverified until Estel has sourced filings, operating history, catalysts, dilution, and options proof.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 32.0,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        }
+      ],
+      "status": "watch",
+      "ticker": "WLTH",
+      "violent_if": "No sourced Estel catalyst map yet.",
+      "visibility": "internal",
+      "wrong_if": "Unknown company-story quality, dilution history, or catalyst proof."
+    },
+    {
+      "blockers": [
+        "estel_profile_missing",
+        "options_chain_receipt_missing",
+        "thesis_summary_missing",
+        "violent_if_missing",
+        "wrong_if_missing"
+      ],
+      "card_id": "XOP-leap",
+      "citadel_review_status": "unreviewed",
+      "company_name": "XOP",
+      "coordination_stage": "shadowfax_scent",
+      "estel_confidence": "confidence_pending",
+      "estel_status": "missing",
+      "planned_change": "planned_insert",
+      "public_safe_thesis": "Public-safe thesis not drafted.",
+      "review_gate": "founder_approval_required_before_supabase_write",
+      "safe_next_action": "Review card, fill missing receipts, then decide whether this row deserves founder-approved Supabase sync.",
+      "shadowfax_score": 28.5,
+      "source_pointer_count": 4,
+      "source_pointers": [
+        {
+          "generated_at": "2026-07-29T17:04:11+00:00",
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "present"
+        },
+        {
+          "generated_at": "2026-07-29T17:05:19.335175Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/intraday-options-scout-latest.json",
+          "source": "intraday-options-scout-latest.json",
+          "status": "missing"
+        },
+        {
+          "generated_at": "2026-07-29T17:04:10Z",
+          "path": "/root/kingbeemo-command-center/data/outputs/market-latest.json",
+          "source": "market-latest.json",
+          "status": "missing"
+        },
+        {
+          "path": "/root/kingbeemo-command-center/data/memory/stc-memory.sqlite3",
+          "source": "stc-memory.sqlite3",
+          "status": "loaded"
+        }
+      ],
+      "status": "research_more",
+      "ticker": "XOP",
+      "violent_if": "Violent-if not drafted.",
+      "visibility": "internal",
+      "wrong_if": "Wrong-if not drafted."
+    }
+  ],
+  "counts": {
+    "blocked_or_remote_only_cards": 0,
+    "cards": 50,
+    "planned_insert_cards": 50,
+    "planned_update_cards": 0
+  },
+  "generated_at": "2026-07-29T22:34:29+00:00",
+  "mode": "level_2c_local_index_cards_no_network_no_writes",
+  "next_gate": "Founder approval required before credentials, migrations, RLS, network calls, Supabase inserts, updates, or deletes.",
+  "safety": {
+    "broker_calls_enabled": false,
+    "broker_mutation": false,
+    "founder_gate_required": true,
+    "order_intents_created": false,
+    "production_wiring_enabled": false,
+    "secrets_read": false,
+    "service_restarts": false,
+    "supabase_network_calls": false,
+    "supabase_writes": false
+  },
+  "schema_version": "stc.supabase_leap_candidate_index_cards.v1",
+  "source_diff_path": "/root/kingbeemo-command-center/data/outputs/supabase-leap-candidate-diff.json",
+  "source_diff_schema_version": "stc.supabase_leap_candidate_diff.v1",
+  "source_preview_path": "/root/kingbeemo-command-center/data/outputs/supabase-leap-candidate-preview.json",
+  "source_preview_schema_version": "stc.supabase_leap_candidate_preview.v1",
+  "target_table_draft": "leap_candidates"
+}

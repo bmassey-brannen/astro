@@ -1,0 +1,421 @@
+{
+  "blocked_local_rows": {
+    "active_book_entries": [
+      {
+        "id": "research-fund-playbook",
+        "reason": "missing_id_or_ticker",
+        "ticker": null
+      }
+    ],
+    "daily_brief_items": [],
+    "outcome_labels": []
+  },
+  "counts": {
+    "blocked_deletes": {
+      "active_book_entries": 0,
+      "daily_brief_items": 0,
+      "outcome_labels": 0
+    },
+    "blocked_local_rows": {
+      "active_book_entries": 1
+    },
+    "local_rows": {
+      "active_book_entries": 5,
+      "daily_brief_items": 8,
+      "outcome_labels": 0
+    },
+    "planned_deletes": {
+      "active_book_entries": 0,
+      "daily_brief_items": 0,
+      "outcome_labels": 0
+    },
+    "planned_inserts": {
+      "active_book_entries": 5,
+      "daily_brief_items": 8,
+      "outcome_labels": 0
+    },
+    "planned_updates": {
+      "active_book_entries": 0,
+      "daily_brief_items": 0,
+      "outcome_labels": 0
+    },
+    "remote_rows": {
+      "active_book_entries": 0,
+      "daily_brief_items": 0,
+      "outcome_labels": 0
+    }
+  },
+  "generated_at": "2026-07-31T03:32:42+00:00",
+  "local_reviewed_rows": {
+    "outcome_labels": []
+  },
+  "mode": "local_dry_run_diff_only_no_supabase_network_no_writes",
+  "next_gate": "Supabase/PyTorch integration approved by Ben; run the approved PostgREST sync after remote schema/tables are available. Deletes remain blocked by default.",
+  "not_deleted_remote_only": {
+    "active_book_entries": [],
+    "daily_brief_items": [],
+    "outcome_labels": []
+  },
+  "planned_deletes": {},
+  "planned_inserts": {
+    "active_book_entries": [
+      {
+        "book_state": "active_watch",
+        "broker_mutation_enabled": false,
+        "broker_truth_state": "external_gate",
+        "decision_blockers": [
+          "exact call expirations/strikes/quantity",
+          "current bid-ask and liquidity",
+          "short interest / days to cover",
+          "updated earnings/catalyst calendar"
+        ],
+        "execution_controls": [],
+        "founder_approval_required": true,
+        "id": "market-grpn",
+        "lineage": {
+          "source_count": 7,
+          "source_receipt_paths": [
+            "data/specs/active-book.seed.json",
+            "/api/broker/truth",
+            "research/thesis-artifacts/grpn-turnaround-convexity-thesis.md",
+            "data/outputs/daily-stock-reports.json",
+            "data/outputs/market-runner.json",
+            "data/outputs/screener-candidates.json",
+            "/rooms/review?ticker=GRPN&source=active-book&strategy=active+convexity+watch&gate=MEDIUM&target=GRPN+hits+%2425%2C+%2435%2C+or+%2450%3B+earnings%2Frestructuring+update%3B+material+options-chain+change.&evidence=exact+call+expirations%2Fstrikes%2Fquantity&budget=missing+max-damage+receipt"
+          ],
+          "source_updated_at": "2026-07-29T16:24:10+00:00"
+        },
+        "live_trading_enabled": false,
+        "next_decision": "Verify live position marks and decide monetization rules around $25/$35/$50 zones.",
+        "order_placement_enabled": false,
+        "ticker": "GRPN"
+      },
+      {
+        "book_state": "research_queue",
+        "broker_mutation_enabled": false,
+        "broker_truth_state": "external_gate",
+        "decision_blockers": [
+          "thesis artifact",
+          "drug/regulatory/catalyst map",
+          "chain quality proof",
+          "event calendar"
+        ],
+        "execution_controls": [],
+        "founder_approval_required": true,
+        "id": "market-lqda",
+        "lineage": {
+          "source_count": 6,
+          "source_receipt_paths": [
+            "data/specs/active-book.seed.json",
+            "/api/broker/truth",
+            "data/outputs/daily-stock-reports.json",
+            "data/outputs/market-runner.json",
+            "data/outputs/screener-candidates.json",
+            "/rooms/review?ticker=LQDA&source=active-book&strategy=watchlist&gate=MEDIUM+until+chain+improves&target=Catalyst%2Fsource+packet+created%2C+options+chain+improves%2C+or+biotech-specific+event+date+appears.&evidence=thesis+artifact&budget=missing+max-damage+receipt"
+          ],
+          "source_updated_at": "2026-07-29T16:24:10+00:00"
+        },
+        "live_trading_enabled": false,
+        "next_decision": "Find the catalyst/business thesis; keep shares-only until options chain earns structure.",
+        "order_placement_enabled": false,
+        "ticker": "LQDA"
+      },
+      {
+        "book_state": "research_queue",
+        "broker_mutation_enabled": false,
+        "broker_truth_state": "external_gate",
+        "decision_blockers": [
+          "thesis artifact",
+          "catalyst map",
+          "chain quality proof",
+          "earnings/event calendar"
+        ],
+        "execution_controls": [],
+        "founder_approval_required": true,
+        "id": "market-nn",
+        "lineage": {
+          "source_count": 6,
+          "source_receipt_paths": [
+            "data/specs/active-book.seed.json",
+            "/api/broker/truth",
+            "data/outputs/daily-stock-reports.json",
+            "data/outputs/market-runner.json",
+            "data/outputs/screener-candidates.json",
+            "/rooms/review?ticker=NN&source=active-book&strategy=watchlist&gate=MEDIUM+until+chain+improves&target=Catalyst+found%2C+options+chain+improves%2C+or+WaveRider%2FLEAPFROG+score+changes+materially.&evidence=thesis+artifact&budget=missing+max-damage+receipt"
+          ],
+          "source_updated_at": "2026-07-29T16:24:10+00:00"
+        },
+        "live_trading_enabled": false,
+        "next_decision": "Build source-backed thesis packet; keep shares-only until options chain earns structure.",
+        "order_placement_enabled": false,
+        "ticker": "NN"
+      },
+      {
+        "book_state": "research_queue",
+        "broker_mutation_enabled": false,
+        "broker_truth_state": "external_gate",
+        "decision_blockers": [
+          "thesis artifact",
+          "valuation/catalyst map",
+          "chain quality proof",
+          "post-spike consolidation read"
+        ],
+        "execution_controls": [],
+        "founder_approval_required": true,
+        "id": "market-tem",
+        "lineage": {
+          "source_count": 6,
+          "source_receipt_paths": [
+            "data/specs/active-book.seed.json",
+            "/api/broker/truth",
+            "data/outputs/daily-stock-reports.json",
+            "data/outputs/market-runner.json",
+            "data/outputs/screener-candidates.json",
+            "/rooms/review?ticker=TEM&source=active-book&strategy=watchlist&gate=HIGH+chase+risk+until+thesis%2Fchain+prove+out&target=Pull+source-backed+thesis%2C+valuation+sanity%2C+and+chain-quality+update+after+major+move+cools.&evidence=thesis+artifact&budget=missing+max-damage+receipt"
+          ],
+          "source_updated_at": "2026-07-29T16:24:10+00:00"
+        },
+        "live_trading_enabled": false,
+        "next_decision": "Separate real AI/data platform thesis from momentum chase; keep shares-only until chain earns structure.",
+        "order_placement_enabled": false,
+        "ticker": "TEM"
+      },
+      {
+        "book_state": "closed_not_active",
+        "broker_mutation_enabled": false,
+        "broker_truth_state": "external_gate",
+        "decision_blockers": [],
+        "execution_controls": [],
+        "founder_approval_required": true,
+        "id": "market-umc",
+        "lineage": {
+          "source_count": 7,
+          "source_receipt_paths": [
+            "data/specs/active-book.seed.json",
+            "/api/broker/truth",
+            "research/thesis-artifacts/umc-short-call-structure-discipline-thesis.md",
+            "data/outputs/daily-stock-reports.json",
+            "data/outputs/market-runner.json",
+            "data/outputs/screener-candidates.json",
+            "/rooms/review?ticker=UMC&source=active-book&strategy=out+of+position%3B+no+active+UMC+structure+issue&gate=NONE+%E2%80%94+position+closed&target=Only+if+Ben+explicitly+reopens+UMC+or+asks+for+a+historical+after-action+review.&state=closed_not_active"
+          ],
+          "source_updated_at": "2026-07-29T16:24:10+00:00"
+        },
+        "live_trading_enabled": false,
+        "next_decision": "No UMC action. Keep only as a lesson/after-action archive unless Ben reopens a position.",
+        "order_placement_enabled": false,
+        "ticker": "UMC"
+      }
+    ],
+    "daily_brief_items": [
+      {
+        "active_book_entry_id": null,
+        "brief_date": "2026-07-28",
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "founder_approval_required": true,
+        "id": "daily-brief-queue-0001",
+        "item_state": "review",
+        "live_trading_enabled": false,
+        "operator_action": "Review receipt",
+        "order_placement_enabled": false,
+        "priority_rank": 1,
+        "proof_needed": "current source receipt",
+        "route": "/daily",
+        "source_receipt_ids": [
+          "data/specs/active-book.seed.json",
+          "data/outputs/screener-candidates.json",
+          "data/outputs/market-runner.json",
+          "data/outputs/daily-stock-reports.json"
+        ],
+        "ticker": "QUEUE"
+      },
+      {
+        "active_book_entry_id": null,
+        "brief_date": "2026-07-28",
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "founder_approval_required": true,
+        "id": "daily-brief-queue-0002",
+        "item_state": "review",
+        "live_trading_enabled": false,
+        "operator_action": "Review receipt",
+        "order_placement_enabled": false,
+        "priority_rank": 2,
+        "proof_needed": "current source receipt",
+        "route": "/daily",
+        "source_receipt_ids": [
+          "data/specs/active-book.seed.json",
+          "data/outputs/screener-candidates.json",
+          "data/outputs/market-runner.json",
+          "data/outputs/daily-stock-reports.json"
+        ],
+        "ticker": "QUEUE"
+      },
+      {
+        "active_book_entry_id": null,
+        "brief_date": "2026-07-28",
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "founder_approval_required": true,
+        "id": "daily-brief-queue-0003",
+        "item_state": "review",
+        "live_trading_enabled": false,
+        "operator_action": "Review receipt",
+        "order_placement_enabled": false,
+        "priority_rank": 3,
+        "proof_needed": "current source receipt",
+        "route": "/daily",
+        "source_receipt_ids": [
+          "data/specs/active-book.seed.json",
+          "data/outputs/screener-candidates.json",
+          "data/outputs/market-runner.json",
+          "data/outputs/daily-stock-reports.json"
+        ],
+        "ticker": "QUEUE"
+      },
+      {
+        "active_book_entry_id": null,
+        "brief_date": "2026-07-28",
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "founder_approval_required": true,
+        "id": "daily-brief-queue-0004",
+        "item_state": "review",
+        "live_trading_enabled": false,
+        "operator_action": "Review receipt",
+        "order_placement_enabled": false,
+        "priority_rank": 4,
+        "proof_needed": "current source receipt",
+        "route": "/daily",
+        "source_receipt_ids": [
+          "data/specs/active-book.seed.json",
+          "data/outputs/screener-candidates.json",
+          "data/outputs/market-runner.json",
+          "data/outputs/daily-stock-reports.json"
+        ],
+        "ticker": "QUEUE"
+      },
+      {
+        "active_book_entry_id": null,
+        "brief_date": "2026-07-28",
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "founder_approval_required": true,
+        "id": "daily-brief-queue-0005",
+        "item_state": "review",
+        "live_trading_enabled": false,
+        "operator_action": "Review receipt",
+        "order_placement_enabled": false,
+        "priority_rank": 5,
+        "proof_needed": "current source receipt",
+        "route": "/daily",
+        "source_receipt_ids": [
+          "data/specs/active-book.seed.json",
+          "data/outputs/screener-candidates.json",
+          "data/outputs/market-runner.json",
+          "data/outputs/daily-stock-reports.json"
+        ],
+        "ticker": "QUEUE"
+      },
+      {
+        "active_book_entry_id": null,
+        "brief_date": "2026-07-28",
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "founder_approval_required": true,
+        "id": "daily-brief-queue-0006",
+        "item_state": "review",
+        "live_trading_enabled": false,
+        "operator_action": "Review receipt",
+        "order_placement_enabled": false,
+        "priority_rank": 6,
+        "proof_needed": "current source receipt",
+        "route": "/daily",
+        "source_receipt_ids": [
+          "data/specs/active-book.seed.json",
+          "data/outputs/screener-candidates.json",
+          "data/outputs/market-runner.json",
+          "data/outputs/daily-stock-reports.json"
+        ],
+        "ticker": "QUEUE"
+      },
+      {
+        "active_book_entry_id": null,
+        "brief_date": "2026-07-28",
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "founder_approval_required": true,
+        "id": "daily-brief-queue-0007",
+        "item_state": "review",
+        "live_trading_enabled": false,
+        "operator_action": "Review receipt",
+        "order_placement_enabled": false,
+        "priority_rank": 7,
+        "proof_needed": "current source receipt",
+        "route": "/daily",
+        "source_receipt_ids": [
+          "data/specs/active-book.seed.json",
+          "data/outputs/screener-candidates.json",
+          "data/outputs/market-runner.json",
+          "data/outputs/daily-stock-reports.json"
+        ],
+        "ticker": "QUEUE"
+      },
+      {
+        "active_book_entry_id": null,
+        "brief_date": "2026-07-28",
+        "broker_mutation_enabled": false,
+        "execution_controls": [],
+        "founder_approval_required": true,
+        "id": "daily-brief-queue-0008",
+        "item_state": "review",
+        "live_trading_enabled": false,
+        "operator_action": "Review receipt",
+        "order_placement_enabled": false,
+        "priority_rank": 8,
+        "proof_needed": "current source receipt",
+        "route": "/rooms/review?ticker=SRAD&side=buy&strategy=stock_gate_buy&gate=blocked_before_dry_run_simulator&approval=gate_only_no_orders&evidence=stock_agent_dry_run_gate&score=89.61&notional=15.0&sim_price=15.26&effective_cap=15.0&max_daily_loss=1000.0&broker_receipt=7&risk_budget=1&kill_switch=2&candidate_source=%2Froot%2Fkingbeemo-command-center%2Fdata%2Foutputs%2Fwaverider.json&candidate_source_ts=file_mtime&candidate_source_age_h=778.9063904216667&candidate_source_max_h=24.0&blockers=stale_candidate_s",
+        "source_receipt_ids": [
+          "data/specs/active-book.seed.json",
+          "data/outputs/screener-candidates.json",
+          "data/outputs/market-runner.json",
+          "data/outputs/daily-stock-reports.json"
+        ],
+        "ticker": "QUEUE"
+      }
+    ],
+    "outcome_labels": []
+  },
+  "planned_updates": {
+    "active_book_entries": [],
+    "daily_brief_items": [],
+    "outcome_labels": []
+  },
+  "safety": {
+    "broker_calls_enabled": false,
+    "broker_mutation": false,
+    "execution_controls": [],
+    "founder_gate_required": false,
+    "live_trading_enabled": false,
+    "order_intents_created": false,
+    "order_placement_enabled": false,
+    "production_wiring_enabled": false,
+    "service_restarts": false,
+    "supabase_network_calls": false,
+    "supabase_writes": false
+  },
+  "schema_version": "stc.supabase_loop_dry_run_diff.v1",
+  "source_paths": {
+    "active_book": "/root/kingbeemo-command-center/data/outputs/active-book.json",
+    "daily_brief": "/root/kingbeemo-command-center/data/outputs/daily-brief.json",
+    "outcome_store": "/root/kingbeemo-command-center/data/outputs/outcome-label-store.json",
+    "remote_fixture": "/root/kingbeemo-command-center/data/fixtures/supabase/canonical_loop_remote_empty.json"
+  },
+  "target_schema_draft": "docs/specs/supabase_loop_schema_draft.sql",
+  "target_tables": [
+    "active_book_entries",
+    "outcome_labels",
+    "daily_brief_items"
+  ]
+}

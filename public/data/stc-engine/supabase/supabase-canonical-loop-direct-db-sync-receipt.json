@@ -1,0 +1,67 @@
+{
+  "approval_receipt": "telegram_user_2026-07-29_supabase_and_pytorch_approved",
+  "approval_state": "approved_by_ben",
+  "counts": {
+    "attempted_inserts": {
+      "active_book_entries": 5,
+      "daily_brief_items": 8,
+      "outcome_labels": 0
+    },
+    "attempted_updates": {
+      "active_book_entries": 0,
+      "daily_brief_items": 0,
+      "outcome_labels": 0
+    },
+    "blocked_deletes": {
+      "active_book_entries": 0,
+      "daily_brief_items": 0,
+      "outcome_labels": 0
+    }
+  },
+  "database_url_present": true,
+  "diff_path": "/root/kingbeemo-command-center/data/outputs/supabase-canonical-loop-dry-run-diff.json",
+  "execute": true,
+  "generated_at": "2026-07-31T03:32:43+00:00",
+  "mode": "approved_supabase_canonical_loop_direct_db_sync_no_deletes_no_broker_authority",
+  "next_operator_move": "verify_remote_row_counts_and_refresh_readiness",
+  "non_goals": [
+    "deletes",
+    "broker_calls",
+    "order_placement",
+    "live_trading",
+    "training",
+    "inference",
+    "ranking",
+    "production_wiring"
+  ],
+  "psql_result": {
+    "ok": true,
+    "returncode": 0,
+    "stderr_tail": "",
+    "stdout_tail": "BEGIN\nSET\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nINSERT 0 1\nCOMMIT\n"
+  },
+  "safety": {
+    "broker_calls_enabled": false,
+    "broker_mutation": false,
+    "execution_controls": [],
+    "founder_gate_required": false,
+    "live_trading_enabled": false,
+    "migrations_enabled": false,
+    "order_intents_created": false,
+    "order_placement_enabled": false,
+    "production_wiring_enabled": false,
+    "rls_changes_enabled": false,
+    "service_restarts": false,
+    "supabase_deletes": false,
+    "supabase_network_calls": true,
+    "supabase_writes": true
+  },
+  "schema_version": "stc.supabase_canonical_loop_direct_db_sync.v1",
+  "status": "synced_direct_database_url",
+  "target_schema": "stc",
+  "target_tables": [
+    "active_book_entries",
+    "outcome_labels",
+    "daily_brief_items"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "contract": "stc.public-site-intraday-refresh-rules",
+  "lanes": {
+    "estel": {
+      "cadence": "copy_after_command_center_refresh_or_each_site_cycle",
+      "job": "publish company-story/source/vibe outputs from Command Center",
+      "public_path": "/data/stc-engine/estel/",
+      "source": "/root/kingbeemo-command-center/data/outputs/estel-*.json"
+    },
+    "market": {
+      "cadence": "every_5_minutes_regular_hours",
+      "job": "refresh market_packet, internals, trust, and catalyst tape",
+      "public_path": "/data/market_packet.json",
+      "tool": "sketch tools/refresh_market_site.py"
+    },
+    "options": {
+      "cadence": "every_30_minutes_regular_hours",
+      "job": "refresh read-only options chain summaries and LEAP candidates",
+      "public_path": "/data/options_summary.json",
+      "tool": "sketch tools/build_options_universe.py"
+    },
+    "pytorch": {
+      "cadence": "copy_after_command_center_refresh_or_each_site_cycle",
+      "job": "publish feature-vector/model-smoke outputs without trade execution authority",
+      "public_path": "/data/stc-engine/pytorch/",
+      "source": "/root/kingbeemo-command-center/data/outputs/pytorch-*.json"
+    },
+    "shadowfax": {
+      "cadence": "copy_after_command_center_refresh_or_each_site_cycle",
+      "job": "publish underfollowed/convexity candidate outputs from Command Center",
+      "public_path": "/data/stc-engine/shadowfax/",
+      "source": "/root/kingbeemo-command-center/data/outputs/shadowfax-*.json"
+    },
+    "supabase": {
+      "cadence": "copy_after_command_center_refresh_or_each_site_cycle",
+      "job": "publish Supabase readonly health/candidate preview receipts",
+      "public_path": "/data/stc-engine/supabase/",
+      "source": "/root/kingbeemo-command-center/data/outputs/supabase-*.json"
+    },
+    "ticker": {
+      "cadence": "hourly_regular_hours",
+      "job": "refresh ticker dossiers, SEC/company profile receipts where available",
+      "public_path": "/data/tickers/*.json",
+      "tool": "sketch tools/build_ticker_universe.py"
+    }
+  },
+  "safety": {
+    "account_mutation": false,
+    "broker_actions": false,
+    "market_data_provider": "Polygon paid API when available",
+    "orders": false,
+    "public_claims": "source-labeled_or_observation_only"
+  },
+  "version": 1
+}

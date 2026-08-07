@@ -1,0 +1,65 @@
+{
+  "feature_count": 11,
+  "feature_schema_version": "stc.pytorch_feature_vectors.v1",
+  "feature_vector_path": "/root/kingbeemo-command-center/data/outputs/pytorch-feature-vectors.json",
+  "feature_widths_valid": true,
+  "generated_at": "2026-07-31T03:32:45+00:00",
+  "inputs": {
+    "feature_vectors": "/root/kingbeemo-command-center/data/outputs/pytorch-feature-vectors.json",
+    "source": "reviewed local outcome-label feature-vector artifact"
+  },
+  "mode": "local_tensor_smoke_only_no_training_no_inference",
+  "next_gate": "PyTorch visibility is approved for tensor smoke only; training, inference service, Supabase production promotion, and broker/order authority remain disabled.",
+  "non_goals": [
+    "training",
+    "inference",
+    "ranking",
+    "trade_approval",
+    "broker_calls",
+    "supabase_writes"
+  ],
+  "outputs": {
+    "receipt": "local JSON tensor-smoke receipt",
+    "tensor_shape": {
+      "features": [
+        0,
+        11
+      ],
+      "targets": [
+        0
+      ]
+    }
+  },
+  "plain_english_summary": "PyTorch is only checking whether reviewed local feature vectors can become tensors; no model is training or making predictions.",
+  "row_count": 0,
+  "safety": {
+    "broker_calls_enabled": false,
+    "broker_mutation": false,
+    "execution_controls": [],
+    "founder_gate_required": false,
+    "inference_enabled": false,
+    "live_trading_enabled": false,
+    "order_intents_created": false,
+    "order_placement_enabled": false,
+    "production_wiring_enabled": false,
+    "ranking_enabled": false,
+    "service_restarts": false,
+    "supabase_network_calls": false,
+    "supabase_writes": false,
+    "trade_approval_enabled": false,
+    "training_enabled": false
+  },
+  "schema_version": "stc.pytorch_feature_smoke.v1",
+  "status": "tensor_smoke_passed_no_training_no_inference",
+  "tensor_shape": {
+    "features": [
+      0,
+      11
+    ],
+    "targets": [
+      0
+    ]
+  },
+  "torch_available": true,
+  "torch_version": "2.13.0+cpu"
+}
