@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T20:46:22Z",
+  "generated_at": "2026-08-07T20:49:32Z",
   "lanes": {
     "estel": {
       "copied": 139,
@@ -47,8 +47,8 @@
       "destination": "/root/astro/public/data/stc-engine/shadowfax",
       "files": [
         "data/stc-engine/shadowfax/shadowfax-universe.json",
-        "data/stc-engine/shadowfax/shadowfax-top-50.json",
         "data/stc-engine/shadowfax/shadowfax-lead-packets.json",
+        "data/stc-engine/shadowfax/shadowfax-top-50.json",
         "data/stc-engine/shadowfax/shadowfax-leveraged-products.json"
       ],
       "pattern": "/root/kingbeemo-command-center/data/outputs/shadowfax-*.json"
