@@ -1,30 +1,31 @@
 ---
 import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import FormattedDate from "../components/FormattedDate.astro";
+import { Image } from "astro:assets";
 
 const posts = await getCollection("blog");
 
+// Sort the posts by pubDate in descending order
 const sortedPosts = posts.sort((a, b) => {
   const dateA = new Date(a.data.pubDate);
   const dateB = new Date(b.data.pubDate);
   return dateB.getTime() - dateA.getTime();
 });
 
-const pinnedSlug = "how-i-think-about-leaps-and-diagonal-calls";
-const pinnedPost = sortedPosts.find((post) => post.slug === pinnedSlug) ?? sortedPosts[0];
-const recentPosts = sortedPosts
-  .filter((post) => post.slug !== pinnedPost?.slug)
-  .slice(0, 3);
+// Get the three most recent posts
+const recentPosts = sortedPosts.slice(0, 3);
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0M58B909ZC"
     ></script>
     <script>
@@ -33,323 +34,148 @@ const recentPosts = sortedPosts
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
+
       gtag("config", "G-0M58B909ZC");
     </script>
     <style>
-      main {
-        max-width: 1080px;
-        padding: 0 1.25rem 4rem;
-        width: 100%;
-      }
-
-      .hero {
-        display: grid;
-        gap: 1.2rem;
-        grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr);
-        align-items: start;
-        margin: 1.65rem auto 2.15rem;
-      }
-
-      .hero-copy {
-        border-radius: 28px;
-        padding: clamp(1.25rem, 3vw, 2rem);
-      }
-
-      .eyebrow {
-        color: var(--accent-warm);
-        font-size: 0.82rem;
-        font-weight: 900;
-        letter-spacing: 0.14em;
-        margin-bottom: 0.85rem;
-        text-transform: uppercase;
-      }
-
-      .hero h1 {
-        font-size: clamp(2.35rem, 5.1vw, 3.95rem);
-        letter-spacing: -0.045em;
-        line-height: 1;
-        margin-bottom: 1rem;
-        max-width: 680px;
-        text-wrap: balance;
-      }
-
-      .hero-lede {
-        color: rgb(var(--ink-muted));
-        font-size: clamp(1.04rem, 1.8vw, 1.2rem);
-        line-height: 1.55;
-        max-width: 680px;
-      }
-
-      .hero-actions {
+      /* Existing styles */
+      .intro-container,
+      .guitar-container {
         display: flex;
-        flex-wrap: wrap;
-        gap: 0.8rem;
-        margin-top: 1.25rem;
-      }
-
-      .button {
         align-items: center;
-        border-radius: 999px;
-        display: inline-flex;
-        font-weight: 800;
-        line-height: 1;
-        padding: 0.85rem 1.1rem;
-        text-decoration: none;
+        gap: 10px;
+      }
+      .intro-container img,
+      .guitar-container img {
+        width: 200px;
       }
 
-      .button.primary {
-        background: linear-gradient(135deg, #c89b5f, #8f6836);
-        box-shadow: 0 14px 34px rgba(200, 155, 95, 0.18);
-        color: white;
-      }
-
-      .button.secondary {
-        background: rgba(255, 255, 255, 0.055);
-        border: 1px solid rgba(238, 243, 246, 0.14);
-        color: rgb(var(--ink));
-      }
-
-      .portrait-card {
-        background:
-          linear-gradient(145deg, rgba(255, 255, 255, 0.105), rgba(255, 255, 255, 0.035)),
-          var(--glass-bg);
-        backdrop-filter: blur(18px) saturate(125%);
-        -webkit-backdrop-filter: blur(18px) saturate(125%);
-        border: 1px solid var(--glass-border);
-        border-radius: 24px;
-        box-shadow: var(--glass-shadow);
-        margin: 0;
-        overflow: hidden;
-        max-width: 340px;
-        justify-self: end;
-      }
-
-      .portrait-card img {
-        aspect-ratio: 1 / 1;
-        display: block;
-        object-fit: cover;
-        width: 100%;
-      }
-
-      .portrait-card figcaption {
-        color: rgb(var(--ink-muted));
-        font-size: 0.9rem;
-        line-height: 1.45;
-        padding: 0.85rem 1rem 1rem;
-      }
-
-      .section-heading {
-        align-items: end;
+      /* Blog Cards Container */
+      .blog-cards-container {
         display: flex;
-        gap: 1rem;
-        justify-content: space-between;
-        margin: 2.35rem 0 1rem;
+        gap: 24px;
+        justify-content: center;
+        padding: 16px 0; /* Added padding */
       }
 
-      .section-heading h2 {
-        margin: 0;
-      }
-
-      .section-heading a {
-        font-weight: 800;
-      }
-
-      .focus-grid {
-        display: grid;
-        gap: 1rem;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-      }
-
-      .focus-card,
-      .feature-card,
-      .post-card {
-        background:
-          linear-gradient(145deg, rgba(255, 255, 255, 0.105), rgba(255, 255, 255, 0.035)),
-          var(--glass-bg);
-        backdrop-filter: blur(18px) saturate(125%);
-        -webkit-backdrop-filter: blur(18px) saturate(125%);
-        border: 1px solid var(--glass-border);
-        border-radius: 22px;
-        box-shadow: var(--glass-shadow);
-        transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
-      }
-
-      .focus-card:hover,
-      .feature-card:hover,
-      .post-card:hover {
-        border-color: rgba(200, 155, 95, 0.28);
-        box-shadow: 0 26px 76px rgba(0, 0, 0, 0.42), 0 0 34px rgba(200, 155, 95, 0.08);
-        transform: translateY(-2px);
-      }
-
-      .focus-card {
-        padding: 1.15rem;
-      }
-
-      .focus-card h3 {
-        font-size: 1.25rem;
-        margin-top: 0;
-      }
-
-      .focus-card p {
-        color: rgb(var(--ink-muted));
-        font-size: 0.98rem;
-        line-height: 1.55;
-        margin-bottom: 0;
-      }
-
-      .feature-card {
-        display: grid;
-        gap: 1.25rem;
-        grid-template-columns: minmax(240px, 0.9fr) minmax(0, 1.1fr);
+      .latest-blog {
+        display: flex;
+        flex-direction: column;
+        width: calc(33.33% - 16px);
+        border-radius: 8px;
         overflow: hidden;
+        transition:
+          transform 0.3s ease,
+          box-shadow 0.3s ease;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+        height: 300px;
+        position: relative;
       }
 
-      .feature-card img,
-      .post-card img {
-        display: block;
-        width: 100%;
+      .latest-blog .hero-image {
+        flex-grow: 1;
+        display: flex;
+        align-items: flex-end; /* Align image to the bottom */
+        transition: transform 0.3s ease-in-out;
       }
 
-      .feature-card img {
-        aspect-ratio: 16 / 9;
-        background: #0c1118;
-        height: 100%;
-        object-fit: contain;
+      .latest-blog .hero-image:hover {
+        transform: scale(1.05); /* Adjust scale value as needed */
       }
 
-      .feature-content {
-        padding: 1.25rem 1.25rem 1.25rem 0;
+      .title-link {
+        color: inherit; /* Ensure the color matches your existing text color */
+        text-decoration: none; /* Remove underline from the link */
       }
 
-      .pin-label {
-        color: var(--accent);
-        display: inline-block;
-        font-size: 0.78rem;
-        font-weight: 900;
-        letter-spacing: 0.14em;
-        margin-bottom: 0.35rem;
-        text-transform: uppercase;
+      .title-link:hover {
+        color: rgb(var(--accent-dark)); /* Change color on hover */
       }
 
-      .feature-content h3 {
-        font-size: clamp(1.55rem, 3vw, 2.15rem);
-        margin-top: 0.4rem;
-      }
-
-      .date {
-        color: rgb(var(--ink-muted));
-        font-size: 0.9rem;
-        font-weight: 700;
-      }
-
-      .post-grid {
-        display: grid;
-        gap: 1rem;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-      }
-
-      .post-card {
-        overflow: hidden;
-      }
-
-      .post-card img {
-        aspect-ratio: 16 / 9;
-        background: #f4f1dc;
-        height: auto;
-        object-fit: cover;
-      }
-
-      .post-card-content {
-        padding: 1rem;
-      }
-
-      .post-card h3 {
-        font-size: 1.15rem;
-        margin: 0.35rem 0 0.65rem;
-      }
-
-      .post-card a,
-      .feature-card a {
-        color: inherit;
+      .latest-blog .blog-details h4 {
+        font-size: 1.1rem;
+        margin-bottom: 8px;
+        font-weight: 600;
         text-decoration: none;
       }
 
-      .post-card a:hover,
-      .feature-card a:hover {
-        color: #f0c989;
+      .latest-blog .blog-details .date {
+        font-size: 0.8rem;
+        margin-top: 3px;
+        margin-bottom: 16px;
       }
 
-      .mini-note {
-        color: rgb(var(--ink-muted));
-        font-size: 0.95rem;
+      .read-more {
+        font-size: 0.9rem;
+        color: ##37505c;
+        text-decoration: none;
+        cursor: pointer;
+        position: absolute;
+        bottom: 16px; /* Adjust the distance from the bottom */
+        right: 25px; /* Adjust the distance from the right */
       }
 
-      @media (max-width: 860px) {
-        .hero,
-        .feature-card,
-        .focus-grid,
-        .post-grid {
-          grid-template-columns: 1fr;
-        }
-
-        .feature-content {
-          padding: 0 1.15rem 1.2rem;
-        }
-
-        .portrait-card {
-          justify-self: stretch;
-          max-width: none;
-        }
-
-        .portrait-card img {
-          aspect-ratio: 16 / 10;
-        }
+      .read-more::after {
+        content: "\2192"; /* Unicode right arrow */
+        position: absolute;
+        right: -1.2em;
+        transition: 0.3s ease;
+        margin-left: 15px; /* Add some space between the text and the arrow */
       }
 
-      @media (max-width: 560px) {
-        main {
-          padding-inline: 0.85rem;
+      .read-more:hover::after {
+        right: -1em; /* Adjust the distance for hover animation */
+      }
+
+      /* Add this at the end of your style tag to target smaller screens */
+      /* Adjustments for smaller screens */
+      @media (max-width: 768px) {
+        .intro-container,
+        .guitar-container {
+          flex-direction: column;
+          text-align: left;
+          /*padding: 0 0px;  Add padding to the text container */
         }
 
-        .eyebrow {
-          font-size: 0.68rem;
-          letter-spacing: 0.16em;
-          margin-bottom: 0.55rem;
+        .intro-container img,
+        .guitar-container img {
+          width: 100%;
+          max-width: 200px;
+          margin: 0 auto;
         }
 
-        .hero h1 {
-          font-size: clamp(1.95rem, 9vw, 2.55rem);
-          margin-bottom: 0.75rem;
-        }
-
-        .hero-lede {
-          font-size: 0.96rem;
-          line-height: 1.5;
-        }
-
-        .hero-actions {
-          gap: 0.55rem;
-          margin-top: 0.95rem;
-        }
-
-        .button {
-          font-size: 0.92rem;
-          padding: 0.72rem 0.9rem;
-        }
-
-        .section-heading {
-          align-items: start;
+        .blog-cards-container {
           flex-direction: column;
         }
 
-        .hero {
-          gap: 1rem;
-          margin-top: 0.85rem;
+        .latest-blog {
+          width: 70%;
+          max-width: 300px;
+          margin: 0 auto;
+          /* padding: 16px; /* Increase padding for better spacing */
         }
 
-        .portrait-card {
-          display: none;
+        h1,
+        h2,
+        h4,
+        p {
+          font-size: 1rem; /* Increase font size for readability */
+          line-height: 1.5; /* Increase line height for readability */
+        }
+
+        p {
+          font-size: 0.9rem;
+        }
+
+        .read-more {
+          font-size: 0.6rem;
+          color: ##37505c;
+          text-decoration: none;
+          cursor: pointer;
+          position: absolute;
+          bottom: 5px; /* Adjust the distance from the bottom */
+          right: 25px; /* Adjust the distance from the right */
         }
       }
     </style>
@@ -357,125 +183,84 @@ const recentPosts = sortedPosts
   <body>
     <Header title={SITE_TITLE} />
     <main>
-      <section class="hero">
-        <div class="hero-copy glass-panel">
-          <p class="eyebrow">Operator journal · Project notebook</p>
-          <h1>Hi, I’m Ben.</h1>
-          <p class="hero-lede">
-            I build websites, dashboards, and small tools to understand messy
-            systems: markets, public records, local projects, data, and the
-            occasional personal experiment that gets out of hand. This site is
-            where I keep the notes, receipts, mistakes, and build logs.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="/blog/">Read the journal</a>
-            <a class="button secondary" href="/about/">About me</a>
-          </div>
-        </div>
+      <div class="intro-container">
+        <img src="bmbrun.jpg" alt="run" />
+        <h1>👋 Hello, I'm Ben!</h1>
+      </div>
+      <p>
+        💻 I’m passionate about leveraging technology to solve problems. This
+        space reflects my learning journey, showcasing insights, projects, and
+        evolving skills.
+      </p>
+      <p>
+        🏃‍♂️ I enjoy running—it's a great way for me to grow and learn about
+        myself. If you're interested in my running journey, you can follow me on
 
-        <figure class="portrait-card">
-          <img src="/bmbrun.jpg" alt="Ben Brannen running" />
-          <figcaption>
-            Runner, dashboard tinkerer, market-note hoarder, and serial starter
-            of projects that turn into systems.
-          </figcaption>
-        </figure>
-      </section>
 
-      <section aria-labelledby="focus-heading">
-        <div class="section-heading">
-          <h2 id="focus-heading">What shows up here</h2>
-        </div>
-        <div class="focus-grid">
-          <article class="focus-card">
-            <h3>Build logs</h3>
-            <p>
-              Websites, dashboards, scripts, and tools I built because a system
-              was too scattered, too manual, or too annoying to leave alone.
-            </p>
-          </article>
-          <article class="focus-card">
-            <h3>Markets and mistakes</h3>
-            <p>
-              Notes on stocks, options, research structure, decision logs, and
-              the trading lessons I do not want to pay for twice.
-            </p>
-          </article>
-          <article class="focus-card">
-            <h3>Public records and local data</h3>
-            <p>
-              Field notes from following paperwork, entities, incentives, meeting
-              minutes, property records, and the tools that make them usable.
-            </p>
-          </article>
-        </div>
-      </section>
+        <a href="https://www.strava.com/athletes/70063288" target="_blank"
+          >Strava</a
+        >, read this blog post on how I <a
+          href="https://benbrannen.com/blog/100dayjouney/"
+          target="_blank">ran 100 days in a row</a
+        >, or explore this automated <a
+          href="https://lookerstudio.google.com/u/0/reporting/29998d2b-7d6e-4f42-b4e7-cfa489bff4a9/page/p_24y1t5ln9c"
+          target="_blank">Dashboard</a
+        > I built that pulls all of my activites.
+      </p>
 
-      {
-        pinnedPost && (
-          <section aria-labelledby="featured-heading">
-            <div class="section-heading">
-              <h2 id="featured-heading">Pinned post</h2>
-              <a href="/blog/">All posts →</a>
-            </div>
-            <article class="feature-card">
-              <a href={`/blog/${pinnedPost.slug}/`}>
-                {pinnedPost.data.heroImage && (
-                  <img
-                    src={pinnedPost.data.heroImage}
-                    alt={pinnedPost.data.title}
-                    loading="eager"
-                  />
-                )}
-              </a>
-              <div class="feature-content">
-                <span class="pin-label">Options structure note</span>
-                <div class="date">
-                  <FormattedDate date={pinnedPost.data.pubDate} />
-                </div>
-                <h3>
-                  <a href={`/blog/${pinnedPost.slug}/`}>
-                    {pinnedPost.data.title}
-                  </a>
-                </h3>
-                <p>{pinnedPost.data.description}</p>
-                <a class="button secondary" href={`/blog/${pinnedPost.slug}/`}>
-                  Read the pinned post
-                </a>
-              </div>
-            </article>
-          </section>
-        )
-      }
+      <p>
+        👨🏻‍🚀 Whether you're here to explore my tech projects, gain insights from
+        my experiences, or simply to say hi, you’ve landed in the right place! I
+        built this website with <a href="https://astro.build/" target="blank"
+          >Astro</a
+        > to share my adventures in a seamless way. Feel free to explore and
+        reach out!
+      </p>
+      <div class="guitar-container">
+        <p>
+          🎸 Beyond the world of technology & running, I am a self taught guitar
+          player who loves the Allman Brothers, Grateful Dead, Phish, Goose, and
+          Tony Rice. Check out what I've been listening to recently on <a
+            href="https://open.spotify.com/user/1215639802?si=22891895b3614d0a"
+            target="blank">Spotify</a
+          >.
+        </p>
+        <img src="guitar.jpg" alt="guitar" />
+      </div>
 
-      <section aria-labelledby="recent-heading">
-        <div class="section-heading">
-          <h2 id="recent-heading">Recent notes</h2>
-          <a href="/blog/">Browse the archive →</a>
-        </div>
-        <div class="post-grid">
+      <!-- Display the Latest Three Blog Posts -->
+      <section class="recent-blogs">
+        <h2>Recent Blogs</h2>
+        <p>Check out my most recent blogs!</p>
+        <div class="blog-cards-container">
           {
             recentPosts.map((post) => (
-              <article class="post-card">
-                <a href={`/blog/${post.slug}/`}>
-                  {post.data.heroImage && (
-                    <img
-                      src={post.data.heroImage}
-                      alt={post.data.title}
-                      loading="eager"
-                    />
-                  )}
+              <div class="latest-blog">
+                <a href={`/blog/${post.slug}`}>
+                  <div class="hero-image">
+                    {post.data.heroImage && (
+                      <img
+                        src={post.data.heroImage}
+                        alt={post.data.title}
+                        loading="lazy"
+                      />
+                    )}
+                  </div>
                 </a>
-                <div class="post-card-content">
+                <div class="blog-details">
                   <div class="date">
                     <FormattedDate date={post.data.pubDate} />
                   </div>
-                  <h3>
-                    <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
-                  </h3>
-                  <p class="mini-note">{post.data.description}</p>
+                  <h4>
+                    <a href={`/blog/${post.slug}`} class="title-link">
+                      {post.data.title}
+                    </a>
+                  </h4>
+                  <a href={`/blog/${post.slug}`} class="read-more">
+                    Read More
+                  </a>
                 </div>
-              </article>
+              </div>
             ))
           }
         </div>

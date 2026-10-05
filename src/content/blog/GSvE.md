@@ -1,64 +1,49 @@
 ---
 title: "The Case for Google Sheets"
-description: "My employer took Excel away from me in 2019. Two years later, I came around: the case for Google Sheets."
+description: "Lorem ipsum dolor sit amet"
 pubDate: "December 14, 2021"
 heroImage: "/GSvE.png"
 ---
 
-## Backstory
+<h4>Backstory:</h4>
 
-My previous employer moved from Microsoft Office to G Suite in the summer of 2019.
+My previous employer switched over from the Microsoft suite to GSuite in the summer of 2019. I remember being extremely frustrated that my #1 skill was being stripped away from me. I could no longer use my ALT keys to impress people and build models at hyper speed… I had to learn how to use google sheets and after two years of using it, I am here to plead the case for google sheets and tell you why it is actually better than Excel.
 
-At first, I hated it. Excel was one of my best work tools. I knew the shortcuts, could move quickly, and had built enough models that taking it away felt like losing a language.
+<H4>Pros:</H4>
+<b>Better Formulas </b>Importrange, REGEXMATCH, REGEXEXTRACT, REGEXREPLACE, QUERY, and more
 
-Then I used Google Sheets every day for two years and slowly came around.
+<b>Index(match, match):</b> So much cleaner and easier to use on Google Sheets vs. Excel.
 
-I still like Excel. But for a lot of real business work, especially shared reporting and lightweight automation, Sheets is better than people give it credit for.
+<b>Seamless Integration between GSuite:</b>
+No breaking connections to PowerPoint slides. Sheets’ integration into slides and docs is incredible compared to Excel -> PowerPoint
+Forms -> sheets is simple and easy too. Great for data collection
 
-## Where Sheets wins
+<b>Automation:</b> is easier
+Google Apps Scripts is easier and more relevant to know than VBA (Javascript is king)
+App script triggers make is easy to create time bound or event bound executions
 
-**Formulas**
+<b>Version control:</b> is a thing of the past
+Easily track when and what changed
 
-`IMPORTRANGE`, `REGEXMATCH`, `REGEXEXTRACT`, `REGEXREPLACE`, `QUERY`, and `INDEX/MATCH/MATCH` can make a workbook feel more like a small database than a static spreadsheet.
+<p>
 
-**Google Workspace integration**
+<b>Collaboration:</b> The ability to create a file and share with others where you can all work together at the same time, without having to keep track of what is the master file is a gamechanger
 
-Sheets connects cleanly to Slides, Docs, Forms, Gmail, and Drive. That matters when the work needs to move between people instead of living on one person's desktop.
+<b>File Structure: </b>Each Workbook uses a URL based approach which makes it easy to use nested Importrange, query, and index(match, match) formulas to level up your modeling skills and and automate the intake of data as easily as you export out your reports / dashboards.
 
-**Automation**
+It is Free to use with a google email!
 
-Google Apps Script is easier for me to reach for than VBA. JavaScript is more useful outside the spreadsheet, triggers are simple to set up, and a small script can remove a lot of repetitive work.
+<H4>Cons:</H4>
+<b> Limited shortcuts</b>
+there are some, but I want [ALT + H + O + I] back 😭😭
 
-**Version history**
+<b> Data Limitations </b>, at most you can use is 10 million cells
 
-You can see what changed, who changed it, and when. That alone saves a lot of "which file is the real file?" pain.
+If you build your models poorly you risk slow computing times
+This is why I recommend load balancing your models using Importrange to separate the model from the data
 
-**Collaboration**
+<H4>Conclusion:</H4>
 
-The live shared file is the master file. No email chains full of `final_v7_REAL.xlsx` attachments.
+I have been using both for many years now, and I have to say that I tend to lean towards Google sheets over excel every time. The only time I would need to use excel is if I need to quickly manipulate data to put back in google sheets or I am creating a model that uses more than a 10 Million Cells, which isn’t often. Even Excel taps out after too much...
 
-**File structure**
-
-A URL-based workbook is easy to reference from another workbook. With `IMPORTRANGE`, `QUERY`, and lookup formulas, you can separate raw data, models, and reports without making the whole thing impossible to maintain.
-
-## Where Excel still wins
-
-**Shortcuts**
-
-Sheets has shortcuts, but I still miss the full Excel keyboard workflow. ALT-key muscle memory is real.
-
-**Scale**
-
-Sheets has cell limits, and poorly built models can get slow. If the data is huge or the model needs heavy local manipulation, Excel still has a place.
-
-**Deep modeling habits**
-
-Some finance/modeling workflows were built around Excel for a reason. I am not pretending Sheets replaces every one of them.
-
-## Where I landed
-
-For shared reports, lightweight databases, recurring workflows, and automation, I usually reach for Google Sheets first.
-
-For heavy modeling or quick local data work, Excel still earns its keep.
-
-The lesson was not that one tool is always better. The lesson was that I was mad about losing shortcuts before I understood what Sheets made possible.
+Which do you prefer?

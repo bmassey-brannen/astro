@@ -1,52 +1,41 @@
 ---
 title: "10 Applications of Google Apps Scripts"
-description: "Ten practical Google Apps Script ideas I keep coming back to."
+description: "Lorem ipsum dolor sit amet"
 pubDate: "March 20, 2023"
 heroImage: "/gas.jpg"
 ---
 
-Google Apps Script is one of those tools that looks boring until it saves you from doing the same spreadsheet chore for the 80th time.
+Google Apps Script is a powerful tool for automating tasks and enhancing productivity in Google Workspace applications. With just a few lines of code, you can extend the functionality of Google Sheets, Google Docs, Google Slides, and other apps. In this blog post, we'll share ten useful tricks using Google Apps Scripts that you can use to streamline your work and save time.
 
-Here are ten places I reach for it.
+**Automate Emails from Google Sheets**
 
-**Automate emails from Google Sheets**
-
-Send invoices, confirmations, reminders, or follow-ups from rows in a sheet. `MailApp` and `GmailApp` are usually enough to get started.
+With Google Apps Script, you can easily send emails from a Google Sheet. This can be useful for sending invoices, order confirmations, and other automated emails. To do this, use the "MailApp" or "GmailApp" service in your script.
 
 **Generate QR codes**
-
-Create QR codes for items, events, check-ins, or internal labels, then save the images back to Drive or a Sheet.
+Google Apps Script can be used to generate QR codes. This can be useful for creating unique identifiers for items, products, or even people. You can use the "QRCode" library to create QR codes and save them as images.
 
 **Convert Google Sheets to PDF**
+If you need to convert a Google Sheet to a PDF, you can do this easily with Google Apps Script. Use the "DriveApp" service to create a PDF file from a Google Sheet and save it to your Google Drive.
 
-Turn a sheet or report tab into a PDF and save it to Drive. Useful for recurring reports that should not require manual exporting.
+**Automate Data Entry**
+With Google Apps Script, you can automate data entry tasks. This can be useful if you need to copy data from one sheet to another or if you need to fill in a form automatically. Use the "SpreadsheetApp" service to manipulate data in a Google Sheet.
 
-**Automate data entry**
+**Create custom menus and add-ons**
+You can create custom menus and add-ons in Google Sheets, Docs, and Slides using Google Apps Script. This can be useful if you want to add custom functionality to your documents. Use the "UiApp" or "HtmlService" services to create custom menus and interfaces.
 
-Move data between tabs, clean imported rows, fill templates, or normalize messy form responses. This is where Apps Script pays for itself.
-
-**Create custom menus and sidebars**
-
-Add a menu item to a Sheet or Doc so a workflow feels like part of the file instead of a separate script nobody remembers to run.
-
-**Use triggers**
-
-Run a script on a schedule or when a file changes. This is great for daily reports, cleanup jobs, and alerting when a sheet gets updated.
+**Use triggers to automate tasks**
+With Google Apps Script triggers, you can automate tasks based on specific events. For example, you can set up a trigger to send an email when a specific cell in a Google Sheet is updated. Use the "Trigger" service to set up triggers for your scripts.
 
 **Create Google Forms**
+You can create Google Forms using Google Apps Script. This can be useful if you need to collect data from users. Use the "FormApp" service to create custom forms with various types of questions.
 
-Build or update forms programmatically when the questions come from another data source.
-
-**Connect to APIs**
-
-Pull data from Google Analytics, internal tools, or third-party services with `UrlFetchApp`, then drop the results into a Sheet.
+**Integrate with other services**
+Google Apps Script can integrate with other Google services and third-party services. For example, you can use Google Apps Script to access Google Analytics data or to send data to a third-party service. Use the appropriate APIs to integrate with other services.
 
 **Extract data from websites**
-
-Fetch public pages and parse the pieces you need. It is not a replacement for a real scraper, but for small jobs it works.
+With Google Apps Script, you can extract data from websites and save it to a Google Sheet. This can be useful for data analysis or for collecting information about products or prices. Use the "UrlFetchApp" service to extract data from websites.
 
 **Create custom functions**
+You can create custom functions in Google Sheets using Google Apps Script. This can be useful if you need to perform complex calculations or manipulate data in a specific way. Use the "CustomFunction" service to create custom functions.
 
-Write your own spreadsheet functions for calculations you repeat often.
-
-Apps Script is not glamorous. That is why I like it. It sits close to the spreadsheets people already use and quietly removes annoying manual steps.
+Google Apps Script is a powerful tool that can help you automate tasks, streamline workflows, and enhance productivity in Google Workspace applications. By using these ten tricks, you can make the most of this tool and take your work to the next level.

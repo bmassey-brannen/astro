@@ -3,240 +3,105 @@ import Layout from "../layouts/BlogPost.astro";
 ---
 
 <Layout
-  title="About Ben Brannen"
-  description="Ben Brannen builds practical intelligence tools for dashboards, market research, public records, automation, and Small Town Capital."
-  pubDate={new Date("June 3 2026")}
+  title="About Me"
+  description="Ben Brannen - Problem Solver Through Technology"
+  pubDate={new Date("September 15 2023")}
   heroImage="/atl_thon.jpg"
+  hideDate
 >
-  <style>
-    :global(.prose.prose) {
-      width: min(920px, calc(100% - 2rem)) !important;
-      max-width: 920px !important;
-      margin-inline: auto !important;
-      padding-inline: 0 !important;
-    }
-
-    :global(.title.title) {
-      max-width: none !important;
-    }
-
-    .about-lede {
-      color: rgb(var(--ink-muted));
-      font-size: 1.25rem;
-      line-height: 1.55;
-      margin-bottom: 2rem;
-    }
-
-    .about-card {
-      background:
-        linear-gradient(145deg, rgba(255, 255, 255, 0.105), rgba(255, 255, 255, 0.035)),
-        var(--glass-bg);
-      backdrop-filter: blur(18px) saturate(125%);
-      -webkit-backdrop-filter: blur(18px) saturate(125%);
-      border: 1px solid var(--glass-border);
-      border-radius: 18px;
-      box-shadow: var(--glass-shadow);
-      margin: 1.5rem 0;
-      padding: 1.55rem 1.7rem;
-    }
-
-    .about-card h2,
-    .about-card h3 {
-      margin-top: 0;
-    }
-
-    .theme-panel {
-      margin: 1.5rem 0;
-      padding: 1.55rem 1.7rem;
-    }
-
-    .theme-panel > p {
-      color: rgb(var(--ink-muted));
-      margin-top: -0.25rem;
-    }
-
-    .theme-list {
-      display: grid;
-      gap: 1rem;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      list-style: none;
-      margin: 1.25rem 0 0;
-      padding: 0;
-    }
-
-    .theme-list li {
-      background: rgba(255, 255, 255, 0.055);
-      border: 1px solid rgba(238, 243, 246, 0.12);
-      border-radius: 14px;
-      padding: 0.95rem;
-    }
-
-    .theme-list strong {
-      display: block;
-      margin-bottom: 0.25rem;
-    }
-
-    .pill-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.55rem;
-      list-style: none;
-      margin: 1rem 0 0;
-      padding: 0;
-    }
-
-    .pill-list li {
-      background: rgba(255, 255, 255, 0.055);
-      border: 1px solid rgba(238, 243, 246, 0.12);
-      border-radius: 999px;
-      color: rgb(var(--ink));
-      font-size: 0.88rem;
-      line-height: 1.25;
-      padding: 0.45rem 0.72rem;
-    }
-
-    .small-note {
-      color: rgb(var(--ink-muted));
-      font-size: 0.95rem;
-      line-height: 1.6;
-    }
-
-    .connect-box {
-      background:
-        linear-gradient(135deg, rgba(200, 155, 95, 0.12), rgba(55, 80, 92, 0.16)),
-        var(--glass-bg);
-      backdrop-filter: blur(18px) saturate(125%);
-      -webkit-backdrop-filter: blur(18px) saturate(125%);
-      border: 1px solid rgba(238, 243, 246, 0.14);
-      border-radius: 20px;
-      margin-top: 2rem;
-      padding: 1.5rem;
-    }
-
-    @media (max-width: 720px) {
-      .about-lede {
-        font-size: 1.12rem;
-      }
-
-      .theme-list {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
-
-  <p class="about-lede">
-    I’m Ben. I live in Waynesboro, Georgia, and I build practical tools around
-    messy systems: dashboards, market notes, public records, automation, and
-    small experiments that usually start because I wanted to understand something
-    better.
+  <h2 style="text-align: left;">My Story!</h2>
+  <p>
+    Hello! I'm Ben, an Atlanta native with a passion for leveraging technology
+    to solve complex problems. Whether it's Model building, automating data
+    flow, scripting, or data analysis my goal is to drive transformational
+    change and deliver immediate value.
   </p>
 
-  <div class="about-card">
-    <h2>What I’m building now</h2>
-    <p>
-      Most of the current work sits under the Small Town Capital idea: a private
-      market research dashboard, options notes, public-record projects, automation
-      workflows, and this site as the public notebook.
-    </p>
-    <p>
-      I use AI coding tools heavily, but the point is not to look automated. The
-      point is to build faster, keep better receipts, and still know what has to
-      be checked by hand.
-    </p>
-  </div>
+  <h4>Technical Expertise:</h4>
+  <p><strong>Data and analysis</strong></p>
+  <ul>
+    <li>Google Sheets & Excel Master</li>
+    <li>GSuite Automation</li>
+    <li>Google Apps Scripting, and PowerAutomate</li>
+    <li>Google Analytics</li>
+    <li>
+      Proficient with Tableau, PowerBI, and Looker Studio for data visualization
+    </li>
+    <li>Options research and backtesting in Python with Polygon market data</li>
+    <li>Google Cloud Certified Digital Leader</li>
+  </ul>
+  <p><strong>Programming and systems</strong></p>
+  <ul>
+    <li>Python, SQL, BASH, SQL Server Managment Studio</li>
+    <li>Unix / Linux Terminal</li>
+    <li>Arch Linux with Hyprland as my daily driver</li>
+    <li>Building software with AI coding agents (Claude Code, Codex)</li>
+    <li>Running local AI models on my own hardware (Ollama)</li>
+    <li>Home lab on a private Tailscale network</li>
+    <li>UniFi home network</li>
+    <li>Git and GitHub</li>
+    <li>Explored various JavaScript frameworks(Astro JS, React, Vue)</li>
+    <li>HTML/CSS/JS</li>
+  </ul>
+  <p><strong>Hardware and making</strong></p>
+  <ul>
+    <li>Arduino and Raspberry Pi</li>
+    <li>3d Printing, Occasional CAD modeler</li>
+    <li>Building and restoring computers</li>
+    <li>Installing and customizing operating systems</li>
+  </ul>
 
-  <section class="about-card theme-panel">
-    <h2>Things I keep coming back to</h2>
-    <p>
-      The common thread is taking scattered information and turning it into
-      cleaner decisions, repeatable workflows, and a public trail of the work.
-    </p>
-    <ul class="theme-list">
-      <li>
-        <strong>Dashboards</strong>
-        Taking information that lives in ten scattered places and putting it in
-        one place I can actually use.
-      </li>
-      <li>
-        <strong>Automation</strong>
-        Scripts, spreadsheets, APIs, and agents that remove repetitive work.
-      </li>
-      <li>
-        <strong>Investing</strong>
-        Researching companies, options structures, and trade decisions for my own
-        account, then writing down what I learn, especially the mistakes.
-      </li>
-      <li>
-        <strong>Public records</strong>
-        Filings, meeting minutes, property records, and datasets that are public
-        but annoying to use, plus tools that make the trail easier to follow.
-      </li>
-    </ul>
-  </section>
+  <h4>Personal Projects & Achievements</h4>
+  <p>
+    Beyond the corporate world, I've embarked on personal projects that showcase
+    my technical prowess. For instance, after receiving thousands of photos from
+    my wedding, I developed a Bash script to efficiently organize and store
+    them. Running challenges also excite me. A testament to this is my 102-day
+    running streak, during which I covered over 362 miles! To add a data-driven
+    touch to this achievement, I automated the collection of my running
+    statistics and visualized them in a real-time dashboard.
+  </p>
+  <!-- Ben: one sentence about the trading desk goes here, in your words. -->
 
-  <div class="about-card">
-    <h2>Why this site exists</h2>
-    <p>
-      Mostly to write things down. Projects make more sense to me after I explain
-      them, and half-finished experiments are easier to pick back up when there
-      are notes. If I cannot describe a project plainly, it probably is not as far
-      along as I think.
-    </p>
-    <p>
-      The public version is an operator journal: what I saw, what I built, what
-      broke, and what became a rule for next time. The private work stays private.
-    </p>
-  </div>
+  <h4>Education</h4>
+  <p>
+    Graduated in 2017 with a Bachelor's degree in Business Administration, with
+    a concentration in Finance, from Georgia Southern University.
+    <!-- My college years were not just
+    about academics; I was actively involved in various organizations. From
+    being the Executive Vice President of the Southern Investment Association to
+    playing a pivotal role in the Pi Kappa Phi Fraternity, my leadership
+    experiences have shaped me into the individual I am today. -->
+  </p>
 
-  <div class="about-card">
-    <h2>Tools and background</h2>
-    <p>
-      I studied finance at Georgia Southern University and have spent years
-      working across spreadsheets, data visualization, automation, scripting,
-      and practical problem solving.
-    </p>
-    <ul class="pill-list" aria-label="Technical skills and tools">
-      <li>Google Sheets</li>
-      <li>Excel</li>
-      <li>Apps Script</li>
-      <li>Python</li>
-      <li>SQL</li>
-      <li>Bash / Linux</li>
-      <li>Looker Studio</li>
-      <li>Power BI</li>
-      <li>Astro</li>
-      <li>HTML / CSS / JavaScript</li>
-      <li>Raspberry Pi</li>
-      <li>Google Cloud Certified Digital Leader</li>
-    </ul>
-  </div>
+  <h4>Personal Highlights & Accomplishments</h4>
+  <ul>
+    <li>
+      <strong>3x Marathon Finisher</strong>
+      <ul>
+        <li>Erlanger Chattanooga Marathon 2021</li>
+        <li>Publix Atlanta Marathon 2023</li>
+        <li>Publix Atlanta Marathon 2024</li>
+      </ul>
+    </li>
+    <li>
+      <a
+        href="https://lookerstudio.google.com/u/0/reporting/29998d2b-7d6e-4f42-b4e7-cfa489bff4a9/page/tlXZD"
+        >102 days straight of 5k+</a
+      >
+    </li>
+    <li>Self-directed guitar player</li>
+    <li>Aspiring developer</li>
+    <li>Avid Skier</li>
+  </ul>
 
-  <div class="about-card">
-    <h2>Outside of projects</h2>
-    <p>
-      I’m also a runner, a skier, a self-taught guitar player, and someone who
-      has a habit of turning personal challenges into data projects.
-    </p>
-    <p>
-      One example: I once ran <a href="https://lookerstudio.google.com/u/0/reporting/29998d2b-7d6e-4f42-b4e7-cfa489bff4a9/page/tlXZD">102 straight days of 5K or more</a>
-      and built a dashboard to keep score. Do the thing, track the thing, learn
-      from the thing.
-    </p>
-  </div>
-
-  <div class="connect-box">
-    <h2>Say hello</h2>
-    <p>
-      If you want to talk about dashboards, automation, public records, markets,
-      running, or a project you are building, reach out.
-    </p>
-    <p>
-      Email: <a href="mailto:benjamin.m.brannen@gmail.com">benjamin.m.brannen@gmail.com</a><br />
-      LinkedIn: <a href="https://linkedin.com/in/benjamin-brannen">linkedin.com/in/benjamin-brannen</a>
-    </p>
-    <p class="small-note">
-      Nothing here is investment advice. This site is a public notebook for
-      projects, experiments, research habits, and lessons learned while building.
-    </p>
-  </div>
+  <h4>Let's Connect!</h4>
+  <p>
+    Whether you're here to explore collaboration opportunities, seek guidance, or
+    simply connect, I'm always open to conversations. Reach out via <a
+      href="mailto:benjamin.m.brannen@gmail.com">benjamin.m.brannen@gmail.com</a
+    > or connect with me on <a href="https://linkedin.com/in/benjamin-brannen"
+      >LinkedIn</a
+    >.
+  </p>
 </Layout>
