@@ -2,10 +2,10 @@
 title: "I Got a Second Phone to Get Off My Phone"
 description: "A second phone with no social media, my same texts, and a home screen I built myself."
 pubDate: "2026-11-01"
-heroImage: "/phone-esim.jpg"
+heroImage: "/second-phone.jpg"
 ---
 
-*Photo by Czapp Árpád on Pexels.*
+*Photo by Alice Denysenko on Pexels.*
 
 I got a second phone to get off my phone.
 
