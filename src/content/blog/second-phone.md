@@ -1,5 +1,5 @@
 ---
-title: "I Got a Second Phone to Get Off My Phone"
+title: "I got a second phone to get off my phone"
 description: "A second phone with no social media, my same texts, and a home screen I built myself."
 pubDate: "2026-11-01"
 heroImage: "/second-phone.jpg"
