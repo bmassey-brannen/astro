@@ -5,7 +5,7 @@ pubDate: "2026-11-01"
 heroImage: "/phone-esim.jpg"
 ---
 
-*Written with help from Claude from my notes. Photo by Czapp Árpád on Pexels.*
+*Photo by Czapp Árpád on Pexels.*
 
 I got a Pixel 11 last week and have been turning it into my main phone. I built my own home screen for it and was finally starting to use my iPhone less. Everything worked Friday night.
 
